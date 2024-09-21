@@ -16,23 +16,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Instalar Visual Studio Build Tools
-        run: |
-          choco install visualstudio2019buildtools --version=16.9.4 --installargs "--add Microsoft.VisualStudio.Workload.ManagedBuildTools --includeRecommended"
+      - name: Instalar Herramientas de Construcción de .NET Framework
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
 
-      - name: Agregar MSBuild al PATH
-        run: |
-          $env:PATH += ";C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"
+      - name: Configurar MSBuild
+        uses: microsoft/setup-msbuild@v2
 
       - name: Restaurar la Aplicación
         run: nuget restore ProyectoFinal.sln
 
       - name: Instalar Scanner
         run: dotnet tool install -g dotnet-sonarscanner
-
-      - name: Asegurarse de que MSBuild esté disponible
-        run: |
-          where msbuild || echo "MSBuild no está disponible en el PATH"
 
       - name: Ejecutar escaneo
         run: | 

@@ -1,9 +1,8 @@
-þ
-RProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_HdesparacitacionRowChangeEventSystem.EventArgsobjectå
-†SPR_HdesparacitacionRowChangeEvent(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_HdesparacitacionRow, System.Data.DataRowAction)ÙProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_HdesparacitacionRowChangeEvent.SPR_HdesparacitacionRowChangeEvent(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_HdesparacitacionRow, System.Data.DataRowAction)e
-Row.getZProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_HdesparacitacionRowChangeEvent.Row.gete
-Row.setZProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_HdesparacitacionRowChangeEvent.Row.setk
-
-Action.get]ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_HdesparacitacionRowChangeEvent.Action.getk
-
-Action.set]ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_HdesparacitacionRowChangeEvent.Action.set
+Â
+ ProyectoFinal.Clases.ClsHclinicaobject=
+VerVacunas()-ProyectoFinal.Clases.ClsHclinica.VerVacunas()=
+VerRecetas()-ProyectoFinal.Clases.ClsHclinica.VerRecetas()Q
+VerDesparacitaciones()7ProyectoFinal.Clases.ClsHclinica.VerDesparacitaciones()?
+ClsHclinica().ProyectoFinal.Clases.ClsHclinica.ClsHclinica()A
+idpaciente.get/ProyectoFinal.Clases.ClsHclinica.idpaciente.getA
+idpaciente.set/ProyectoFinal.Clases.ClsHclinica.idpaciente.set

@@ -1,9 +1,9 @@
-Ì
-3ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEventSystem.EventArgsobjectÔ
-[PacienteRowChangeEvent(ProyectoFinal.SOFTVETDataSet.PacienteRow, System.Data.DataRowAction)èProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.PacienteRowChangeEvent(ProyectoFinal.SOFTVETDataSet.PacienteRow, System.Data.DataRowAction)F
-Row.get;ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.Row.getF
-Row.set;ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.Row.setL
+«
+<ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRowChangeEventSystem.EventArgsobjectú
+mH_DesparacitacionRowChangeEvent(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow, System.Data.DataRowAction)™ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRowChangeEvent.H_DesparacitacionRowChangeEvent(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow, System.Data.DataRowAction)O
+Row.getDProyectoFinal.SOFTVETDataSet.H_DesparacitacionRowChangeEvent.Row.getO
+Row.setDProyectoFinal.SOFTVETDataSet.H_DesparacitacionRowChangeEvent.Row.setU
 
-Action.get>ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.Action.getL
+Action.getGProyectoFinal.SOFTVETDataSet.H_DesparacitacionRowChangeEvent.Action.getU
 
-Action.set>ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.Action.set
+Action.setGProyectoFinal.SOFTVETDataSet.H_DesparacitacionRowChangeEvent.Action.set

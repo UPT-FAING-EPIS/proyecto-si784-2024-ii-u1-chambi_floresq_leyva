@@ -1,19 +1,9 @@
-Ñ
--ProyectoFinal.SOFTVETDataSet.VistaClientesRowSystem.Data.DataRowobjectŠ
-,VistaClientesRow(System.Data.DataRowBuilder)ZProyectoFinal.SOFTVETDataSet.VistaClientesRow.VistaClientesRow(System.Data.DataRowBuilder)P
-Cod_Cliente.get=ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Cod_Cliente.getP
-Cod_Cliente.set=ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Cod_Cliente.setF
+Å
+/ProyectoFinal.SOFTVETDataSet.CitaRowChangeEventSystem.EventArgsobjectÛ
+SCitaRowChangeEvent(ProyectoFinal.SOFTVETDataSet.CitaRow, System.Data.DataRowAction)ƒProyectoFinal.SOFTVETDataSet.CitaRowChangeEvent.CitaRowChangeEvent(ProyectoFinal.SOFTVETDataSet.CitaRow, System.Data.DataRowAction)B
+Row.get7ProyectoFinal.SOFTVETDataSet.CitaRowChangeEvent.Row.getB
+Row.set7ProyectoFinal.SOFTVETDataSet.CitaRowChangeEvent.Row.setH
 
-Nombre.get8ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Nombre.getF
+Action.get:ProyectoFinal.SOFTVETDataSet.CitaRowChangeEvent.Action.getH
 
-Nombre.set8ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Nombre.setJ
-Apellido.get:ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Apellido.getJ
-Apellido.set:ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Apellido.setJ
-Telefono.get:ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Telefono.getJ
-Telefono.set:ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Telefono.setF
-
-Genero.get8ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Genero.getF
-
-Genero.set8ProyectoFinal.SOFTVETDataSet.VistaClientesRow.Genero.set@
-DNI.get5ProyectoFinal.SOFTVETDataSet.VistaClientesRow.DNI.get@
-DNI.set5ProyectoFinal.SOFTVETDataSet.VistaClientesRow.DNI.set
+Action.set:ProyectoFinal.SOFTVETDataSet.CitaRowChangeEvent.Action.set

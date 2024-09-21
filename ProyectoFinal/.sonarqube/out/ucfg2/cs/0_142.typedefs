@@ -1,9 +1,18 @@
-™
-/ProyectoFinal.Modelos.SP_TotalStockVacunaResultobjectj
-SP_TotalStockVacunaResult()KProyectoFinal.Modelos.SP_TotalStockVacunaResult.SP_TotalStockVacunaResult()N
-ID_Vacuna.get=ProyectoFinal.Modelos.SP_TotalStockVacunaResult.ID_Vacuna.getN
-ID_Vacuna.set=ProyectoFinal.Modelos.SP_TotalStockVacunaResult.ID_Vacuna.setV
-Nombre_Vacuna.getAProyectoFinal.Modelos.SP_TotalStockVacunaResult.Nombre_Vacuna.getV
-Nombre_Vacuna.setAProyectoFinal.Modelos.SP_TotalStockVacunaResult.Nombre_Vacuna.setP
-TotalStock.get>ProyectoFinal.Modelos.SP_TotalStockVacunaResult.TotalStock.getP
-TotalStock.set>ProyectoFinal.Modelos.SP_TotalStockVacunaResult.TotalStock.set
+Œ
+CProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject~
+VistaClientesTableAdapter()_ProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.VistaClientesTableAdapter()b
+InitAdapter()QProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.InitAdapter()h
+InitConnection()TProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.InitConnection()v
+InitCommandCollection()[ProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.InitCommandCollection()º
+9Fill(ProyectoFinal.SOFTVETDataSet.VistaClientesDataTable)}ProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet.VistaClientesDataTable)Z
+	GetData()MProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.GetData()^
+Adapter.getOProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.Adapter.get^
+Adapter.setOProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.Adapter.setd
+Connection.getRProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.Connection.getd
+Connection.setRProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.Connection.setf
+Transaction.getSProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.Transaction.getf
+Transaction.setSProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.Transaction.setr
+CommandCollection.getYProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.CommandCollection.getr
+CommandCollection.setYProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.CommandCollection.setn
+ClearBeforeFill.getWProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.ClearBeforeFill.getn
+ClearBeforeFill.setWProyectoFinal.SOFTVETDataSetTableAdapters.VistaClientesTableAdapter.ClearBeforeFill.set

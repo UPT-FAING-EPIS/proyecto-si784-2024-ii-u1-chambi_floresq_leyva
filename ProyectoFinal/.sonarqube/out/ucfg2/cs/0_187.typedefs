@@ -1,9 +1,9 @@
-í
-3ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEventSystem.EventArgsobjectï
-[EmpleadoRowChangeEvent(ProyectoFinal.SOFTVETDataSet.EmpleadoRow, System.Data.DataRowAction)ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.EmpleadoRowChangeEvent(ProyectoFinal.SOFTVETDataSet.EmpleadoRow, System.Data.DataRowAction)F
-Row.get;ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.Row.getF
-Row.set;ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.Row.setL
+ã
+2ProyectoFinal.SOFTVETDataSet.ClienteRowChangeEventSystem.EventArgsobjectê
+YClienteRowChangeEvent(ProyectoFinal.SOFTVETDataSet.ClienteRow, System.Data.DataRowAction)ŒProyectoFinal.SOFTVETDataSet.ClienteRowChangeEvent.ClienteRowChangeEvent(ProyectoFinal.SOFTVETDataSet.ClienteRow, System.Data.DataRowAction)E
+Row.get:ProyectoFinal.SOFTVETDataSet.ClienteRowChangeEvent.Row.getE
+Row.set:ProyectoFinal.SOFTVETDataSet.ClienteRowChangeEvent.Row.setK
 
-Action.get>ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.Action.getL
+Action.get=ProyectoFinal.SOFTVETDataSet.ClienteRowChangeEvent.Action.getK
 
-Action.set>ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.Action.set
+Action.set=ProyectoFinal.SOFTVETDataSet.ClienteRowChangeEvent.Action.set

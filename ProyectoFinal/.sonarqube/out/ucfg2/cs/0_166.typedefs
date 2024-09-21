@@ -1,41 +1,55 @@
-ÿ&
-7ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectt
-H_DesparacitacionDataTable()TProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionDataTable()û
-1H_DesparacitacionDataTable(System.Data.DataTable)iProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionDataTable(System.Data.DataTable)Ø
-yH_DesparacitacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)±ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)|
- H_DesparacitacionRowChanging.addXProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowChanging.addÇ
-#H_DesparacitacionRowChanging.remove[ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowChanging.removez
-H_DesparacitacionRowChanged.addWProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowChanged.addÄ
-"H_DesparacitacionRowChanged.removeZProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowChanged.remove|
- H_DesparacitacionRowDeleting.addXProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowDeleting.addÇ
-#H_DesparacitacionRowDeleting.remove[ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowDeleting.removez
-H_DesparacitacionRowDeleted.addWProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowDeleted.addÄ
-"H_DesparacitacionRowDeleted.removeZProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowDeleted.remove—
-JAddH_DesparacitacionRow(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow)ÇProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.AddH_DesparacitacionRow(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow)Ò
-ZAddH_DesparacitacionRow(string, System.DateTime, ProyectoFinal.SOFTVETDataSet.PacienteRow)íProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.AddH_DesparacitacionRow(string, System.DateTime, ProyectoFinal.SOFTVETDataSet.PacienteRow)V
-FindByid(int)EProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.FindByid(int)J
-Clone()?ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.Clone()\
-CreateInstance()HProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.CreateInstance()P
+ã,
+.ProyectoFinal.SOFTVETDataSet.EmpleadoDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectY
+EmpleadoDataTable()BProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoDataTable()É
+(EmpleadoDataTable(System.Data.DataTable)WProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoDataTable(System.Data.DataTable)î
+pEmpleadoDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)üProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)a
+EmpleadoRowChanging.addFProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoRowChanging.addg
+EmpleadoRowChanging.removeIProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoRowChanging.remove_
+EmpleadoRowChanged.addEProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoRowChanged.adde
+EmpleadoRowChanged.removeHProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoRowChanged.removea
+EmpleadoRowDeleting.addFProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoRowDeleting.addg
+EmpleadoRowDeleting.removeIProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoRowDeleting.remove_
+EmpleadoRowDeleted.addEProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoRowDeleted.adde
+EmpleadoRowDeleted.removeHProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.EmpleadoRowDeleted.remove£
+8AddEmpleadoRow(ProyectoFinal.SOFTVETDataSet.EmpleadoRow)gProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.AddEmpleadoRow(ProyectoFinal.SOFTVETDataSet.EmpleadoRow)é
+mAddEmpleadoRow(string, string, string, System.DateTime, string, string, System.DateTime, string, string, int)úProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.AddEmpleadoRow(string, string, string, System.DateTime, string, string, System.DateTime, string, string, int)a
+FindByCod_Empleado(int)FProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.FindByCod_Empleado(int)A
+Clone()6ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.Clone()S
+CreateInstance()?ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.CreateInstance()G
 
-InitVars()BProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.InitVars()R
-InitClass()CProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.InitClass()n
-NewH_DesparacitacionRow()QProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.NewH_DesparacitacionRow()ñ
--NewRowFromBuilder(System.Data.DataRowBuilder)eProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)T
-GetRowType()DProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.GetRowType()ú
-0OnRowChanged(System.Data.DataRowChangeEventArgs)hProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)û
-1OnRowChanging(System.Data.DataRowChangeEventArgs)iProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)ú
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)hProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)û
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)iProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)◊
-MRemoveH_DesparacitacionRow(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow)ÖProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.RemoveH_DesparacitacionRow(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow)T
-idColumn.getDProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.idColumn.getT
-idColumn.setDProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.idColumn.setX
-tipoColumn.getFProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.tipoColumn.getX
-tipoColumn.setFProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.tipoColumn.setZ
-FechaColumn.getGProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.FechaColumn.getZ
-FechaColumn.setGProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.FechaColumn.seth
-cod_PacienteColumn.getNProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.cod_PacienteColumn.geth
-cod_PacienteColumn.setNProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.cod_PacienteColumn.setN
-	Count.getAProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.Count.getN
-	Count.setAProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.Count.setV
-this[int].getEProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.this[int].getV
-this[int].setEProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.this[int].set
+InitVars()9ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.InitVars()I
+InitClass():ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.InitClass()S
+NewEmpleadoRow()?ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.NewEmpleadoRow()ç
+-NewRowFromBuilder(System.Data.DataRowBuilder)\ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)K
+GetRowType();ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.GetRowType()ì
+0OnRowChanged(System.Data.DataRowChangeEventArgs)_ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)ï
+1OnRowChanging(System.Data.DataRowChangeEventArgs)`ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)ì
+0OnRowDeleted(System.Data.DataRowChangeEventArgs)_ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)ï
+1OnRowDeleting(System.Data.DataRowChangeEventArgs)`ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)©
+;RemoveEmpleadoRow(ProyectoFinal.SOFTVETDataSet.EmpleadoRow)jProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.RemoveEmpleadoRow(ProyectoFinal.SOFTVETDataSet.EmpleadoRow)_
+Cod_EmpleadoColumn.getEProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.Cod_EmpleadoColumn.get_
+Cod_EmpleadoColumn.setEProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.Cod_EmpleadoColumn.setS
+NombreColumn.get?ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.NombreColumn.getS
+NombreColumn.set?ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.NombreColumn.setW
+ApellidoColumn.getAProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.ApellidoColumn.getW
+ApellidoColumn.setAProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.ApellidoColumn.setM
+DNIColumn.get<ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.DNIColumn.getM
+DNIColumn.set<ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.DNIColumn.sete
+FechaNacimientoColumn.getHProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.FechaNacimientoColumn.gete
+FechaNacimientoColumn.setHProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.FechaNacimientoColumn.setO
+SexoColumn.get=ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.SexoColumn.getO
+SexoColumn.set=ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.SexoColumn.setW
+TelefonoColumn.getAProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.TelefonoColumn.getW
+TelefonoColumn.setAProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.TelefonoColumn.seta
+Fecha_IngresoColumn.getFProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.Fecha_IngresoColumn.geta
+Fecha_IngresoColumn.setFProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.Fecha_IngresoColumn.setQ
+CargoColumn.get>ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.CargoColumn.getQ
+CargoColumn.set>ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.CargoColumn.setU
+HorarioColumn.get@ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.HorarioColumn.getU
+HorarioColumn.set@ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.HorarioColumn.setS
+SueldoColumn.get?ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.SueldoColumn.getS
+SueldoColumn.set?ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.SueldoColumn.setE
+	Count.get8ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.Count.getE
+	Count.set8ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.Count.setM
+this[int].get<ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.this[int].getM
+this[int].set<ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable.this[int].set

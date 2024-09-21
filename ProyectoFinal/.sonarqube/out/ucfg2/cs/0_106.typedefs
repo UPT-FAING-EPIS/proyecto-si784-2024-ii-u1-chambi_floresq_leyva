@@ -1,19 +1,11 @@
-�
- ProyectoFinal.Modelos.V_Pacienteobject=
-V_Paciente()-ProyectoFinal.Modelos.V_Paciente.V_Paciente()E
-Cod_Paciente.get1ProyectoFinal.Modelos.V_Paciente.Cod_Paciente.getE
-Cod_Paciente.set1ProyectoFinal.Modelos.V_Paciente.Cod_Paciente.set9
-
-Nombre.get+ProyectoFinal.Modelos.V_Paciente.Nombre.get9
-
-Nombre.set+ProyectoFinal.Modelos.V_Paciente.Nombre.set;
-Especie.get,ProyectoFinal.Modelos.V_Paciente.Especie.get;
-Especie.set,ProyectoFinal.Modelos.V_Paciente.Especie.set5
-Raza.get)ProyectoFinal.Modelos.V_Paciente.Raza.get5
-Raza.set)ProyectoFinal.Modelos.V_Paciente.Raza.set5
-Sexo.get)ProyectoFinal.Modelos.V_Paciente.Sexo.get5
-Sexo.set)ProyectoFinal.Modelos.V_Paciente.Sexo.set7
-	Fecha.get*ProyectoFinal.Modelos.V_Paciente.Fecha.get7
-	Fecha.set*ProyectoFinal.Modelos.V_Paciente.Fecha.setC
-Cod_Cliente.get0ProyectoFinal.Modelos.V_Paciente.Cod_Cliente.getC
-Cod_Cliente.set0ProyectoFinal.Modelos.V_Paciente.Cod_Cliente.set
+�
+ProyectoFinal.Modelos.V_Usuarioobject:
+V_Usuario()+ProyectoFinal.Modelos.V_Usuario.V_Usuario()@
+Id_Usuario.get.ProyectoFinal.Modelos.V_Usuario.Id_Usuario.get@
+Id_Usuario.set.ProyectoFinal.Modelos.V_Usuario.Id_Usuario.set<
+Username.get,ProyectoFinal.Modelos.V_Usuario.Username.get<
+Username.set,ProyectoFinal.Modelos.V_Usuario.Username.setB
+Contraseña.get/ProyectoFinal.Modelos.V_Usuario.Contraseña.getB
+Contraseña.set/ProyectoFinal.Modelos.V_Usuario.Contraseña.setD
+Cod_Empleado.get0ProyectoFinal.Modelos.V_Usuario.Cod_Empleado.getD
+Cod_Empleado.set0ProyectoFinal.Modelos.V_Usuario.Cod_Empleado.set

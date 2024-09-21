@@ -1,25 +1,26 @@
-Ø
- ProyectoFinal.FormAbastecimientoSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectM
-FormAbastecimiento()5ProyectoFinal.FormAbastecimiento.FormAbastecimiento()K
-CargarComboVacuna()4ProyectoFinal.FormAbastecimiento.CargarComboVacuna()C
-LimpiarVacuna()0ProyectoFinal.FormAbastecimiento.LimpiarVacuna()A
-ListarVacuna()/ProyectoFinal.FormAbastecimiento.ListarVacuna()U
-ListarTotalStockVacuna()9ProyectoFinal.FormAbastecimiento.ListarTotalStockVacuna()Ω
-LdgvVacunas_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)mProyectoFinal.FormAbastecimiento.dgvVacunas_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)K
-ActivarBotonessss()4ProyectoFinal.FormAbastecimiento.ActivarBotonessss()}
-,ActivarBotones(bool, bool, bool, bool, bool)MProyectoFinal.FormAbastecimiento.ActivarBotones(bool, bool, bool, bool, bool)K
-DesactivarBotones()4ProyectoFinal.FormAbastecimiento.DesactivarBotones()C
-ActivarCampos()0ProyectoFinal.FormAbastecimiento.ActivarCampos()I
-DesactivarCampos()3ProyectoFinal.FormAbastecimiento.DesactivarCampos()y
-*btnLimpiar_Click(object, System.EventArgs)KProyectoFinal.FormAbastecimiento.btnLimpiar_Click(object, System.EventArgs)E
-AgregarVacunas()1ProyectoFinal.FormAbastecimiento.AgregarVacunas()y
-*btnAgregar_Click(object, System.EventArgs)KProyectoFinal.FormAbastecimiento.btnAgregar_Click(object, System.EventArgs)I
-ModificarVacunas()3ProyectoFinal.FormAbastecimiento.ModificarVacunas()}
-,btnModificar_Click(object, System.EventArgs)MProyectoFinal.FormAbastecimiento.btnModificar_Click(object, System.EventArgs)G
-EliminarVacunas()2ProyectoFinal.FormAbastecimiento.EliminarVacunas(){
-+btnEliminar_Click(object, System.EventArgs)LProyectoFinal.FormAbastecimiento.btnEliminar_Click(object, System.EventArgs){
-+btnCancelar_Click(object, System.EventArgs)LProyectoFinal.FormAbastecimiento.btnCancelar_Click(object, System.EventArgs)á
-1FormAbastecimiento_Load(object, System.EventArgs)RProyectoFinal.FormAbastecimiento.FormAbastecimiento_Load(object, System.EventArgs)u
-(btnNuevo_Click(object, System.EventArgs)IProyectoFinal.FormAbastecimiento.btnNuevo_Click(object, System.EventArgs)?
-Dispose(bool).ProyectoFinal.FormAbastecimiento.Dispose(bool)O
-InitializeComponent()6ProyectoFinal.FormAbastecimiento.InitializeComponent()
+ï
+*ProyectoFinal.SOFTVETDataSet_PacientesxDNISystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectk
+SOFTVETDataSet_PacientesxDNI()IProyectoFinal.SOFTVETDataSet_PacientesxDNI.SOFTVETDataSet_PacientesxDNI()¶
+{SOFTVETDataSet_PacientesxDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¶ProyectoFinal.SOFTVETDataSet_PacientesxDNI.SOFTVETDataSet_PacientesxDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)c
+InitializeDerivedDataSet()EProyectoFinal.SOFTVETDataSet_PacientesxDNI.InitializeDerivedDataSet()=
+Clone()2ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Clone()]
+ShouldSerializeTables()BProyectoFinal.SOFTVETDataSet_PacientesxDNI.ShouldSerializeTables()c
+ShouldSerializeRelations()EProyectoFinal.SOFTVETDataSet_PacientesxDNI.ShouldSerializeRelations()Å
+)ReadXmlSerializable(System.Xml.XmlReader)TProyectoFinal.SOFTVETDataSet_PacientesxDNI.ReadXmlSerializable(System.Xml.XmlReader)]
+GetSchemaSerializable()BProyectoFinal.SOFTVETDataSet_PacientesxDNI.GetSchemaSerializable()C
+
+InitVars()5ProyectoFinal.SOFTVETDataSet_PacientesxDNI.InitVars()K
+InitVars(bool)9ProyectoFinal.SOFTVETDataSet_PacientesxDNI.InitVars(bool)E
+InitClass()6ProyectoFinal.SOFTVETDataSet_PacientesxDNI.InitClass()w
+$ShouldSerializeSP_PacientexCliente()OProyectoFinal.SOFTVETDataSet_PacientesxDNI.ShouldSerializeSP_PacientexCliente()ª
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)qProyectoFinal.SOFTVETDataSet_PacientesxDNI.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)]
+SP_PacientexCliente.getBProyectoFinal.SOFTVETDataSet_PacientesxDNI.SP_PacientexCliente.get]
+SP_PacientexCliente.setBProyectoFinal.SOFTVETDataSet_PacientesxDNI.SP_PacientexCliente.sete
+SchemaSerializationMode.getFProyectoFinal.SOFTVETDataSet_PacientesxDNI.SchemaSerializationMode.gete
+SchemaSerializationMode.setFProyectoFinal.SOFTVETDataSet_PacientesxDNI.SchemaSerializationMode.setC
+
+Tables.get5ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Tables.getC
+
+Tables.set5ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Tables.setI
+Relations.get8ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Relations.getI
+Relations.set8ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Relations.set

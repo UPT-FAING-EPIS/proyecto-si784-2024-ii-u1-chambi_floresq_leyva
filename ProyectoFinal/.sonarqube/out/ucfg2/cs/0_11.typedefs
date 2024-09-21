@@ -1,16 +1,26 @@
-’
-(ProyectoFinal.ActualizarRegistroEmpleadoSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectA
+¨
+'ProyectoFinal.SOFTVETDataSet_VacunacionSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectb
+SOFTVETDataSet_Vacunacion()CProyectoFinal.SOFTVETDataSet_Vacunacion.SOFTVETDataSet_Vacunacion()
+xSOFTVETDataSet_Vacunacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext) ProyectoFinal.SOFTVETDataSet_Vacunacion.SOFTVETDataSet_Vacunacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)`
+InitializeDerivedDataSet()BProyectoFinal.SOFTVETDataSet_Vacunacion.InitializeDerivedDataSet():
+Clone()/ProyectoFinal.SOFTVETDataSet_Vacunacion.Clone()Z
+ShouldSerializeTables()?ProyectoFinal.SOFTVETDataSet_Vacunacion.ShouldSerializeTables()`
+ShouldSerializeRelations()BProyectoFinal.SOFTVETDataSet_Vacunacion.ShouldSerializeRelations()~
+)ReadXmlSerializable(System.Xml.XmlReader)QProyectoFinal.SOFTVETDataSet_Vacunacion.ReadXmlSerializable(System.Xml.XmlReader)Z
+GetSchemaSerializable()?ProyectoFinal.SOFTVETDataSet_Vacunacion.GetSchemaSerializable()@
 
-Limpieza()3ProyectoFinal.ActualizarRegistroEmpleado.Limpieza()
-*btnLimpiar_Click(object, System.EventArgs)SProyectoFinal.ActualizarRegistroEmpleado.btnLimpiar_Click(object, System.EventArgs)…
-,btnGuardar_Click_1(object, System.EventArgs)UProyectoFinal.ActualizarRegistroEmpleado.btnGuardar_Click_1(object, System.EventArgs)
-)button1_Click_1(object, System.EventArgs)RProyectoFinal.ActualizarRegistroEmpleado.button1_Click_1(object, System.EventArgs)e
-ActualizarRegistroEmpleado()EProyectoFinal.ActualizarRegistroEmpleado.ActualizarRegistroEmpleado()y
-&label2_Click(object, System.EventArgs)OProyectoFinal.ActualizarRegistroEmpleado.label2_Click(object, System.EventArgs)M
-Buscarempleado()9ProyectoFinal.ActualizarRegistroEmpleado.Buscarempleado()Ÿ
-9ActualizarRegistroEmpleado_Load(object, System.EventArgs)bProyectoFinal.ActualizarRegistroEmpleado.ActualizarRegistroEmpleado_Load(object, System.EventArgs)Y
-RecopilarInformacion()?ProyectoFinal.ActualizarRegistroEmpleado.RecopilarInformacion()9
-Sexo()/ProyectoFinal.ActualizarRegistroEmpleado.Sexo()?
-	Horario()2ProyectoFinal.ActualizarRegistroEmpleado.Horario()G
-Dispose(bool)6ProyectoFinal.ActualizarRegistroEmpleado.Dispose(bool)W
-InitializeComponent()>ProyectoFinal.ActualizarRegistroEmpleado.InitializeComponent()
+InitVars()2ProyectoFinal.SOFTVETDataSet_Vacunacion.InitVars()H
+InitVars(bool)6ProyectoFinal.SOFTVETDataSet_Vacunacion.InitVars(bool)B
+InitClass()3ProyectoFinal.SOFTVETDataSet_Vacunacion.InitClass()j
+ShouldSerializeSP_Hvacunacion()GProyectoFinal.SOFTVETDataSet_Vacunacion.ShouldSerializeSP_Hvacunacion()¸
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)nProyectoFinal.SOFTVETDataSet_Vacunacion.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)P
+SP_Hvacunacion.get:ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_Hvacunacion.getP
+SP_Hvacunacion.set:ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_Hvacunacion.setb
+SchemaSerializationMode.getCProyectoFinal.SOFTVETDataSet_Vacunacion.SchemaSerializationMode.getb
+SchemaSerializationMode.setCProyectoFinal.SOFTVETDataSet_Vacunacion.SchemaSerializationMode.set@
+
+Tables.get2ProyectoFinal.SOFTVETDataSet_Vacunacion.Tables.get@
+
+Tables.set2ProyectoFinal.SOFTVETDataSet_Vacunacion.Tables.setF
+Relations.get5ProyectoFinal.SOFTVETDataSet_Vacunacion.Relations.getF
+Relations.set5ProyectoFinal.SOFTVETDataSet_Vacunacion.Relations.set

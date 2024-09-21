@@ -1,5 +1,5 @@
-Ç8
-äC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\RegistrarUsuario.cs
+Ì7
+vC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\RegistrarUsuario.cs
 	namespace 	
 ProyectoFinal
  
@@ -404,8 +404,8 @@ MessageBoxHH 
 ;mm( )
 }nn 	
 }oo 
-}qq ˘˙
-ãC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\RegistrarEmpleado.cs
+}qq ‰˙
+wC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\RegistrarEmpleado.cs
 	namespace 	
 ProyectoFinal
  
@@ -3015,8 +3015,8 @@ MessageBox
 ±± 	
 }
 ≤≤ 
-}≥≥ Ω
-ëC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Properties\AssemblyInfo.cs
+}≥≥ ®
+}C:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Properties\AssemblyInfo.cs
 [ 
 assembly 	
 :	 
@@ -3141,8 +3141,55 @@ ComVisible 
 ($$ 
 $str$$ (
 )$$( )
-]$$) *Üﬂ
-äC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\RegistrarCliente.cs
+]$$) *ä
+mC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Program.cs
+	namespace 	
+ProyectoFinal
+ 
+{ 
+internal		 
+static		 
+class		 
+Program		 !
+{
+
+ 
+[ 	
+	STAThread	 
+] 
+static 
+void 
+Main 
+( 
+) 
+{ 	
+Application 
+. 
+EnableVisualStyles *
+(* +
+)+ ,
+;, -
+Application 
+. -
+!SetCompatibleTextRenderingDefault 9
+(9 :
+false: ?
+)? @
+;@ A
+Application 
+. 
+Run 
+( 
+new 
+	FormLogin  )
+() *
+)* +
+)+ ,
+;, -
+} 	
+} 
+} Òﬁ
+vC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\RegistrarCliente.cs
 	namespace 	
 ProyectoFinal
  
@@ -5498,55 +5545,8 @@ MessageBox
 ÉÉ 	
 }
 ÑÑ 
-}ÖÖ ü
-ÅC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Program.cs
-	namespace 	
-ProyectoFinal
- 
-{ 
-internal		 
-static		 
-class		 
-Program		 !
-{
-
- 
-[ 	
-	STAThread	 
-] 
-static 
-void 
-Main 
-( 
-) 
-{ 	
-Application 
-. 
-EnableVisualStyles *
-(* +
-)+ ,
-;, -
-Application 
-. -
-!SetCompatibleTextRenderingDefault 9
-(9 :
-false: ?
-)? @
-;@ A
-Application 
-. 
-Run 
-( 
-new 
-	FormLogin  )
-() *
-)* +
-)+ ,
-;, -
-} 	
-} 
-} ÜÙ
-ÜC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\MDIPrincipal.cs
+}ÖÖ ÒÛ
+rC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\MDIPrincipal.cs
 	namespace 	
 ProyectoFinal
  
@@ -9757,8 +9757,8 @@ RHcl√≠nico
 ÷÷ 	
 }
 ◊◊ 
-}ÿÿ Ó%
-îC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporteHorarioPersonal.cs
+}ÿÿ ⁄%
+ÄC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporteHorarioPersonal.cs
 	namespace 	
 ProyectoFinal
  
@@ -10022,8 +10022,8 @@ RHcl√≠nico
 ;;;! "
 }<< 	
 }== 
-}>> éê
-ãC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormProgramarCita.cs
+}>> ˘è
+wC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormProgramarCita.cs
 	namespace 	
 ProyectoFinal
  
@@ -11482,8 +11482,8 @@ Desactivar
 ‰‰ 	
 }
 ÂÂ 
-}ÊÊ ≥
-ÉC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormAdmin.cs
+}ÊÊ û
+oC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormAdmin.cs
 	namespace 	
 ProyectoFinal
  
@@ -11683,8 +11683,8 @@ txtcaptcha55 '
 ;55, -
 }66 	
 }77 
-}88 ∫A
-ÉC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormLogin.cs
+}88 •A
+oC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormLogin.cs
 	namespace 	
 ProyectoFinal
  
@@ -12166,8 +12166,8 @@ MessageBox{{ 
 }|| 
 }}} 	
 }~~ 
-} §ﬁ
-äC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormEditarAgenda.cs
+} èﬁ
+vC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormEditarAgenda.cs
 	namespace 	
 ProyectoFinal
  
@@ -14665,8 +14665,8 @@ MessageBox
 ¿¿ 	
 }
 ¬¬ 
-}√√ â[
-éC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormCitasProgramadas.cs
+}√√ ÙZ
+zC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormCitasProgramadas.cs
 	namespace 	
 ProyectoFinal
  
@@ -15381,8 +15381,8 @@ MessageBoxgg 
 ÜÜ 	
 }
 áá 
-}àà âﬂ
-ãC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\RegistrarPaciente.cs
+}àà Ùﬁ
+wC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\RegistrarPaciente.cs
 	namespace 	
 ProyectoFinal
  
@@ -17827,8 +17827,8 @@ MessageBox
 õõ 	
 }
 úú 
-}ùù àÀ
-ÜC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FrmRecetario.cs
+}ùù Û 
+rC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FrmRecetario.cs
 	namespace 	
 ProyectoFinal
  
@@ -20034,8 +20034,8 @@ cmbOrdenar
 ôô 	
 }
 öö 
-}õõ ¨	
-éC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Clientes.cs
+}õõ ó	
+zC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Clientes.cs
 	namespace 	
 ProyectoFinal
  
@@ -20092,8 +20092,8 @@ cmbOrdenar
 ;. /
 } 	
 } 
-} ú	
-çC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Vacunas.cs
+} á	
+yC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Vacunas.cs
 	namespace 	
 ProyectoFinal
  
@@ -20150,8 +20150,8 @@ cmbOrdenar
 ;. /
 } 	
 } 
-} ”B
-öC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Paciente_DNI_Cliente.cs
+} øB
+ÜC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Paciente_DNI_Cliente.cs
 	namespace 	
 ProyectoFinal
  
@@ -20667,8 +20667,8 @@ MessageBox
 ãã 	
 }
 åå 
-}çç ‰{
-óC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Historial_Clinico.cs
+}çç –{
+ÉC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Historial_Clinico.cs
 	namespace 	
 ProyectoFinal
  
@@ -21838,9 +21838,9 @@ MessageBox
    	
 }
 ÀÀ 
-}ÃÃ ˘
+}ÃÃ Â
 
-õC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Estadistica_Pacientes.cs
+áC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormReporte_Estadistica_Pacientes.cs
 	namespace 	
 ProyectoFinal
  
@@ -21905,8 +21905,8 @@ MessageBox
 ;. /
 } 	
 } 
-} ‘p
-ëC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormRegistrarVacunacion.cs
+} øp
+}C:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormRegistrarVacunacion.cs
 	namespace 	
 ProyectoFinal
  
@@ -22970,8 +22970,8 @@ idPaciente
 ‚‚ 	
 }
 „„ 
-}‰‰ àÇ
-ñC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormRegistrarDesparasitacion.cs
+}‰‰ ÙÅ
+ÇC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormRegistrarDesparasitacion.cs
 	namespace 	
 ProyectoFinal
  
@@ -24199,8 +24199,8 @@ idPaciente
 ÀÀ 	
 }
 ÃÃ 
-}ŒŒ ≠o
-éC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormHistorialClinico.cs
+}ŒŒ òo
+zC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormHistorialClinico.cs
 	namespace 	
 ProyectoFinal
  
@@ -25219,8 +25219,8 @@ dgvRecetas
 °° 	
 }
 ¢¢ 
-}££ úx
-åC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormAbastecimiento.cs
+}££ áx
+xC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\FormAbastecimiento.cs
 	namespace 	
 ProyectoFinal
  
@@ -26343,8 +26343,8 @@ objVacuna2
 ≈≈ 	
 }
 «« 
-}»» Ñ¬
-äC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsVacuna.cs
+}»» Ô¡
+vC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsVacuna.cs
 	namespace		 	
 ProyectoFinal		
  
@@ -28344,8 +28344,8 @@ DataSource
 úú 	
 }
 ¢¢ 
-}££ á(
-éC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\CorreoManager.cs
+}££ Ú'
+zC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\CorreoManager.cs
 	namespace 	
 ProyectoFinal
  
@@ -28644,8 +28644,174 @@ MyPassword11B L
 }99 
 }:: 	
 };; 
-}<< Ñ
-ãC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsUsuario.cs
+}<< ∏
+xC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsHclinica.cs
+	namespace 	
+ProyectoFinal
+ 
+. 
+Clases 
+{		 
+public
+
+ 
+
+class
+
+ 
+ClsHclinica
+
+ 
+{ 
+MSOFTVETDataContext 
+dc 
+=  
+new! $
+MSOFTVETDataContext% 8
+(8 9
+)9 :
+;: ;
+public 
+int 
+
+idpaciente 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
+public 
+List 
+<  
+SP_HvacunacionResult (
+>( )
+
+VerVacunas* 4
+(4 5
+)5 6
+{ 	
+var 
+consulta 
+= 
+new 
+List #
+<# $ 
+SP_HvacunacionResult$ 8
+>8 9
+(9 :
+): ;
+;; <
+consulta 
+= 
+dc 
+. 
+SP_Hvacunacion (
+(( )
+
+idpaciente) 3
+)3 4
+.4 5
+ToList5 ;
+(; <
+)< =
+;= >
+return 
+consulta 
+. 
+ToList "
+(" #
+)# $
+;$ %
+} 	
+public 
+List 
+<  
+SP_HRecetacionResult (
+>( )
+
+VerRecetas* 4
+(4 5
+)5 6
+{ 	
+var 
+consulta 
+= 
+new 
+List #
+<# $ 
+SP_HRecetacionResult$ 8
+>8 9
+(9 :
+): ;
+;; <
+consulta 
+= 
+dc 
+. 
+SP_HRecetacion (
+(( )
+
+idpaciente) 3
+)3 4
+.4 5
+ToList5 ;
+(; <
+)< =
+;= >
+return!! 
+consulta!! 
+.!! 
+ToList!! "
+(!!" #
+)!!# $
+;!!$ %
+}"" 	
+public## 
+List## 
+<## %
+SP_HdesparacitacionResult## -
+>##- . 
+VerDesparacitaciones##/ C
+(##C D
+)##D E
+{$$ 	
+var%% 
+consulta%% 
+=%% 
+new%% 
+List%% #
+<%%# $%
+SP_HdesparacitacionResult%%$ =
+>%%= >
+(%%> ?
+)%%? @
+;%%@ A
+consulta'' 
+='' 
+dc'' 
+.'' 
+SP_Hdesparacitacion'' -
+(''- .
+
+idpaciente''. 8
+)''8 9
+.''9 :
+ToList'': @
+(''@ A
+)''A B
+;''B C
+return)) 
+consulta)) 
+.)) 
+ToList)) "
+())" #
+)))# $
+;))$ %
+}** 	
+}++ 
+},, Ô
+wC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsUsuario.cs
 	namespace		 	
 ProyectoFinal		
  
@@ -28788,8 +28954,513 @@ MessageBox"" 
 }## 
 }$$ 	
 }%% 
-}&& À`
-íC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsDesparasitante.cs
+}&& —D
+xC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsPaciente.cs
+	namespace 	
+ProyectoFinal
+ 
+. 
+Clases 
+{		 
+internal
+
+ 
+class
+
+ 
+ClsPaciente
+
+ 
+{ 
+public 
+int 
+CodPaciente 
+{  
+get! $
+;$ %
+set& )
+;) *
+}+ ,
+public 
+string 
+Nombre 
+{ 
+get "
+;" #
+set$ '
+;' (
+}) *
+public 
+string 
+Especie 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
+public 
+string 
+Raza 
+{ 
+get  
+;  !
+set" %
+;% &
+}' (
+public 
+string 
+Sexo 
+{ 
+get  
+;  !
+set" %
+;% &
+}' (
+public 
+DateTime 
+FechaNacimiento '
+{( )
+get* -
+;- .
+set/ 2
+;2 3
+}4 5
+public 
+int 
+
+CodCliente 
+{ 
+get  #
+;# $
+set% (
+;( )
+}* +
+public 
+static 
+List 
+< 
+ClsPaciente &
+>& '!
+ObtenerListaPacientes( =
+(= >
+int> A
+
+codClienteB L
+)L M
+{ 	
+using 
+( 
+var 
+dc 
+= 
+new 
+MSOFTVETDataContext  3
+(3 4
+)4 5
+)5 6
+{ 
+var 
+consulta 
+= 
+from #
+p$ %
+in& (
+dc) +
+.+ ,
+
+V_Paciente, 6
+where $
+p% &
+.& '
+Cod_Cliente' 2
+==3 5
+
+codCliente6 @
+select %
+new& )
+ClsPaciente* 5
+{  
+CodPaciente# .
+=/ 0
+p1 2
+.2 3
+Cod_Paciente3 ?
+,? @
+Nombre# )
+=* +
+p, -
+.- .
+Nombre. 4
+,4 5
+Especie# *
+=+ ,
+p- .
+.. /
+Especie/ 6
+,6 7
+Raza# '
+=( )
+p* +
+.+ ,
+Raza, 0
+,0 1
+Sexo  # '
+=  ( )
+p  * +
+.  + ,
+Sexo  , 0
+,  0 1
+FechaNacimiento!!# 2
+=!!3 4
+p!!5 6
+.!!6 7
+Fecha!!7 <
+,!!< =
+
+CodCliente""# -
+="". /
+p""0 1
+.""1 2
+Cod_Cliente""2 =
+}##  
+;##  !
+return$$ 
+consulta$$ 
+.$$  
+ToList$$  &
+($$& '
+)$$' (
+;$$( )
+}%% 
+}&& 	
+public(( 
+static(( 
+ClsPaciente(( !$
+ObtenerPacientePorCodigo((" :
+(((: ;
+int((; >
+codPaciente((? J
+)((J K
+{)) 	
+using** 
+(** 
+var** 
+dc** 
+=** 
+new** 
+MSOFTVETDataContext**  3
+(**3 4
+)**4 5
+)**5 6
+{++ 
+var,, 
+paciente,, 
+=,, 
+dc,, !
+.,,! "
+
+V_Paciente,," ,
+.,,, -
+FirstOrDefault,,- ;
+(,,; <
+p,,< =
+=>,,> @
+p,,A B
+.,,B C
+Cod_Paciente,,C O
+==,,P R
+codPaciente,,S ^
+),,^ _
+;,,_ `
+if.. 
+(.. 
+paciente.. 
+!=.. 
+null..  $
+)..$ %
+{// 
+return00 
+new00 
+ClsPaciente00 *
+{11 
+CodPaciente22 #
+=22$ %
+paciente22& .
+.22. /
+Cod_Paciente22/ ;
+,22; <
+Nombre33 
+=33  
+paciente33! )
+.33) *
+Nombre33* 0
+,330 1
+Especie44 
+=44  !
+paciente44" *
+.44* +
+Especie44+ 2
+,442 3
+Raza55 
+=55 
+paciente55 '
+.55' (
+Raza55( ,
+,55, -
+Sexo66 
+=66 
+paciente66 '
+.66' (
+Sexo66( ,
+,66, -
+FechaNacimiento77 '
+=77( )
+paciente77* 2
+.772 3
+Fecha773 8
+,778 9
+
+CodCliente88 "
+=88# $
+paciente88% -
+.88- .
+Cod_Cliente88. 9
+}99 
+;99 
+}:: 
+return;; 
+null;; 
+;;; 
+}<< 
+}== 	
+public?? 
+void?? "
+ModificarEnBaseDeDatos?? *
+(??* +
+)??+ ,
+{@@ 	
+usingAA 
+(AA 
+varAA 
+dcAA 
+=AA 
+newAA 
+MSOFTVETDataContextAA  3
+(AA3 4
+)AA4 5
+)AA5 6
+{BB 
+dcCC 
+.CC  
+SP_ModificarPacienteCC '
+(CC' (
+CodPacienteCC( 3
+,CC3 4
+NombreCC5 ;
+,CC; <
+EspecieCC= D
+,CCD E
+RazaCCF J
+,CCJ K
+SexoCCL P
+,CCP Q
+FechaNacimientoCCR a
+)CCa b
+;CCb c
+}DD 
+}EE 	
+publicGG 
+voidGG !
+EliminarEnBaseDeDatosGG )
+(GG) *
+)GG* +
+{HH 	
+usingII 
+(II 
+varII 
+dcII 
+=II 
+newII 
+MSOFTVETDataContextII  3
+(II3 4
+)II4 5
+)II5 6
+{JJ 
+dcKK 
+.KK 
+SP_EliminarPacienteKK &
+(KK& '
+CodPacienteKK' 2
+)KK2 3
+;KK3 4
+}LL 
+}MM 	
+publicOO 
+voidOO !
+InsertarEnBaseDeDatosOO )
+(OO) *
+)OO* +
+{PP 	
+usingQQ 
+(QQ 
+varQQ 
+dcQQ 
+=QQ 
+newQQ 
+MSOFTVETDataContextQQ  3
+(QQ3 4
+)QQ4 5
+)QQ5 6
+{RR 
+dcSS 
+.SS 
+SP_AgregarPacienteSS %
+(SS% &
+NombreSS& ,
+,SS, -
+EspecieSS. 5
+,SS5 6
+RazaSS7 ;
+,SS; <
+SexoSS= A
+,SSA B
+FechaNacimientoSSC R
+,SSR S
+
+CodClienteSST ^
+.SS^ _
+ToStringSS_ g
+(SSg h
+)SSh i
+)SSi j
+;SSj k
+}TT 
+}UU 	
+publicWW 
+boolWW 
+ValidarDatosWW  
+(WW  !
+)WW! "
+{XX 	
+returnYY 
+!YY 
+stringYY 
+.YY 
+IsNullOrEmptyYY (
+(YY( )
+NombreYY) /
+)YY/ 0
+&&YY1 3
+!YY4 5
+stringYY5 ;
+.YY; <
+IsNullOrEmptyYY< I
+(YYI J
+EspecieYYJ Q
+)YYQ R
+&&YYS U
+!YYV W
+stringYYW ]
+.YY] ^
+IsNullOrEmptyYY^ k
+(YYk l
+RazaYYl p
+)YYp q
+;YYq r
+}ZZ 	
+public\\ 
+static\\ 
+List\\ 
+<\\ 
+ClsPaciente\\ &
+>\\& '
+
+CargarTodo\\( 2
+(\\2 3
+)\\3 4
+{]] 	
+using^^ 
+(^^ 
+var^^ 
+dc^^ 
+=^^ 
+new^^ 
+MSOFTVETDataContext^^  3
+(^^3 4
+)^^4 5
+)^^5 6
+{__ 
+var`` 
+consulta`` 
+=`` 
+from`` #
+p``$ %
+in``& (
+dc``) +
+.``+ ,
+
+V_Paciente``, 6
+selectaa %
+newaa& )
+ClsPacienteaa* 5
+{bb  
+CodPacientecc# .
+=cc/ 0
+pcc1 2
+.cc2 3
+Cod_Pacientecc3 ?
+,cc? @
+Nombredd# )
+=dd* +
+pdd, -
+.dd- .
+Nombredd. 4
+,dd4 5
+Especieee# *
+=ee+ ,
+pee- .
+.ee. /
+Especieee/ 6
+,ee6 7
+Razaff# '
+=ff( )
+pff* +
+.ff+ ,
+Razaff, 0
+,ff0 1
+Sexogg# '
+=gg( )
+pgg* +
+.gg+ ,
+Sexogg, 0
+,gg0 1
+FechaNacimientohh# 2
+=hh3 4
+phh5 6
+.hh6 7
+Fechahh7 <
+,hh< =
+
+CodClienteii# -
+=ii. /
+pii0 1
+.ii1 2
+Cod_Clienteii2 =
+}jj  
+;jj  !
+returnkk 
+consultakk 
+.kk  
+ToListkk  &
+(kk& '
+)kk' (
+;kk( )
+}ll 
+}mm 	
+}nn 
+}oo ∂`
+~C:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsDesparasitante.cs
 	namespace
 
  	
@@ -29615,8 +30286,8 @@ DataSource
 ùù 	
 }
 ££ 
-}§§ 8
-ãC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsCliente.cs
+}§§ €8
+wC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsCliente.cs
 	namespace		 	
 ProyectoFinal		
  
@@ -30035,679 +30706,8 @@ Direcci√≥nQQ1 :
 }WW 
 }XX 	
 }YY 
-}ZZ ÊD
-åC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsPaciente.cs
-	namespace 	
-ProyectoFinal
- 
-. 
-Clases 
-{		 
-internal
-
- 
-class
-
- 
-ClsPaciente
-
- 
-{ 
-public 
-int 
-CodPaciente 
-{  
-get! $
-;$ %
-set& )
-;) *
-}+ ,
-public 
-string 
-Nombre 
-{ 
-get "
-;" #
-set$ '
-;' (
-}) *
-public 
-string 
-Especie 
-{ 
-get  #
-;# $
-set% (
-;( )
-}* +
-public 
-string 
-Raza 
-{ 
-get  
-;  !
-set" %
-;% &
-}' (
-public 
-string 
-Sexo 
-{ 
-get  
-;  !
-set" %
-;% &
-}' (
-public 
-DateTime 
-FechaNacimiento '
-{( )
-get* -
-;- .
-set/ 2
-;2 3
-}4 5
-public 
-int 
-
-CodCliente 
-{ 
-get  #
-;# $
-set% (
-;( )
-}* +
-public 
-static 
-List 
-< 
-ClsPaciente &
->& '!
-ObtenerListaPacientes( =
-(= >
-int> A
-
-codClienteB L
-)L M
-{ 	
-using 
-( 
-var 
-dc 
-= 
-new 
-MSOFTVETDataContext  3
-(3 4
-)4 5
-)5 6
-{ 
-var 
-consulta 
-= 
-from #
-p$ %
-in& (
-dc) +
-.+ ,
-
-V_Paciente, 6
-where $
-p% &
-.& '
-Cod_Cliente' 2
-==3 5
-
-codCliente6 @
-select %
-new& )
-ClsPaciente* 5
-{  
-CodPaciente# .
-=/ 0
-p1 2
-.2 3
-Cod_Paciente3 ?
-,? @
-Nombre# )
-=* +
-p, -
-.- .
-Nombre. 4
-,4 5
-Especie# *
-=+ ,
-p- .
-.. /
-Especie/ 6
-,6 7
-Raza# '
-=( )
-p* +
-.+ ,
-Raza, 0
-,0 1
-Sexo  # '
-=  ( )
-p  * +
-.  + ,
-Sexo  , 0
-,  0 1
-FechaNacimiento!!# 2
-=!!3 4
-p!!5 6
-.!!6 7
-Fecha!!7 <
-,!!< =
-
-CodCliente""# -
-="". /
-p""0 1
-.""1 2
-Cod_Cliente""2 =
-}##  
-;##  !
-return$$ 
-consulta$$ 
-.$$  
-ToList$$  &
-($$& '
-)$$' (
-;$$( )
-}%% 
-}&& 	
-public(( 
-static(( 
-ClsPaciente(( !$
-ObtenerPacientePorCodigo((" :
-(((: ;
-int((; >
-codPaciente((? J
-)((J K
-{)) 	
-using** 
-(** 
-var** 
-dc** 
-=** 
-new** 
-MSOFTVETDataContext**  3
-(**3 4
-)**4 5
-)**5 6
-{++ 
-var,, 
-paciente,, 
-=,, 
-dc,, !
-.,,! "
-
-V_Paciente,," ,
-.,,, -
-FirstOrDefault,,- ;
-(,,; <
-p,,< =
-=>,,> @
-p,,A B
-.,,B C
-Cod_Paciente,,C O
-==,,P R
-codPaciente,,S ^
-),,^ _
-;,,_ `
-if.. 
-(.. 
-paciente.. 
-!=.. 
-null..  $
-)..$ %
-{// 
-return00 
-new00 
-ClsPaciente00 *
-{11 
-CodPaciente22 #
-=22$ %
-paciente22& .
-.22. /
-Cod_Paciente22/ ;
-,22; <
-Nombre33 
-=33  
-paciente33! )
-.33) *
-Nombre33* 0
-,330 1
-Especie44 
-=44  !
-paciente44" *
-.44* +
-Especie44+ 2
-,442 3
-Raza55 
-=55 
-paciente55 '
-.55' (
-Raza55( ,
-,55, -
-Sexo66 
-=66 
-paciente66 '
-.66' (
-Sexo66( ,
-,66, -
-FechaNacimiento77 '
-=77( )
-paciente77* 2
-.772 3
-Fecha773 8
-,778 9
-
-CodCliente88 "
-=88# $
-paciente88% -
-.88- .
-Cod_Cliente88. 9
-}99 
-;99 
-}:: 
-return;; 
-null;; 
-;;; 
-}<< 
-}== 	
-public?? 
-void?? "
-ModificarEnBaseDeDatos?? *
-(??* +
-)??+ ,
-{@@ 	
-usingAA 
-(AA 
-varAA 
-dcAA 
-=AA 
-newAA 
-MSOFTVETDataContextAA  3
-(AA3 4
-)AA4 5
-)AA5 6
-{BB 
-dcCC 
-.CC  
-SP_ModificarPacienteCC '
-(CC' (
-CodPacienteCC( 3
-,CC3 4
-NombreCC5 ;
-,CC; <
-EspecieCC= D
-,CCD E
-RazaCCF J
-,CCJ K
-SexoCCL P
-,CCP Q
-FechaNacimientoCCR a
-)CCa b
-;CCb c
-}DD 
-}EE 	
-publicGG 
-voidGG !
-EliminarEnBaseDeDatosGG )
-(GG) *
-)GG* +
-{HH 	
-usingII 
-(II 
-varII 
-dcII 
-=II 
-newII 
-MSOFTVETDataContextII  3
-(II3 4
-)II4 5
-)II5 6
-{JJ 
-dcKK 
-.KK 
-SP_EliminarPacienteKK &
-(KK& '
-CodPacienteKK' 2
-)KK2 3
-;KK3 4
-}LL 
-}MM 	
-publicOO 
-voidOO !
-InsertarEnBaseDeDatosOO )
-(OO) *
-)OO* +
-{PP 	
-usingQQ 
-(QQ 
-varQQ 
-dcQQ 
-=QQ 
-newQQ 
-MSOFTVETDataContextQQ  3
-(QQ3 4
-)QQ4 5
-)QQ5 6
-{RR 
-dcSS 
-.SS 
-SP_AgregarPacienteSS %
-(SS% &
-NombreSS& ,
-,SS, -
-EspecieSS. 5
-,SS5 6
-RazaSS7 ;
-,SS; <
-SexoSS= A
-,SSA B
-FechaNacimientoSSC R
-,SSR S
-
-CodClienteSST ^
-.SS^ _
-ToStringSS_ g
-(SSg h
-)SSh i
-)SSi j
-;SSj k
-}TT 
-}UU 	
-publicWW 
-boolWW 
-ValidarDatosWW  
-(WW  !
-)WW! "
-{XX 	
-returnYY 
-!YY 
-stringYY 
-.YY 
-IsNullOrEmptyYY (
-(YY( )
-NombreYY) /
-)YY/ 0
-&&YY1 3
-!YY4 5
-stringYY5 ;
-.YY; <
-IsNullOrEmptyYY< I
-(YYI J
-EspecieYYJ Q
-)YYQ R
-&&YYS U
-!YYV W
-stringYYW ]
-.YY] ^
-IsNullOrEmptyYY^ k
-(YYk l
-RazaYYl p
-)YYp q
-;YYq r
-}ZZ 	
-public\\ 
-static\\ 
-List\\ 
-<\\ 
-ClsPaciente\\ &
->\\& '
-
-CargarTodo\\( 2
-(\\2 3
-)\\3 4
-{]] 	
-using^^ 
-(^^ 
-var^^ 
-dc^^ 
-=^^ 
-new^^ 
-MSOFTVETDataContext^^  3
-(^^3 4
-)^^4 5
-)^^5 6
-{__ 
-var`` 
-consulta`` 
-=`` 
-from`` #
-p``$ %
-in``& (
-dc``) +
-.``+ ,
-
-V_Paciente``, 6
-selectaa %
-newaa& )
-ClsPacienteaa* 5
-{bb  
-CodPacientecc# .
-=cc/ 0
-pcc1 2
-.cc2 3
-Cod_Pacientecc3 ?
-,cc? @
-Nombredd# )
-=dd* +
-pdd, -
-.dd- .
-Nombredd. 4
-,dd4 5
-Especieee# *
-=ee+ ,
-pee- .
-.ee. /
-Especieee/ 6
-,ee6 7
-Razaff# '
-=ff( )
-pff* +
-.ff+ ,
-Razaff, 0
-,ff0 1
-Sexogg# '
-=gg( )
-pgg* +
-.gg+ ,
-Sexogg, 0
-,gg0 1
-FechaNacimientohh# 2
-=hh3 4
-phh5 6
-.hh6 7
-Fechahh7 <
-,hh< =
-
-CodClienteii# -
-=ii. /
-pii0 1
-.ii1 2
-Cod_Clienteii2 =
-}jj  
-;jj  !
-returnkk 
-consultakk 
-.kk  
-ToListkk  &
-(kk& '
-)kk' (
-;kk( )
-}ll 
-}mm 	
-}nn 
-}oo Õ
-åC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsHclinica.cs
-	namespace 	
-ProyectoFinal
- 
-. 
-Clases 
-{		 
-public
-
- 
-
-class
-
- 
-ClsHclinica
-
- 
-{ 
-MSOFTVETDataContext 
-dc 
-=  
-new! $
-MSOFTVETDataContext% 8
-(8 9
-)9 :
-;: ;
-public 
-int 
-
-idpaciente 
-{ 
-get  #
-;# $
-set% (
-;( )
-}* +
-public 
-List 
-<  
-SP_HvacunacionResult (
->( )
-
-VerVacunas* 4
-(4 5
-)5 6
-{ 	
-var 
-consulta 
-= 
-new 
-List #
-<# $ 
-SP_HvacunacionResult$ 8
->8 9
-(9 :
-): ;
-;; <
-consulta 
-= 
-dc 
-. 
-SP_Hvacunacion (
-(( )
-
-idpaciente) 3
-)3 4
-.4 5
-ToList5 ;
-(; <
-)< =
-;= >
-return 
-consulta 
-. 
-ToList "
-(" #
-)# $
-;$ %
-} 	
-public 
-List 
-<  
-SP_HRecetacionResult (
->( )
-
-VerRecetas* 4
-(4 5
-)5 6
-{ 	
-var 
-consulta 
-= 
-new 
-List #
-<# $ 
-SP_HRecetacionResult$ 8
->8 9
-(9 :
-): ;
-;; <
-consulta 
-= 
-dc 
-. 
-SP_HRecetacion (
-(( )
-
-idpaciente) 3
-)3 4
-.4 5
-ToList5 ;
-(; <
-)< =
-;= >
-return!! 
-consulta!! 
-.!! 
-ToList!! "
-(!!" #
-)!!# $
-;!!$ %
-}"" 	
-public## 
-List## 
-<## %
-SP_HdesparacitacionResult## -
->##- . 
-VerDesparacitaciones##/ C
-(##C D
-)##D E
-{$$ 	
-var%% 
-consulta%% 
-=%% 
-new%% 
-List%% #
-<%%# $%
-SP_HdesparacitacionResult%%$ =
->%%= >
-(%%> ?
-)%%? @
-;%%@ A
-consulta'' 
-='' 
-dc'' 
-.'' 
-SP_Hdesparacitacion'' -
-(''- .
-
-idpaciente''. 8
-)''8 9
-.''9 :
-ToList'': @
-(''@ A
-)''A B
-;''B C
-return)) 
-consulta)) 
-.)) 
-ToList)) "
-())" #
-)))# $
-;))$ %
-}** 	
-}++ 
-},, ∑<
-åC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsEmpleado.cs
+}ZZ ¢<
+xC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsEmpleado.cs
 	namespace 	
 ProyectoFinal
  
@@ -31164,8 +31164,377 @@ V_Empleado;; $
 ;	RR Ä
 }SS 	
 }TT 
-}UU ™F
-îC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\ActualizarRegistroEmpleado.cs
+}UU Ì!
+tC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsCita.cs
+	namespace
+
+ 	
+ProyectoFinal
+
+
+ 
+.
+
+ 
+Clases
+
+ 
+{ 
+public 
+
+class 
+ClsCita 
+{ 
+MSOFTVETDataContext 
+dc 
+=  
+new! $
+MSOFTVETDataContext% 8
+(8 9
+)9 :
+;: ;
+public 
+List 
+< 
+V_CargarCitas !
+>! "
+ObtenerTodasCitas# 4
+(4 5
+)5 6
+{ 	
+return 
+dc 
+. 
+V_CargarCitas #
+.# $
+ToList$ *
+(* +
+)+ ,
+;, -
+} 	
+public 
+List 
+< 
+V_CargarCitas !
+>! " 
+ObtenerCitasPorFecha# 7
+(7 8
+DateTime8 @
+fechaA F
+)F G
+{ 	
+return 
+dc 
+. 
+V_CargarCitas #
+.# $
+Where$ )
+() *
+c* +
+=>, .
+c/ 0
+.0 1
+Fecha1 6
+==7 9
+fecha: ?
+)? @
+.@ A
+OrderByA H
+(H I
+cI J
+=>K M
+cN O
+.O P
+FechaP U
+)U V
+.V W
+ThenByW ]
+(] ^
+c^ _
+=>` b
+cc d
+.d e
+Horae i
+)i j
+.j k
+ToListk q
+(q r
+)r s
+;s t
+} 	
+public 
+List 
+< 
+V_CargarCitas !
+>! "!
+ObtenerCitasPorEstado# 8
+(8 9
+string9 ?
+estado@ F
+)F G
+{ 	
+var 
+citas 
+= 
+dc 
+. 
+V_CargarCitas (
+.( )
+Where) .
+(. /
+c/ 0
+=>1 3
+c4 5
+.5 6
+Estado6 <
+=== ?
+estado@ F
+)F G
+;G H
+if 
+( 
+estado 
+== 
+$str %
+)% &
+{ 
+citas   
+=   
+citas   
+.   
+OrderBy   %
+(  % &
+c  & '
+=>  ( *
+c  + ,
+.  , -
+Fecha  - 2
+)  2 3
+.  3 4
+ThenBy  4 :
+(  : ;
+c  ; <
+=>  = ?
+c  @ A
+.  A B
+Hora  B F
+)  F G
+;  G H
+}!! 
+else"" 
+{## 
+citas$$ 
+=$$ 
+citas$$ 
+.$$ 
+OrderByDescending$$ /
+($$/ 0
+c$$0 1
+=>$$2 4
+c$$5 6
+.$$6 7
+Fecha$$7 <
+)$$< =
+.$$= >
+ThenByDescending$$> N
+($$N O
+c$$O P
+=>$$Q S
+c$$T U
+.$$U V
+Hora$$V Z
+)$$Z [
+;$$[ \
+}%% 
+return&& 
+citas&& 
+.&& 
+ToList&& 
+(&&  
+)&&  !
+;&&! "
+}'' 	
+public)) 
+void)) 
+CancelarCita))  
+())  !
+int))! $
+idCita))% +
+)))+ ,
+{** 	
+dc++ 
+.++ 
+SP_CancelarCita++ 
+(++ 
+idCita++ %
+)++% &
+;++& '
+},, 	
+public.. 
+List.. 
+<.. 
+V_CargarCitas.. !
+>..! "
+Cargar..# )
+(..) *
+)..* +
+{// 	
+return00 
+dc00 
+.00 
+V_CargarCitas00 #
+.11 
+Where11 
+(11 
+c11 
+=>11  
+c11! "
+.11" #
+Estado11# )
+==11* ,
+$str11- 8
+)118 9
+.22 
+OrderBy22 
+(22 
+c22 
+=>22  "
+c22# $
+.22$ %
+Fecha22% *
+)22* +
+.33 
+ThenBy33 
+(33 
+c33 
+=>33 !
+c33" #
+.33# $
+Hora33$ (
+)33( )
+.44 
+ToList44 
+(44 
+)44 
+;44 
+}55 	
+}66 
+}77 ñ
+uC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ApisPeru.cs
+	namespace 	
+ProyectoFinal
+ 
+. 
+Clases 
+{ 
+class 	
+ApisPeru
+ 
+{ 
+public 
+dynamic 
+Get 
+( 
+string !
+url" %
+)% &
+{ 	
+HttpWebRequest 
+myWebRequest '
+=( )
+(* +
+HttpWebRequest+ 9
+)9 :
+
+WebRequest: D
+.D E
+CreateE K
+(K L
+urlL O
+)O P
+;P Q
+myWebRequest 
+. 
+	UserAgent "
+=# $
+$str% o
+;o p
+myWebRequest 
+. 
+Credentials $
+=% &
+CredentialCache' 6
+.6 7
+DefaultCredentials7 I
+;I J
+myWebRequest 
+. 
+Proxy 
+=  
+null! %
+;% &
+HttpWebResponse 
+myHttpWebResponse -
+=. /
+(0 1
+HttpWebResponse1 @
+)@ A
+myWebRequestA M
+.M N
+GetResponseN Y
+(Y Z
+)Z [
+;[ \
+Stream 
+myStream 
+= 
+myHttpWebResponse /
+./ 0
+GetResponseStream0 A
+(A B
+)B C
+;C D
+StreamReader 
+myStreamReader '
+=( )
+new* -
+StreamReader. :
+(: ;
+myStream; C
+)C D
+;D E
+string 
+Datos 
+= 
+HttpUtility &
+.& '
+
+HtmlDecode' 1
+(1 2
+myStreamReader2 @
+.@ A
+	ReadToEndA J
+(J K
+)K L
+)L M
+;M N
+dynamic 
+data 
+= 
+JsonConvert &
+.& '
+DeserializeObject' 8
+(8 9
+Datos9 >
+)> ?
+;? @
+return 
+data 
+; 
+}   	
+}!! 
+}"" ñF
+ÄC:\Users\Jaimeelias\Music\repo_sabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\ActualizarRegistroEmpleado.cs
 	namespace 	
 ProyectoFinal
  
@@ -31700,373 +32069,4 @@ cmbHorario
 ãã 	
 }
 çç 
-}éé Ç"
-àC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ClsCita.cs
-	namespace
-
- 	
-ProyectoFinal
-
-
- 
-.
-
- 
-Clases
-
- 
-{ 
-public 
-
-class 
-ClsCita 
-{ 
-MSOFTVETDataContext 
-dc 
-=  
-new! $
-MSOFTVETDataContext% 8
-(8 9
-)9 :
-;: ;
-public 
-List 
-< 
-V_CargarCitas !
->! "
-ObtenerTodasCitas# 4
-(4 5
-)5 6
-{ 	
-return 
-dc 
-. 
-V_CargarCitas #
-.# $
-ToList$ *
-(* +
-)+ ,
-;, -
-} 	
-public 
-List 
-< 
-V_CargarCitas !
->! " 
-ObtenerCitasPorFecha# 7
-(7 8
-DateTime8 @
-fechaA F
-)F G
-{ 	
-return 
-dc 
-. 
-V_CargarCitas #
-.# $
-Where$ )
-() *
-c* +
-=>, .
-c/ 0
-.0 1
-Fecha1 6
-==7 9
-fecha: ?
-)? @
-.@ A
-OrderByA H
-(H I
-cI J
-=>K M
-cN O
-.O P
-FechaP U
-)U V
-.V W
-ThenByW ]
-(] ^
-c^ _
-=>` b
-cc d
-.d e
-Horae i
-)i j
-.j k
-ToListk q
-(q r
-)r s
-;s t
-} 	
-public 
-List 
-< 
-V_CargarCitas !
->! "!
-ObtenerCitasPorEstado# 8
-(8 9
-string9 ?
-estado@ F
-)F G
-{ 	
-var 
-citas 
-= 
-dc 
-. 
-V_CargarCitas (
-.( )
-Where) .
-(. /
-c/ 0
-=>1 3
-c4 5
-.5 6
-Estado6 <
-=== ?
-estado@ F
-)F G
-;G H
-if 
-( 
-estado 
-== 
-$str %
-)% &
-{ 
-citas   
-=   
-citas   
-.   
-OrderBy   %
-(  % &
-c  & '
-=>  ( *
-c  + ,
-.  , -
-Fecha  - 2
-)  2 3
-.  3 4
-ThenBy  4 :
-(  : ;
-c  ; <
-=>  = ?
-c  @ A
-.  A B
-Hora  B F
-)  F G
-;  G H
-}!! 
-else"" 
-{## 
-citas$$ 
-=$$ 
-citas$$ 
-.$$ 
-OrderByDescending$$ /
-($$/ 0
-c$$0 1
-=>$$2 4
-c$$5 6
-.$$6 7
-Fecha$$7 <
-)$$< =
-.$$= >
-ThenByDescending$$> N
-($$N O
-c$$O P
-=>$$Q S
-c$$T U
-.$$U V
-Hora$$V Z
-)$$Z [
-;$$[ \
-}%% 
-return&& 
-citas&& 
-.&& 
-ToList&& 
-(&&  
-)&&  !
-;&&! "
-}'' 	
-public)) 
-void)) 
-CancelarCita))  
-())  !
-int))! $
-idCita))% +
-)))+ ,
-{** 	
-dc++ 
-.++ 
-SP_CancelarCita++ 
-(++ 
-idCita++ %
-)++% &
-;++& '
-},, 	
-public.. 
-List.. 
-<.. 
-V_CargarCitas.. !
->..! "
-Cargar..# )
-(..) *
-)..* +
-{// 	
-return00 
-dc00 
-.00 
-V_CargarCitas00 #
-.11 
-Where11 
-(11 
-c11 
-=>11  
-c11! "
-.11" #
-Estado11# )
-==11* ,
-$str11- 8
-)118 9
-.22 
-OrderBy22 
-(22 
-c22 
-=>22  "
-c22# $
-.22$ %
-Fecha22% *
-)22* +
-.33 
-ThenBy33 
-(33 
-c33 
-=>33 !
-c33" #
-.33# $
-Hora33$ (
-)33( )
-.44 
-ToList44 
-(44 
-)44 
-;44 
-}55 	
-}66 
-}77 ´
-âC:\Users\Jaimeelias\Documents\CALIDAD Y PRUEBAS\labsabado\proyecto-si784-2024-ii-u1-chambi_floresq_leyva\ProyectoFinal\Clases\ApisPeru.cs
-	namespace 	
-ProyectoFinal
- 
-. 
-Clases 
-{ 
-class 	
-ApisPeru
- 
-{ 
-public 
-dynamic 
-Get 
-( 
-string !
-url" %
-)% &
-{ 	
-HttpWebRequest 
-myWebRequest '
-=( )
-(* +
-HttpWebRequest+ 9
-)9 :
-
-WebRequest: D
-.D E
-CreateE K
-(K L
-urlL O
-)O P
-;P Q
-myWebRequest 
-. 
-	UserAgent "
-=# $
-$str% o
-;o p
-myWebRequest 
-. 
-Credentials $
-=% &
-CredentialCache' 6
-.6 7
-DefaultCredentials7 I
-;I J
-myWebRequest 
-. 
-Proxy 
-=  
-null! %
-;% &
-HttpWebResponse 
-myHttpWebResponse -
-=. /
-(0 1
-HttpWebResponse1 @
-)@ A
-myWebRequestA M
-.M N
-GetResponseN Y
-(Y Z
-)Z [
-;[ \
-Stream 
-myStream 
-= 
-myHttpWebResponse /
-./ 0
-GetResponseStream0 A
-(A B
-)B C
-;C D
-StreamReader 
-myStreamReader '
-=( )
-new* -
-StreamReader. :
-(: ;
-myStream; C
-)C D
-;D E
-string 
-Datos 
-= 
-HttpUtility &
-.& '
-
-HtmlDecode' 1
-(1 2
-myStreamReader2 @
-.@ A
-	ReadToEndA J
-(J K
-)K L
-)L M
-;M N
-dynamic 
-data 
-= 
-JsonConvert &
-.& '
-DeserializeObject' 8
-(8 9
-Datos9 >
-)> ?
-;? @
-return 
-data 
-; 
-}   	
-}!! 
-}"" 
+}éé 

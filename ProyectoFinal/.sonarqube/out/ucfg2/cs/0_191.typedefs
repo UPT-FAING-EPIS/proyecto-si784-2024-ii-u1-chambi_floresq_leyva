@@ -1,9 +1,9 @@
-ã
-2ProyectoFinal.SOFTVETDataSet.UsuarioRowChangeEventSystem.EventArgsobjectê
-YUsuarioRowChangeEvent(ProyectoFinal.SOFTVETDataSet.UsuarioRow, System.Data.DataRowAction)ŒProyectoFinal.SOFTVETDataSet.UsuarioRowChangeEvent.UsuarioRowChangeEvent(ProyectoFinal.SOFTVETDataSet.UsuarioRow, System.Data.DataRowAction)E
-Row.get:ProyectoFinal.SOFTVETDataSet.UsuarioRowChangeEvent.Row.getE
-Row.set:ProyectoFinal.SOFTVETDataSet.UsuarioRowChangeEvent.Row.setK
+³
+:ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARowChangeEventSystem.EventArgsobject’
+iPACIENTE_VACUNARowChangeEvent(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow, System.Data.DataRowAction)¤ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARowChangeEvent.PACIENTE_VACUNARowChangeEvent(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow, System.Data.DataRowAction)M
+Row.getBProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARowChangeEvent.Row.getM
+Row.setBProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARowChangeEvent.Row.setS
 
-Action.get=ProyectoFinal.SOFTVETDataSet.UsuarioRowChangeEvent.Action.getK
+Action.getEProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARowChangeEvent.Action.getS
 
-Action.set=ProyectoFinal.SOFTVETDataSet.UsuarioRowChangeEvent.Action.set
+Action.setEProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARowChangeEvent.Action.set

@@ -1,12 +1,13 @@
-�
-&ProyectoFinal.SOFTVETDataSet.VacunaRowSystem.Data.DataRowobjectu
-%VacunaRow(System.Data.DataRowBuilder)LProyectoFinal.SOFTVETDataSet.VacunaRow.VacunaRow(System.Data.DataRowBuilder)[
-GetPACIENTE_VACUNARows()?ProyectoFinal.SOFTVETDataSet.VacunaRow.GetPACIENTE_VACUNARows()E
-ID_Vacuna.get4ProyectoFinal.SOFTVETDataSet.VacunaRow.ID_Vacuna.getE
-ID_Vacuna.set4ProyectoFinal.SOFTVETDataSet.VacunaRow.ID_Vacuna.setM
-Nombre_Vacuna.get8ProyectoFinal.SOFTVETDataSet.VacunaRow.Nombre_Vacuna.getM
-Nombre_Vacuna.set8ProyectoFinal.SOFTVETDataSet.VacunaRow.Nombre_Vacuna.set=
-	Stock.get0ProyectoFinal.SOFTVETDataSet.VacunaRow.Stock.get=
-	Stock.set0ProyectoFinal.SOFTVETDataSet.VacunaRow.Stock.setO
-FechaCaducidad.get9ProyectoFinal.SOFTVETDataSet.VacunaRow.FechaCaducidad.getO
-FechaCaducidad.set9ProyectoFinal.SOFTVETDataSet.VacunaRow.FechaCaducidad.set
+�
+'ProyectoFinal.SOFTVETDataSet.UsuarioRowSystem.Data.DataRowobjectx
+&UsuarioRow(System.Data.DataRowBuilder)NProyectoFinal.SOFTVETDataSet.UsuarioRow.UsuarioRow(System.Data.DataRowBuilder)H
+Id_Usuario.get6ProyectoFinal.SOFTVETDataSet.UsuarioRow.Id_Usuario.getH
+Id_Usuario.set6ProyectoFinal.SOFTVETDataSet.UsuarioRow.Id_Usuario.setD
+Username.get4ProyectoFinal.SOFTVETDataSet.UsuarioRow.Username.getD
+Username.set4ProyectoFinal.SOFTVETDataSet.UsuarioRow.Username.setJ
+Contraseña.get7ProyectoFinal.SOFTVETDataSet.UsuarioRow.Contraseña.getJ
+Contraseña.set7ProyectoFinal.SOFTVETDataSet.UsuarioRow.Contraseña.setL
+Cod_Empleado.get8ProyectoFinal.SOFTVETDataSet.UsuarioRow.Cod_Empleado.getL
+Cod_Empleado.set8ProyectoFinal.SOFTVETDataSet.UsuarioRow.Cod_Empleado.setJ
+EmpleadoRow.get7ProyectoFinal.SOFTVETDataSet.UsuarioRow.EmpleadoRow.getJ
+EmpleadoRow.set7ProyectoFinal.SOFTVETDataSet.UsuarioRow.EmpleadoRow.set

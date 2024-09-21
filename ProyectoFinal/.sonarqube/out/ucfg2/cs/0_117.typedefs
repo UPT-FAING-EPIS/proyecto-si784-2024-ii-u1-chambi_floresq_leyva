@@ -1,13 +1,30 @@
-�
-"ProyectoFinal.Modelos.V_VacunacionobjectC
-V_Vacunacion()1ProyectoFinal.Modelos.V_Vacunacion.V_Vacunacion()C
-Id_Detalle.get1ProyectoFinal.Modelos.V_Vacunacion.Id_Detalle.getC
-Id_Detalle.set1ProyectoFinal.Modelos.V_Vacunacion.Id_Detalle.setG
-Cod_Paciente.get3ProyectoFinal.Modelos.V_Vacunacion.Cod_Paciente.getG
-Cod_Paciente.set3ProyectoFinal.Modelos.V_Vacunacion.Cod_Paciente.setA
-ID_Vacuna.get0ProyectoFinal.Modelos.V_Vacunacion.ID_Vacuna.getA
-ID_Vacuna.set0ProyectoFinal.Modelos.V_Vacunacion.ID_Vacuna.set?
-NumDosis.get/ProyectoFinal.Modelos.V_Vacunacion.NumDosis.get?
-NumDosis.set/ProyectoFinal.Modelos.V_Vacunacion.NumDosis.set9
-	Fecha.get,ProyectoFinal.Modelos.V_Vacunacion.Fecha.get9
-	Fecha.set,ProyectoFinal.Modelos.V_Vacunacion.Fecha.set
+�
+
+#ProyectoFinal.Modelos.V_CargarCitasobjectF
+V_CargarCitas()3ProyectoFinal.Modelos.V_CargarCitas.V_CargarCitas()>
+ID_Cita.get/ProyectoFinal.Modelos.V_CargarCitas.ID_Cita.get>
+ID_Cita.set/ProyectoFinal.Modelos.V_CargarCitas.ID_Cita.set<
+
+Motivo.get.ProyectoFinal.Modelos.V_CargarCitas.Motivo.get<
+
+Motivo.set.ProyectoFinal.Modelos.V_CargarCitas.Motivo.set:
+	Fecha.get-ProyectoFinal.Modelos.V_CargarCitas.Fecha.get:
+	Fecha.set-ProyectoFinal.Modelos.V_CargarCitas.Fecha.set8
+Hora.get,ProyectoFinal.Modelos.V_CargarCitas.Hora.get8
+Hora.set,ProyectoFinal.Modelos.V_CargarCitas.Hora.set<
+
+Estado.get.ProyectoFinal.Modelos.V_CargarCitas.Estado.get<
+
+Estado.set.ProyectoFinal.Modelos.V_CargarCitas.Estado.set>
+Tamaño.get/ProyectoFinal.Modelos.V_CargarCitas.Tamaño.get>
+Tamaño.set/ProyectoFinal.Modelos.V_CargarCitas.Tamaño.set<
+
+Nombre.get.ProyectoFinal.Modelos.V_CargarCitas.Nombre.get<
+
+Nombre.set.ProyectoFinal.Modelos.V_CargarCitas.Nombre.set@
+Apellido.get0ProyectoFinal.Modelos.V_CargarCitas.Apellido.get@
+Apellido.set0ProyectoFinal.Modelos.V_CargarCitas.Apellido.set@
+Paciente.get0ProyectoFinal.Modelos.V_CargarCitas.Paciente.get@
+Paciente.set0ProyectoFinal.Modelos.V_CargarCitas.Paciente.setF
+Cod_Cliente.get3ProyectoFinal.Modelos.V_CargarCitas.Cod_Cliente.getF
+Cod_Cliente.set3ProyectoFinal.Modelos.V_CargarCitas.Cod_Cliente.set

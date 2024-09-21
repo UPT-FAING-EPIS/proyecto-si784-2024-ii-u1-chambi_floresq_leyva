@@ -1,9 +1,5 @@
-Ù
-+ProyectoFinal.Modelos.SPR_HvacunacionResultobject^
-SPR_HvacunacionResult()CProyectoFinal.Modelos.SPR_HvacunacionResult.SPR_HvacunacionResult()R
-Nombre_Vacuna.get=ProyectoFinal.Modelos.SPR_HvacunacionResult.Nombre_Vacuna.getR
-Nombre_Vacuna.set=ProyectoFinal.Modelos.SPR_HvacunacionResult.Nombre_Vacuna.setH
-Numdosis.get8ProyectoFinal.Modelos.SPR_HvacunacionResult.Numdosis.getH
-Numdosis.set8ProyectoFinal.Modelos.SPR_HvacunacionResult.Numdosis.setB
-	fecha.get5ProyectoFinal.Modelos.SPR_HvacunacionResult.fecha.getB
-	fecha.set5ProyectoFinal.Modelos.SPR_HvacunacionResult.fecha.set
+ä
+`ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SelfReferenceComparerobject'System.Collections.Generic.IComparer<T>Ð
+5SelfReferenceComparer(System.Data.DataRelation, bool)–ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SelfReferenceComparer.SelfReferenceComparer(System.Data.DataRelation, bool)°
+%GetRoot(System.Data.DataRow, out int)†ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SelfReferenceComparer.GetRoot(System.Data.DataRow, out int)È
+1Compare(System.Data.DataRow, System.Data.DataRow)’ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SelfReferenceComparer.Compare(System.Data.DataRow, System.Data.DataRow)

@@ -1,30 +1,18 @@
-ç
-
-ProyectoFinal.Clases.ClsClienteobject@
-ValidarDatos().ProyectoFinal.Clases.ClsCliente.ValidarDatos()R
-InsertarEnBaseDeDatos()7ProyectoFinal.Clases.ClsCliente.InsertarEnBaseDeDatos()T
-ModificarEnBaseDeDatos()8ProyectoFinal.Clases.ClsCliente.ModificarEnBaseDeDatos()R
-EliminarEnBaseDeDatos()7ProyectoFinal.Clases.ClsCliente.EliminarEnBaseDeDatos()<
-ClsCliente(),ProyectoFinal.Clases.ClsCliente.ClsCliente()@
-CodCliente.get.ProyectoFinal.Clases.ClsCliente.CodCliente.get@
-CodCliente.set.ProyectoFinal.Clases.ClsCliente.CodCliente.set8
-
-Nombre.get*ProyectoFinal.Clases.ClsCliente.Nombre.get8
-
-Nombre.set*ProyectoFinal.Clases.ClsCliente.Nombre.set<
-Apellido.get,ProyectoFinal.Clases.ClsCliente.Apellido.get<
-Apellido.set,ProyectoFinal.Clases.ClsCliente.Apellido.set2
-DNI.get'ProyectoFinal.Clases.ClsCliente.DNI.get2
-DNI.set'ProyectoFinal.Clases.ClsCliente.DNI.set<
-Telefono.get,ProyectoFinal.Clases.ClsCliente.Telefono.get<
-Telefono.set,ProyectoFinal.Clases.ClsCliente.Telefono.set>
-Direccion.get-ProyectoFinal.Clases.ClsCliente.Direccion.get>
-Direccion.set-ProyectoFinal.Clases.ClsCliente.Direccion.set8
-
-Genero.get*ProyectoFinal.Clases.ClsCliente.Genero.get8
-
-Genero.set*ProyectoFinal.Clases.ClsCliente.Genero.set8
-
-Correo.get*ProyectoFinal.Clases.ClsCliente.Correo.get8
-
-Correo.set*ProyectoFinal.Clases.ClsCliente.Correo.set
+Þ
+ProyectoFinal.FormProgramarCitaSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectx
+*btnLimpiar_Click(object, System.EventArgs)JProyectoFinal.FormProgramarCita.btnLimpiar_Click(object, System.EventArgs)v
+)btnBuscar_Click(object, System.EventArgs)IProyectoFinal.FormProgramarCita.btnBuscar_Click(object, System.EventArgs)„
+0FormProgramarCita_Load(object, System.EventArgs)PProyectoFinal.FormProgramarCita.FormProgramarCita_Load(object, System.EventArgs)„
+0btnRegistrarCita_Click(object, System.EventArgs)PProyectoFinal.FormProgramarCita.btnRegistrarCita_Click(object, System.EventArgs)N
+CargarTablaPaciente()5ProyectoFinal.FormProgramarCita.CargarTablaPaciente()B
+CargarCliente()/ProyectoFinal.FormProgramarCita.CargarCliente():
+Programar()+ProyectoFinal.FormProgramarCita.Programar()H
+CargarTablaCitas()2ProyectoFinal.FormProgramarCita.CargarTablaCitas()F
+LIMPIARPANTALLA()1ProyectoFinal.FormProgramarCita.LIMPIARPANTALLA()<
+Desactivar(),ProyectoFinal.FormProgramarCita.Desactivar()x
+*btnAgregar_Click(object, System.EventArgs)JProyectoFinal.FormProgramarCita.btnAgregar_Click(object, System.EventArgs)À
+NdgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)nProyectoFinal.FormProgramarCita.dgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)6
+	Activar())ProyectoFinal.FormProgramarCita.Activar()J
+FormProgramarCita()3ProyectoFinal.FormProgramarCita.FormProgramarCita()>
+Dispose(bool)-ProyectoFinal.FormProgramarCita.Dispose(bool)N
+InitializeComponent()5ProyectoFinal.FormProgramarCita.InitializeComponent()

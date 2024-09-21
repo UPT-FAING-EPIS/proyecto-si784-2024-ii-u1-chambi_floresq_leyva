@@ -1,26 +1,26 @@
-û
-)ProyectoFinal.SOFTVETDataSet_PacientexDNISystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjecth
-SOFTVETDataSet_PacientexDNI()GProyectoFinal.SOFTVETDataSet_PacientexDNI.SOFTVETDataSet_PacientexDNI()£
-zSOFTVETDataSet_PacientexDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¤ProyectoFinal.SOFTVETDataSet_PacientexDNI.SOFTVETDataSet_PacientexDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)b
-InitializeDerivedDataSet()DProyectoFinal.SOFTVETDataSet_PacientexDNI.InitializeDerivedDataSet()<
-Clone()1ProyectoFinal.SOFTVETDataSet_PacientexDNI.Clone()\
-ShouldSerializeTables()AProyectoFinal.SOFTVETDataSet_PacientexDNI.ShouldSerializeTables()b
-ShouldSerializeRelations()DProyectoFinal.SOFTVETDataSet_PacientexDNI.ShouldSerializeRelations()€
-)ReadXmlSerializable(System.Xml.XmlReader)SProyectoFinal.SOFTVETDataSet_PacientexDNI.ReadXmlSerializable(System.Xml.XmlReader)\
-GetSchemaSerializable()AProyectoFinal.SOFTVETDataSet_PacientexDNI.GetSchemaSerializable()B
+ý
+*ProyectoFinal.SOFTVETDataSet_HC_VacunacionSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectk
+SOFTVETDataSet_HC_Vacunacion()IProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SOFTVETDataSet_HC_Vacunacion()¦
+{SOFTVETDataSet_HC_Vacunacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¦ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SOFTVETDataSet_HC_Vacunacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)c
+InitializeDerivedDataSet()EProyectoFinal.SOFTVETDataSet_HC_Vacunacion.InitializeDerivedDataSet()=
+Clone()2ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Clone()]
+ShouldSerializeTables()BProyectoFinal.SOFTVETDataSet_HC_Vacunacion.ShouldSerializeTables()c
+ShouldSerializeRelations()EProyectoFinal.SOFTVETDataSet_HC_Vacunacion.ShouldSerializeRelations()
+)ReadXmlSerializable(System.Xml.XmlReader)TProyectoFinal.SOFTVETDataSet_HC_Vacunacion.ReadXmlSerializable(System.Xml.XmlReader)]
+GetSchemaSerializable()BProyectoFinal.SOFTVETDataSet_HC_Vacunacion.GetSchemaSerializable()C
 
-InitVars()4ProyectoFinal.SOFTVETDataSet_PacientexDNI.InitVars()J
-InitVars(bool)8ProyectoFinal.SOFTVETDataSet_PacientexDNI.InitVars(bool)D
-InitClass()5ProyectoFinal.SOFTVETDataSet_PacientexDNI.InitClass()v
-$ShouldSerializeSP_PacientexCliente()NProyectoFinal.SOFTVETDataSet_PacientexDNI.ShouldSerializeSP_PacientexCliente()º
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)pProyectoFinal.SOFTVETDataSet_PacientexDNI.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)\
-SP_PacientexCliente.getAProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexCliente.get\
-SP_PacientexCliente.setAProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexCliente.setd
-SchemaSerializationMode.getEProyectoFinal.SOFTVETDataSet_PacientexDNI.SchemaSerializationMode.getd
-SchemaSerializationMode.setEProyectoFinal.SOFTVETDataSet_PacientexDNI.SchemaSerializationMode.setB
+InitVars()5ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.InitVars()K
+InitVars(bool)9ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.InitVars(bool)E
+InitClass()6ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.InitClass()o
+ ShouldSerializeSPR_Hvacunacion()KProyectoFinal.SOFTVETDataSet_HC_Vacunacion.ShouldSerializeSPR_Hvacunacion()»
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)qProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)U
+SPR_Hvacunacion.get>ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SPR_Hvacunacion.getU
+SPR_Hvacunacion.set>ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SPR_Hvacunacion.sete
+SchemaSerializationMode.getFProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SchemaSerializationMode.gete
+SchemaSerializationMode.setFProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SchemaSerializationMode.setC
 
-Tables.get4ProyectoFinal.SOFTVETDataSet_PacientexDNI.Tables.getB
+Tables.get5ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Tables.getC
 
-Tables.set4ProyectoFinal.SOFTVETDataSet_PacientexDNI.Tables.setH
-Relations.get7ProyectoFinal.SOFTVETDataSet_PacientexDNI.Relations.getH
-Relations.set7ProyectoFinal.SOFTVETDataSet_PacientexDNI.Relations.set
+Tables.set5ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Tables.setI
+Relations.get8ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Relations.getI
+Relations.set8ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Relations.set

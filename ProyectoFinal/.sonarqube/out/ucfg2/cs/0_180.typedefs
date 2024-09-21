@@ -1,13 +1,15 @@
-Ç
-,ProyectoFinal.SOFTVETDataSet.H_RecetacionRowSystem.Data.DataRowobject‡
-+H_RecetacionRow(System.Data.DataRowBuilder)XProyectoFinal.SOFTVETDataSet.H_RecetacionRow.H_RecetacionRow(System.Data.DataRowBuilder)=
-id.get3ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.id.get=
-id.set3ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.id.setO
-descripcion.get<ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.descripcion.getO
-descripcion.set<ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.descripcion.setC
-	Fecha.get6ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.Fecha.getC
-	Fecha.set6ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.Fecha.setQ
-cod_paciente.get=ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.cod_paciente.getQ
-cod_paciente.set=ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.cod_paciente.setO
-PacienteRow.get<ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.PacienteRow.getO
-PacienteRow.set<ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.PacienteRow.set
+¡	
+/ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARowSystem.Data.DataRowobject
+.PACIENTE_VACUNARow(System.Data.DataRowBuilder)^ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.PACIENTE_VACUNARow(System.Data.DataRowBuilder)T
+Cod_Paciente.get@ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.Cod_Paciente.getT
+Cod_Paciente.set@ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.Cod_Paciente.setN
+ID_Vacuna.get=ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.ID_Vacuna.getN
+ID_Vacuna.set=ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.ID_Vacuna.setL
+NumDosis.get<ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.NumDosis.getL
+NumDosis.set<ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.NumDosis.setF
+	Fecha.get9ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.Fecha.getF
+	Fecha.set9ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.Fecha.setR
+PacienteRow.get?ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.PacienteRow.getR
+PacienteRow.set?ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.PacienteRow.setN
+VacunaRow.get=ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.VacunaRow.getN
+VacunaRow.set=ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow.VacunaRow.set

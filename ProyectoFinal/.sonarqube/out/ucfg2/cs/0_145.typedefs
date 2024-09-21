@@ -1,17 +1,18 @@
-‘
-/ProyectoFinal.Modelos.SP_HistorialClinicoResultobjectj
-SP_HistorialClinicoResult()KProyectoFinal.Modelos.SP_HistorialClinicoResult.SP_HistorialClinicoResult()H
+í
 
-Nombre.get:ProyectoFinal.Modelos.SP_HistorialClinicoResult.Nombre.getH
+CProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRowSystem.Data.DataRowobject¬
+2SP_HistorialClinicoRow(System.Data.DataRowBuilder)vProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.SP_HistorialClinicoRow(System.Data.DataRowBuilder)\
 
-Nombre.set:ProyectoFinal.Modelos.SP_HistorialClinicoResult.Nombre.setJ
-Nombre1.get;ProyectoFinal.Modelos.SP_HistorialClinicoResult.Nombre1.getJ
-Nombre1.set;ProyectoFinal.Modelos.SP_HistorialClinicoResult.Nombre1.setJ
-Especie.get;ProyectoFinal.Modelos.SP_HistorialClinicoResult.Especie.getJ
-Especie.set;ProyectoFinal.Modelos.SP_HistorialClinicoResult.Especie.setD
-Raza.get8ProyectoFinal.Modelos.SP_HistorialClinicoResult.Raza.getD
-Raza.set8ProyectoFinal.Modelos.SP_HistorialClinicoResult.Raza.setD
-Sexo.get8ProyectoFinal.Modelos.SP_HistorialClinicoResult.Sexo.getD
-Sexo.set8ProyectoFinal.Modelos.SP_HistorialClinicoResult.Sexo.setF
-	Fecha.get9ProyectoFinal.Modelos.SP_HistorialClinicoResult.Fecha.getF
-	Fecha.set9ProyectoFinal.Modelos.SP_HistorialClinicoResult.Fecha.set
+Nombre.getNProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Nombre.get\
+
+Nombre.setNProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Nombre.set^
+Nombre1.getOProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Nombre1.get^
+Nombre1.setOProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Nombre1.set^
+Especie.getOProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Especie.get^
+Especie.setOProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Especie.setX
+Raza.getLProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Raza.getX
+Raza.setLProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Raza.setX
+Sexo.getLProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Sexo.getX
+Sexo.setLProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Sexo.setZ
+	Fecha.getMProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Fecha.getZ
+	Fecha.setMProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinicoRow.Fecha.set

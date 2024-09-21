@@ -1,18 +1,12 @@
-◊
-
-@ProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRowSystem.Data.DataRowobject©
-2SP_PacientexClienteRow(System.Data.DataRowBuilder)sProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.SP_PacientexClienteRow(System.Data.DataRowBuilder)e
-Cod_Paciente.getQProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Cod_Paciente.gete
-Cod_Paciente.setQProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Cod_Paciente.setY
-
-Nombre.getKProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Nombre.getY
-
-Nombre.setKProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Nombre.set[
-Especie.getLProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Especie.get[
-Especie.setLProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Especie.setU
-Raza.getIProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Raza.getU
-Raza.setIProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Raza.setU
-Sexo.getIProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Sexo.getU
-Sexo.setIProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Sexo.setW
-	Fecha.getJProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Fecha.getW
-	Fecha.setJProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexClienteRow.Fecha.set
+ç
+"ProyectoFinal.FormCitasProgramadasSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectS
+FormCitasProgramadas()9ProyectoFinal.FormCitasProgramadas.FormCitasProgramadas(){
+*btnVerTodo_Click(object, System.EventArgs)MProyectoFinal.FormCitasProgramadas.btnVerTodo_Click(object, System.EventArgs)Å
+-btnActualizar_Click(object, System.EventArgs)PProyectoFinal.FormCitasProgramadas.btnActualizar_Click(object, System.EventArgs)ç
+3FormCitasProgramadas_Load(object, System.EventArgs)VProyectoFinal.FormCitasProgramadas.FormCitasProgramadas_Load(object, System.EventArgs)C
+MostrarCitas()1ProyectoFinal.FormCitasProgramadas.MostrarCitas()}
++btnEliminar_Click(object, System.EventArgs)NProyectoFinal.FormCitasProgramadas.btnEliminar_Click(object, System.EventArgs)
+,btnVerEstado_Click(object, System.EventArgs)OProyectoFinal.FormCitasProgramadas.btnVerEstado_Click(object, System.EventArgs)Ÿ
+YdgvCitas_CellFormatting(object, System.Windows.Forms.DataGridViewCellFormattingEventArgs)|ProyectoFinal.FormCitasProgramadas.dgvCitas_CellFormatting(object, System.Windows.Forms.DataGridViewCellFormattingEventArgs)A
+Dispose(bool)0ProyectoFinal.FormCitasProgramadas.Dispose(bool)Q
+InitializeComponent()8ProyectoFinal.FormCitasProgramadas.InitializeComponent()

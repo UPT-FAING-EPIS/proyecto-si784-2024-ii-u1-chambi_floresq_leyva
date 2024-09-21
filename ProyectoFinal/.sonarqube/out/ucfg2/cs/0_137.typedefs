@@ -1,7 +1,18 @@
-›
-*ProyectoFinal.Modelos.SP_HRecetacionResultobject[
-SP_HRecetacionResult()AProyectoFinal.Modelos.SP_HRecetacionResult.SP_HRecetacionResult()O
-Descripci√≥n.get;ProyectoFinal.Modelos.SP_HRecetacionResult.Descripci√≥n.getO
-Descripci√≥n.set;ProyectoFinal.Modelos.SP_HRecetacionResult.Descripci√≥n.setS
-Fecha_Recetada.get=ProyectoFinal.Modelos.SP_HRecetacionResult.Fecha_Recetada.getS
-Fecha_Recetada.set=ProyectoFinal.Modelos.SP_HRecetacionResult.Fecha_Recetada.set
+Œ
+RProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectë
+SPR_HRecetacionTableAdapter()pProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.SPR_HRecetacionTableAdapter()q
+InitAdapter()`ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.InitAdapter()w
+InitConnection()cProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.InitConnection()Ö
+InitCommandCollection()jProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.InitCommandCollection()¯
+PFill(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable, string)£ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable, string)u
+GetData(string)bProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.GetData(string)m
+Adapter.get^ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.Adapter.getm
+Adapter.set^ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.Adapter.sets
+Connection.getaProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.Connection.gets
+Connection.setaProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.Connection.setu
+Transaction.getbProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.Transaction.getu
+Transaction.setbProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.Transaction.setÅ
+CommandCollection.gethProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.CommandCollection.getÅ
+CommandCollection.sethProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.CommandCollection.set}
+ClearBeforeFill.getfProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.ClearBeforeFill.get}
+ClearBeforeFill.setfProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.SPR_HRecetacionTableAdapter.ClearBeforeFill.set

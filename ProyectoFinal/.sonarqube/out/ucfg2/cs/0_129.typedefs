@@ -1,9 +1,17 @@
-›
-GProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRowChangeEventSystem.EventArgsobject¹
-vSPR_HRecetacionRowChangeEvent(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRow, System.Data.DataRowAction)¾ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRowChangeEvent.SPR_HRecetacionRowChangeEvent(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRow, System.Data.DataRowAction)Z
-Row.getOProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRowChangeEvent.Row.getZ
-Row.setOProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRowChangeEvent.Row.set`
+¥
+/ProyectoFinal.Modelos.SP_PacientexClienteResultobjectj
+SP_PacientexClienteResult()KProyectoFinal.Modelos.SP_PacientexClienteResult.SP_PacientexClienteResult()T
+Cod_Paciente.get@ProyectoFinal.Modelos.SP_PacientexClienteResult.Cod_Paciente.getT
+Cod_Paciente.set@ProyectoFinal.Modelos.SP_PacientexClienteResult.Cod_Paciente.setH
 
-Action.getRProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRowChangeEvent.Action.get`
+Nombre.get:ProyectoFinal.Modelos.SP_PacientexClienteResult.Nombre.getH
 
-Action.setRProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRowChangeEvent.Action.set
+Nombre.set:ProyectoFinal.Modelos.SP_PacientexClienteResult.Nombre.setJ
+Especie.get;ProyectoFinal.Modelos.SP_PacientexClienteResult.Especie.getJ
+Especie.set;ProyectoFinal.Modelos.SP_PacientexClienteResult.Especie.setD
+Raza.get8ProyectoFinal.Modelos.SP_PacientexClienteResult.Raza.getD
+Raza.set8ProyectoFinal.Modelos.SP_PacientexClienteResult.Raza.setD
+Sexo.get8ProyectoFinal.Modelos.SP_PacientexClienteResult.Sexo.getD
+Sexo.set8ProyectoFinal.Modelos.SP_PacientexClienteResult.Sexo.setF
+	Fecha.get9ProyectoFinal.Modelos.SP_PacientexClienteResult.Fecha.getF
+	Fecha.set9ProyectoFinal.Modelos.SP_PacientexClienteResult.Fecha.set
