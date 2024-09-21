@@ -1,0 +1,29 @@
+name: Release Workflow
+
+on:
+  workflow_run:
+    workflows: 
+      - ".NET Framework Desktop Build"
+    types:
+      - completed
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Get Latest Tag
+        id: get_tag
+        run: echo "LATEST_TAG=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ env.LATEST_TAG }}
+          name: ${{ env.LATEST_TAG }}
+          draft: false
+          prerelease: false
