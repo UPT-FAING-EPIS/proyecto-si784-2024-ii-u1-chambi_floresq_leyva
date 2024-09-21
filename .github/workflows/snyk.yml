@@ -26,6 +26,9 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
+      - name: Authenticate with Snyk
+        run: echo "${{ secrets.SNYK_TOKEN }}" | snyk auth
+
       - name: Change to Project Directory
         run: cd ProyectoFinal
 
