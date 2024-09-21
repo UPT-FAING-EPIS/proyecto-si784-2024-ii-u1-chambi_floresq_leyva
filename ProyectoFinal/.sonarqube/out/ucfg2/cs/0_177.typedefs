@@ -1,0 +1,17 @@
+Ä
+$ProyectoFinal.SOFTVETDataSet.CitaRowSystem.Data.DataRowobjecto
+#CitaRow(System.Data.DataRowBuilder)HProyectoFinal.SOFTVETDataSet.CitaRow.CitaRow(System.Data.DataRowBuilder)?
+ID_cita.get0ProyectoFinal.SOFTVETDataSet.CitaRow.ID_cita.get?
+ID_cita.set0ProyectoFinal.SOFTVETDataSet.CitaRow.ID_cita.set=
+
+Motivo.get/ProyectoFinal.SOFTVETDataSet.CitaRow.Motivo.get=
+
+Motivo.set/ProyectoFinal.SOFTVETDataSet.CitaRow.Motivo.set;
+	Fecha.get.ProyectoFinal.SOFTVETDataSet.CitaRow.Fecha.get;
+	Fecha.set.ProyectoFinal.SOFTVETDataSet.CitaRow.Fecha.set9
+Hora.get-ProyectoFinal.SOFTVETDataSet.CitaRow.Hora.get9
+Hora.set-ProyectoFinal.SOFTVETDataSet.CitaRow.Hora.setG
+Cod_Cliente.get4ProyectoFinal.SOFTVETDataSet.CitaRow.Cod_Cliente.getG
+Cod_Cliente.set4ProyectoFinal.SOFTVETDataSet.CitaRow.Cod_Cliente.setE
+ClienteRow.get3ProyectoFinal.SOFTVETDataSet.CitaRow.ClienteRow.getE
+ClienteRow.set3ProyectoFinal.SOFTVETDataSet.CitaRow.ClienteRow.set

@@ -1,0 +1,23 @@
+æ
+*ProyectoFinal.DataSet.DataSet_PacientexDNISystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobject[
+DataSet_PacientexDNI()AProyectoFinal.DataSet.DataSet_PacientexDNI.DataSet_PacientexDNI()ñ
+sDataSet_PacientexDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)ûProyectoFinal.DataSet.DataSet_PacientexDNI.DataSet_PacientexDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)c
+InitializeDerivedDataSet()EProyectoFinal.DataSet.DataSet_PacientexDNI.InitializeDerivedDataSet()=
+Clone()2ProyectoFinal.DataSet.DataSet_PacientexDNI.Clone()]
+ShouldSerializeTables()BProyectoFinal.DataSet.DataSet_PacientexDNI.ShouldSerializeTables()c
+ShouldSerializeRelations()EProyectoFinal.DataSet.DataSet_PacientexDNI.ShouldSerializeRelations()Å
+)ReadXmlSerializable(System.Xml.XmlReader)TProyectoFinal.DataSet.DataSet_PacientexDNI.ReadXmlSerializable(System.Xml.XmlReader)]
+GetSchemaSerializable()BProyectoFinal.DataSet.DataSet_PacientexDNI.GetSchemaSerializable()C
+
+InitVars()5ProyectoFinal.DataSet.DataSet_PacientexDNI.InitVars()K
+InitVars(bool)9ProyectoFinal.DataSet.DataSet_PacientexDNI.InitVars(bool)E
+InitClass()6ProyectoFinal.DataSet.DataSet_PacientexDNI.InitClass()ª
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)qProyectoFinal.DataSet.DataSet_PacientexDNI.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)e
+SchemaSerializationMode.getFProyectoFinal.DataSet.DataSet_PacientexDNI.SchemaSerializationMode.gete
+SchemaSerializationMode.setFProyectoFinal.DataSet.DataSet_PacientexDNI.SchemaSerializationMode.setC
+
+Tables.get5ProyectoFinal.DataSet.DataSet_PacientexDNI.Tables.getC
+
+Tables.set5ProyectoFinal.DataSet.DataSet_PacientexDNI.Tables.setI
+Relations.get8ProyectoFinal.DataSet.DataSet_PacientexDNI.Relations.getI
+Relations.set8ProyectoFinal.DataSet.DataSet_PacientexDNI.Relations.set

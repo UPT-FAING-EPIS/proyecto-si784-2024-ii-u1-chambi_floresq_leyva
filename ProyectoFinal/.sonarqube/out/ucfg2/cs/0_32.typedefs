@@ -1,0 +1,18 @@
+Þ
+ProyectoFinal.FormProgramarCitaSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectx
+*btnLimpiar_Click(object, System.EventArgs)JProyectoFinal.FormProgramarCita.btnLimpiar_Click(object, System.EventArgs)v
+)btnBuscar_Click(object, System.EventArgs)IProyectoFinal.FormProgramarCita.btnBuscar_Click(object, System.EventArgs)„
+0FormProgramarCita_Load(object, System.EventArgs)PProyectoFinal.FormProgramarCita.FormProgramarCita_Load(object, System.EventArgs)„
+0btnRegistrarCita_Click(object, System.EventArgs)PProyectoFinal.FormProgramarCita.btnRegistrarCita_Click(object, System.EventArgs)N
+CargarTablaPaciente()5ProyectoFinal.FormProgramarCita.CargarTablaPaciente()B
+CargarCliente()/ProyectoFinal.FormProgramarCita.CargarCliente():
+Programar()+ProyectoFinal.FormProgramarCita.Programar()H
+CargarTablaCitas()2ProyectoFinal.FormProgramarCita.CargarTablaCitas()F
+LIMPIARPANTALLA()1ProyectoFinal.FormProgramarCita.LIMPIARPANTALLA()<
+Desactivar(),ProyectoFinal.FormProgramarCita.Desactivar()x
+*btnAgregar_Click(object, System.EventArgs)JProyectoFinal.FormProgramarCita.btnAgregar_Click(object, System.EventArgs)À
+NdgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)nProyectoFinal.FormProgramarCita.dgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)6
+	Activar())ProyectoFinal.FormProgramarCita.Activar()J
+FormProgramarCita()3ProyectoFinal.FormProgramarCita.FormProgramarCita()>
+Dispose(bool)-ProyectoFinal.FormProgramarCita.Dispose(bool)N
+InitializeComponent()5ProyectoFinal.FormProgramarCita.InitializeComponent()

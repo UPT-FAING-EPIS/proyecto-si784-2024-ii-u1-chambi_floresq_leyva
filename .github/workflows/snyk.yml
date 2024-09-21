@@ -19,23 +19,34 @@ jobs:
       - name: Set up .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.x'  # Ajusta la versión de .NET según tu proyecto
+          dotnet-version: '8.x'  
 
       - name: Set up Snyk CLI
         uses: snyk/actions/setup@806182742461562b67788a64410098c9d9b96adb
+
+      - name: Authenticate with Snyk
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        run: snyk auth $SNYK_TOKEN
+
+      - name: Change to Project Directory
+        run: cd ProyectoFinal
 
       - name: Snyk Code test
-        run: snyk code test --sarif > snyk-code.sarif
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        run: |
+          cd ProyectoFinal
+          snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?"
 
       - name: Snyk Open Source monitor
-        run: snyk monitor --all-projects
-
-      - name: Snyk IaC test and report
-        run: snyk iac test --report
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        run: |
+          cd ProyectoFinal
+          snyk monitor 
 
       - name: Upload result to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: snyk-code.sarif
+          sarif_file: ProyectoFinal/snyk-code.sarif

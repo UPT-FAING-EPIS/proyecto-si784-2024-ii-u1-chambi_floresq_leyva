@@ -1,0 +1,9 @@
+ß
+*ProyectoFinal.Modelos.SP_HvacunacionResultobject[
+SP_HvacunacionResult()AProyectoFinal.Modelos.SP_HvacunacionResult.SP_HvacunacionResult()Q
+Nombre_Vacuna.get<ProyectoFinal.Modelos.SP_HvacunacionResult.Nombre_Vacuna.getQ
+Nombre_Vacuna.set<ProyectoFinal.Modelos.SP_HvacunacionResult.Nombre_Vacuna.setO
+Numero_Dosis.get;ProyectoFinal.Modelos.SP_HvacunacionResult.Numero_Dosis.getO
+Numero_Dosis.set;ProyectoFinal.Modelos.SP_HvacunacionResult.Numero_Dosis.setA
+	Fecha.get4ProyectoFinal.Modelos.SP_HvacunacionResult.Fecha.getA
+	Fecha.set4ProyectoFinal.Modelos.SP_HvacunacionResult.Fecha.set

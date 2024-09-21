@@ -1,0 +1,26 @@
+å
+FProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectu
+ClienteTableAdapter()\ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.ClienteTableAdapter()e
+InitAdapter()TProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.InitAdapter()k
+InitConnection()WProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.InitConnection()y
+InitCommandCollection()^ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.InitCommandCollection()ƒ
+<Fill(ProyectoFinal.SOFTVETDataSet_Clientes.ClienteDataTable)ÉProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet_Clientes.ClienteDataTable)]
+	GetData()PProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.GetData()»
+>Update(ProyectoFinal.SOFTVETDataSet_Clientes.ClienteDataTable)ÖProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Update(ProyectoFinal.SOFTVETDataSet_Clientes.ClienteDataTable)•
+-Update(ProyectoFinal.SOFTVETDataSet_Clientes)tProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Update(ProyectoFinal.SOFTVETDataSet_Clientes)Å
+Update(System.Data.DataRow)bProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Update(System.Data.DataRow)Ö
+Update(System.Data.DataRow[])dProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Update(System.Data.DataRow[])¬
+;Delete(int, string, string, string, string, string, string)ÇProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Delete(int, string, string, string, string, string, string)∑
+6Insert(string, string, string, string, string, string)}ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Insert(string, string, string, string, string, string)¨
+pUpdate(string, string, string, string, string, string, int, string, string, string, string, string, string, int)∑ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Update(string, string, string, string, string, string, int, string, string, string, string, string, string, int)¢
+kUpdate(string, string, string, string, string, string, int, string, string, string, string, string, string)≤ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Update(string, string, string, string, string, string, int, string, string, string, string, string, string)a
+Adapter.getRProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Adapter.geta
+Adapter.setRProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Adapter.setg
+Connection.getUProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Connection.getg
+Connection.setUProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Connection.seti
+Transaction.getVProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Transaction.geti
+Transaction.setVProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.Transaction.setu
+CommandCollection.get\ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.CommandCollection.getu
+CommandCollection.set\ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.CommandCollection.setq
+ClearBeforeFill.getZProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.ClearBeforeFill.getq
+ClearBeforeFill.setZProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.ClienteTableAdapter.ClearBeforeFill.set

@@ -1,0 +1,26 @@
+”
+GProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectä
+H_DesparacitacionTableAdapter()gProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.H_DesparacitacionTableAdapter()f
+InitAdapter()UProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.InitAdapter()l
+InitConnection()XProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.InitConnection()z
+InitCommandCollection()_ProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.InitCommandCollection()«
+=Fill(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable)ÖProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable)^
+	GetData()QProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.GetData()À
+?Update(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable)áProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Update(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable)î
+$Update(ProyectoFinal.SOFTVETDataSet)lProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Update(ProyectoFinal.SOFTVETDataSet)Ç
+Update(System.Data.DataRow)cProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Update(System.Data.DataRow)Ü
+Update(System.Data.DataRow[])eProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Update(System.Data.DataRow[])û
+)Delete(int, string, System.DateTime, int)qProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Delete(int, string, System.DateTime, int)î
+$Insert(string, System.DateTime, int)lProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Insert(string, System.DateTime, int)Â
+LUpdate(string, System.DateTime, int, int, string, System.DateTime, int, int)îProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Update(string, System.DateTime, int, int, string, System.DateTime, int, int)€
+GUpdate(string, System.DateTime, int, int, string, System.DateTime, int)èProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Update(string, System.DateTime, int, int, string, System.DateTime, int)b
+Adapter.getSProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Adapter.getb
+Adapter.setSProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Adapter.seth
+Connection.getVProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Connection.geth
+Connection.setVProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Connection.setj
+Transaction.getWProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Transaction.getj
+Transaction.setWProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.Transaction.setv
+CommandCollection.get]ProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.CommandCollection.getv
+CommandCollection.set]ProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.CommandCollection.setr
+ClearBeforeFill.get[ProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.ClearBeforeFill.getr
+ClearBeforeFill.set[ProyectoFinal.SOFTVETDataSetTableAdapters.H_DesparacitacionTableAdapter.ClearBeforeFill.set

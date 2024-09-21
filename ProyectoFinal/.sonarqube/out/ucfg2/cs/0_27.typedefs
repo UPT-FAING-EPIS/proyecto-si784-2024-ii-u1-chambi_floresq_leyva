@@ -1,0 +1,21 @@
+◊
+ProyectoFinal.RegistrarClienteSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectÅ
+/RegistrarCliente_Load(object, System.EventArgs)NProyectoFinal.RegistrarCliente.RegistrarCliente_Load(object, System.EventArgs)G
+RegistrarCliente()1ProyectoFinal.RegistrarCliente.RegistrarCliente()Y
+ObtenerGeneroSeleccionado():ProyectoFinal.RegistrarCliente.ObtenerGeneroSeleccionado()C
+CargarClientes()/ProyectoFinal.RegistrarCliente.CargarClientes()
+.btnRegistrar_Click_1(object, System.EventArgs)MProyectoFinal.RegistrarCliente.btnRegistrar_Click_1(object, System.EventArgs)ë
+7ActivarCampos(bool, bool, bool, bool, bool, bool, bool)VProyectoFinal.RegistrarCliente.ActivarCampos(bool, bool, bool, bool, bool, bool, bool){
+,ActivarBotones(bool, bool, bool, bool, bool)KProyectoFinal.RegistrarCliente.ActivarBotones(bool, bool, bool, bool, bool)5
+	Limpiar()(ProyectoFinal.RegistrarCliente.Limpiar()w
+*btnLimpiar_Click(object, System.EventArgs)IProyectoFinal.RegistrarCliente.btnLimpiar_Click(object, System.EventArgs)s
+(btnNuevo_Click(object, System.EventArgs)GProyectoFinal.RegistrarCliente.btnNuevo_Click(object, System.EventArgs)Ω
+MdgvClientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)lProyectoFinal.RegistrarCliente.dgvClientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs){
+,btnModificar_Click(object, System.EventArgs)KProyectoFinal.RegistrarCliente.btnModificar_Click(object, System.EventArgs)y
++btnEliminar_Click(object, System.EventArgs)JProyectoFinal.RegistrarCliente.btnEliminar_Click(object, System.EventArgs)u
+)groupBox2_Enter(object, System.EventArgs)HProyectoFinal.RegistrarCliente.groupBox2_Enter(object, System.EventArgs)q
+'button1_Click(object, System.EventArgs)FProyectoFinal.RegistrarCliente.button1_Click(object, System.EventArgs)G
+consultarCliente()1ProyectoFinal.RegistrarCliente.consultarCliente()À
+TdgvClientes_CellContentClick(object, System.Windows.Forms.DataGridViewCellEventArgs)sProyectoFinal.RegistrarCliente.dgvClientes_CellContentClick(object, System.Windows.Forms.DataGridViewCellEventArgs)=
+Dispose(bool),ProyectoFinal.RegistrarCliente.Dispose(bool)M
+InitializeComponent()4ProyectoFinal.RegistrarCliente.InitializeComponent()

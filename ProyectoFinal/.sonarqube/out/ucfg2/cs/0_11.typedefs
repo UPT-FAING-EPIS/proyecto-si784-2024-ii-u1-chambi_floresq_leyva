@@ -1,0 +1,26 @@
+®
+'ProyectoFinal.SOFTVETDataSet_VacunacionSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectb
+SOFTVETDataSet_Vacunacion()CProyectoFinal.SOFTVETDataSet_Vacunacion.SOFTVETDataSet_Vacunacion()ù
+xSOFTVETDataSet_Vacunacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)†ProyectoFinal.SOFTVETDataSet_Vacunacion.SOFTVETDataSet_Vacunacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)`
+InitializeDerivedDataSet()BProyectoFinal.SOFTVETDataSet_Vacunacion.InitializeDerivedDataSet():
+Clone()/ProyectoFinal.SOFTVETDataSet_Vacunacion.Clone()Z
+ShouldSerializeTables()?ProyectoFinal.SOFTVETDataSet_Vacunacion.ShouldSerializeTables()`
+ShouldSerializeRelations()BProyectoFinal.SOFTVETDataSet_Vacunacion.ShouldSerializeRelations()~
+)ReadXmlSerializable(System.Xml.XmlReader)QProyectoFinal.SOFTVETDataSet_Vacunacion.ReadXmlSerializable(System.Xml.XmlReader)Z
+GetSchemaSerializable()?ProyectoFinal.SOFTVETDataSet_Vacunacion.GetSchemaSerializable()@
+
+InitVars()2ProyectoFinal.SOFTVETDataSet_Vacunacion.InitVars()H
+InitVars(bool)6ProyectoFinal.SOFTVETDataSet_Vacunacion.InitVars(bool)B
+InitClass()3ProyectoFinal.SOFTVETDataSet_Vacunacion.InitClass()j
+ShouldSerializeSP_Hvacunacion()GProyectoFinal.SOFTVETDataSet_Vacunacion.ShouldSerializeSP_Hvacunacion()∏
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)nProyectoFinal.SOFTVETDataSet_Vacunacion.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)P
+SP_Hvacunacion.get:ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_Hvacunacion.getP
+SP_Hvacunacion.set:ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_Hvacunacion.setb
+SchemaSerializationMode.getCProyectoFinal.SOFTVETDataSet_Vacunacion.SchemaSerializationMode.getb
+SchemaSerializationMode.setCProyectoFinal.SOFTVETDataSet_Vacunacion.SchemaSerializationMode.set@
+
+Tables.get2ProyectoFinal.SOFTVETDataSet_Vacunacion.Tables.get@
+
+Tables.set2ProyectoFinal.SOFTVETDataSet_Vacunacion.Tables.setF
+Relations.get5ProyectoFinal.SOFTVETDataSet_Vacunacion.Relations.getF
+Relations.set5ProyectoFinal.SOFTVETDataSet_Vacunacion.Relations.set

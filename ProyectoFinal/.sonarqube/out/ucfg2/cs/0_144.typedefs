@@ -1,0 +1,18 @@
+¸
+JProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManagerSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject°
+®UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)ÛProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)∂
+sUpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO, System.Collections.Generic.List<System.Data.DataRow>)æProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.UpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO, System.Collections.Generic.List<System.Data.DataRow>)¥
+rUpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO, System.Collections.Generic.List<System.Data.DataRow>)ΩProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.UpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO, System.Collections.Generic.List<System.Data.DataRow>)é
+_GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)™ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)∑
+4UpdateAll(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO)ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.UpdateAll(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO)Ë
+LSortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)óProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)º
+6MatchTableAdapterConnection(System.Data.IDbConnection)ÅProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)y
+TableAdapterManager()`ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.TableAdapterManager()m
+UpdateOrder.getZProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.UpdateOrder.getm
+UpdateOrder.setZProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.UpdateOrder.setâ
+BackupDataSetBeforeUpdate.gethProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.getâ
+BackupDataSetBeforeUpdate.sethProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.setk
+Connection.getYProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.Connection.getk
+Connection.setYProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.Connection.setâ
+TableAdapterInstanceCount.gethProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.TableAdapterInstanceCount.getâ
+TableAdapterInstanceCount.sethProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.TableAdapterInstanceCount.set

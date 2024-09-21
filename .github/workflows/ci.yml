@@ -1,8 +1,13 @@
-name: .NET Framework Desktop
+name: .NET Framework Desktop Build
 
 on:
-  push:
-    branches: [ "main" ]
+  workflow_run:
+    workflows: 
+      - "Sonar Continuous Integration"
+      - "Snyk Security"
+      - "Semgrep Analysis"
+    types:
+      - completed
 
 jobs:
   build:
@@ -38,10 +43,9 @@ jobs:
       - name: Verificar Directorios y Archivos
         run: |
           dir ${{ github.workspace }}/ProyectoFinal/bin/Release/
-
+          
       - name: Subir Artefactos
         uses: actions/upload-artifact@v3
         with:
           name: build-artifacts
           path: ${{ github.workspace }}/ProyectoFinal/bin/Release/
-

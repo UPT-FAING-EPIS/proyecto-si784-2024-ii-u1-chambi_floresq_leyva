@@ -1,0 +1,26 @@
+¹
+)ProyectoFinal.SOFTVETDataSet_Est_PacienteSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjecth
+SOFTVETDataSet_Est_Paciente()GProyectoFinal.SOFTVETDataSet_Est_Paciente.SOFTVETDataSet_Est_Paciente()£
+zSOFTVETDataSet_Est_Paciente(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¤ProyectoFinal.SOFTVETDataSet_Est_Paciente.SOFTVETDataSet_Est_Paciente(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)b
+InitializeDerivedDataSet()DProyectoFinal.SOFTVETDataSet_Est_Paciente.InitializeDerivedDataSet()<
+Clone()1ProyectoFinal.SOFTVETDataSet_Est_Paciente.Clone()\
+ShouldSerializeTables()AProyectoFinal.SOFTVETDataSet_Est_Paciente.ShouldSerializeTables()b
+ShouldSerializeRelations()DProyectoFinal.SOFTVETDataSet_Est_Paciente.ShouldSerializeRelations()€
+)ReadXmlSerializable(System.Xml.XmlReader)SProyectoFinal.SOFTVETDataSet_Est_Paciente.ReadXmlSerializable(System.Xml.XmlReader)\
+GetSchemaSerializable()AProyectoFinal.SOFTVETDataSet_Est_Paciente.GetSchemaSerializable()B
+
+InitVars()4ProyectoFinal.SOFTVETDataSet_Est_Paciente.InitVars()J
+InitVars(bool)8ProyectoFinal.SOFTVETDataSet_Est_Paciente.InitVars(bool)D
+InitClass()5ProyectoFinal.SOFTVETDataSet_Est_Paciente.InitClass()`
+ShouldSerializePaciente()CProyectoFinal.SOFTVETDataSet_Est_Paciente.ShouldSerializePaciente()º
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)pProyectoFinal.SOFTVETDataSet_Est_Paciente.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)F
+Paciente.get6ProyectoFinal.SOFTVETDataSet_Est_Paciente.Paciente.getF
+Paciente.set6ProyectoFinal.SOFTVETDataSet_Est_Paciente.Paciente.setd
+SchemaSerializationMode.getEProyectoFinal.SOFTVETDataSet_Est_Paciente.SchemaSerializationMode.getd
+SchemaSerializationMode.setEProyectoFinal.SOFTVETDataSet_Est_Paciente.SchemaSerializationMode.setB
+
+Tables.get4ProyectoFinal.SOFTVETDataSet_Est_Paciente.Tables.getB
+
+Tables.set4ProyectoFinal.SOFTVETDataSet_Est_Paciente.Tables.setH
+Relations.get7ProyectoFinal.SOFTVETDataSet_Est_Paciente.Relations.getH
+Relations.set7ProyectoFinal.SOFTVETDataSet_Est_Paciente.Relations.set

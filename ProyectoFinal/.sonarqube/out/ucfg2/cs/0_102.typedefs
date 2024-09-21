@@ -1,0 +1,26 @@
+ï
+*ProyectoFinal.SOFTVETDataSet_PacientesxDNISystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectk
+SOFTVETDataSet_PacientesxDNI()IProyectoFinal.SOFTVETDataSet_PacientesxDNI.SOFTVETDataSet_PacientesxDNI()¶
+{SOFTVETDataSet_PacientesxDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¶ProyectoFinal.SOFTVETDataSet_PacientesxDNI.SOFTVETDataSet_PacientesxDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)c
+InitializeDerivedDataSet()EProyectoFinal.SOFTVETDataSet_PacientesxDNI.InitializeDerivedDataSet()=
+Clone()2ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Clone()]
+ShouldSerializeTables()BProyectoFinal.SOFTVETDataSet_PacientesxDNI.ShouldSerializeTables()c
+ShouldSerializeRelations()EProyectoFinal.SOFTVETDataSet_PacientesxDNI.ShouldSerializeRelations()Å
+)ReadXmlSerializable(System.Xml.XmlReader)TProyectoFinal.SOFTVETDataSet_PacientesxDNI.ReadXmlSerializable(System.Xml.XmlReader)]
+GetSchemaSerializable()BProyectoFinal.SOFTVETDataSet_PacientesxDNI.GetSchemaSerializable()C
+
+InitVars()5ProyectoFinal.SOFTVETDataSet_PacientesxDNI.InitVars()K
+InitVars(bool)9ProyectoFinal.SOFTVETDataSet_PacientesxDNI.InitVars(bool)E
+InitClass()6ProyectoFinal.SOFTVETDataSet_PacientesxDNI.InitClass()w
+$ShouldSerializeSP_PacientexCliente()OProyectoFinal.SOFTVETDataSet_PacientesxDNI.ShouldSerializeSP_PacientexCliente()ª
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)qProyectoFinal.SOFTVETDataSet_PacientesxDNI.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)]
+SP_PacientexCliente.getBProyectoFinal.SOFTVETDataSet_PacientesxDNI.SP_PacientexCliente.get]
+SP_PacientexCliente.setBProyectoFinal.SOFTVETDataSet_PacientesxDNI.SP_PacientexCliente.sete
+SchemaSerializationMode.getFProyectoFinal.SOFTVETDataSet_PacientesxDNI.SchemaSerializationMode.gete
+SchemaSerializationMode.setFProyectoFinal.SOFTVETDataSet_PacientesxDNI.SchemaSerializationMode.setC
+
+Tables.get5ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Tables.getC
+
+Tables.set5ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Tables.setI
+Relations.get8ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Relations.getI
+Relations.set8ProyectoFinal.SOFTVETDataSet_PacientesxDNI.Relations.set

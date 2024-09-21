@@ -1,0 +1,23 @@
+á
+&ProyectoFinal.DataSet.DataSet_ClientesSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectO
+DataSet_Clientes()9ProyectoFinal.DataSet.DataSet_Clientes.DataSet_Clientes()Š
+oDataSet_Clientes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)–ProyectoFinal.DataSet.DataSet_Clientes.DataSet_Clientes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)_
+InitializeDerivedDataSet()AProyectoFinal.DataSet.DataSet_Clientes.InitializeDerivedDataSet()9
+Clone().ProyectoFinal.DataSet.DataSet_Clientes.Clone()Y
+ShouldSerializeTables()>ProyectoFinal.DataSet.DataSet_Clientes.ShouldSerializeTables()_
+ShouldSerializeRelations()AProyectoFinal.DataSet.DataSet_Clientes.ShouldSerializeRelations()}
+)ReadXmlSerializable(System.Xml.XmlReader)PProyectoFinal.DataSet.DataSet_Clientes.ReadXmlSerializable(System.Xml.XmlReader)Y
+GetSchemaSerializable()>ProyectoFinal.DataSet.DataSet_Clientes.GetSchemaSerializable()?
+
+InitVars()1ProyectoFinal.DataSet.DataSet_Clientes.InitVars()G
+InitVars(bool)5ProyectoFinal.DataSet.DataSet_Clientes.InitVars(bool)A
+InitClass()2ProyectoFinal.DataSet.DataSet_Clientes.InitClass()·
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)mProyectoFinal.DataSet.DataSet_Clientes.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)a
+SchemaSerializationMode.getBProyectoFinal.DataSet.DataSet_Clientes.SchemaSerializationMode.geta
+SchemaSerializationMode.setBProyectoFinal.DataSet.DataSet_Clientes.SchemaSerializationMode.set?
+
+Tables.get1ProyectoFinal.DataSet.DataSet_Clientes.Tables.get?
+
+Tables.set1ProyectoFinal.DataSet.DataSet_Clientes.Tables.setE
+Relations.get4ProyectoFinal.DataSet.DataSet_Clientes.Relations.getE
+Relations.set4ProyectoFinal.DataSet.DataSet_Clientes.Relations.set

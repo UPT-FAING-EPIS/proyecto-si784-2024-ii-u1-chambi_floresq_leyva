@@ -1,0 +1,13 @@
+Ç
+,ProyectoFinal.SOFTVETDataSet.H_RecetacionRowSystem.Data.DataRowobject‡
++H_RecetacionRow(System.Data.DataRowBuilder)XProyectoFinal.SOFTVETDataSet.H_RecetacionRow.H_RecetacionRow(System.Data.DataRowBuilder)=
+id.get3ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.id.get=
+id.set3ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.id.setO
+descripcion.get<ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.descripcion.getO
+descripcion.set<ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.descripcion.setC
+	Fecha.get6ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.Fecha.getC
+	Fecha.set6ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.Fecha.setQ
+cod_paciente.get=ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.cod_paciente.getQ
+cod_paciente.set=ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.cod_paciente.setO
+PacienteRow.get<ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.PacienteRow.getO
+PacienteRow.set<ProyectoFinal.SOFTVETDataSet.H_RecetacionRow.PacienteRow.set

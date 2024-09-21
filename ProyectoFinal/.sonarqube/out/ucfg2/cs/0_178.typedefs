@@ -1,0 +1,13 @@
+ñ
+1ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRowSystem.Data.DataRowobject–
+0H_DesparacitacionRow(System.Data.DataRowBuilder)bProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.H_DesparacitacionRow(System.Data.DataRowBuilder)B
+id.get8ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.id.getB
+id.set8ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.id.setF
+tipo.get:ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.tipo.getF
+tipo.set:ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.tipo.setH
+	Fecha.get;ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.Fecha.getH
+	Fecha.set;ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.Fecha.setV
+cod_Paciente.getBProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.cod_Paciente.getV
+cod_Paciente.setBProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.cod_Paciente.setT
+PacienteRow.getAProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.PacienteRow.getT
+PacienteRow.setAProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow.PacienteRow.set

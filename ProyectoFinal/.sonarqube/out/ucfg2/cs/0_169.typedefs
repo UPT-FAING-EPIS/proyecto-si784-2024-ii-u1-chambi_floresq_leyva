@@ -1,0 +1,41 @@
+Ø&
+7ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectt
+H_DesparacitacionDataTable()TProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionDataTable()ž
+1H_DesparacitacionDataTable(System.Data.DataTable)iProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionDataTable(System.Data.DataTable)¯
+yH_DesparacitacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)±ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)|
+ H_DesparacitacionRowChanging.addXProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowChanging.add‚
+#H_DesparacitacionRowChanging.remove[ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowChanging.removez
+H_DesparacitacionRowChanged.addWProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowChanged.add€
+"H_DesparacitacionRowChanged.removeZProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowChanged.remove|
+ H_DesparacitacionRowDeleting.addXProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowDeleting.add‚
+#H_DesparacitacionRowDeleting.remove[ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowDeleting.removez
+H_DesparacitacionRowDeleted.addWProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowDeleted.add€
+"H_DesparacitacionRowDeleted.removeZProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.H_DesparacitacionRowDeleted.removeÑ
+JAddH_DesparacitacionRow(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow)‚ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.AddH_DesparacitacionRow(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow)ñ
+ZAddH_DesparacitacionRow(string, System.DateTime, ProyectoFinal.SOFTVETDataSet.PacienteRow)’ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.AddH_DesparacitacionRow(string, System.DateTime, ProyectoFinal.SOFTVETDataSet.PacienteRow)V
+FindByid(int)EProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.FindByid(int)J
+Clone()?ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.Clone()\
+CreateInstance()HProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.CreateInstance()P
+
+InitVars()BProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.InitVars()R
+InitClass()CProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.InitClass()n
+NewH_DesparacitacionRow()QProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.NewH_DesparacitacionRow()–
+-NewRowFromBuilder(System.Data.DataRowBuilder)eProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)T
+GetRowType()DProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.GetRowType()œ
+0OnRowChanged(System.Data.DataRowChangeEventArgs)hProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)ž
+1OnRowChanging(System.Data.DataRowChangeEventArgs)iProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)œ
+0OnRowDeleted(System.Data.DataRowChangeEventArgs)hProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)ž
+1OnRowDeleting(System.Data.DataRowChangeEventArgs)iProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)×
+MRemoveH_DesparacitacionRow(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow)…ProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.RemoveH_DesparacitacionRow(ProyectoFinal.SOFTVETDataSet.H_DesparacitacionRow)T
+idColumn.getDProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.idColumn.getT
+idColumn.setDProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.idColumn.setX
+tipoColumn.getFProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.tipoColumn.getX
+tipoColumn.setFProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.tipoColumn.setZ
+FechaColumn.getGProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.FechaColumn.getZ
+FechaColumn.setGProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.FechaColumn.seth
+cod_PacienteColumn.getNProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.cod_PacienteColumn.geth
+cod_PacienteColumn.setNProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.cod_PacienteColumn.setN
+	Count.getAProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.Count.getN
+	Count.setAProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.Count.setV
+this[int].getEProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.this[int].getV
+this[int].setEProyectoFinal.SOFTVETDataSet.H_DesparacitacionDataTable.this[int].set

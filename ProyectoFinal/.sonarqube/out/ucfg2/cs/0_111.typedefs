@@ -1,0 +1,26 @@
+¥
+BProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject{
+H_RecetacionTableAdapter()]ProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.H_RecetacionTableAdapter()a
+InitAdapter()PProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.InitAdapter()g
+InitConnection()SProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.InitConnection()u
+InitCommandCollection()ZProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.InitCommandCollection()∑
+8Fill(ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable){ProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable)Y
+	GetData()LProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.GetData()ª
+:Update(ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable)}ProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Update(ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable)è
+$Update(ProyectoFinal.SOFTVETDataSet)gProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Update(ProyectoFinal.SOFTVETDataSet)}
+Update(System.Data.DataRow)^ProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Update(System.Data.DataRow)Å
+Update(System.Data.DataRow[])`ProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Update(System.Data.DataRow[])ô
+)Delete(int, string, System.DateTime, int)lProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Delete(int, string, System.DateTime, int)è
+$Insert(string, System.DateTime, int)gProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Insert(string, System.DateTime, int)‡
+LUpdate(string, System.DateTime, int, int, string, System.DateTime, int, int)èProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Update(string, System.DateTime, int, int, string, System.DateTime, int, int)÷
+GUpdate(string, System.DateTime, int, int, string, System.DateTime, int)äProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Update(string, System.DateTime, int, int, string, System.DateTime, int)]
+Adapter.getNProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Adapter.get]
+Adapter.setNProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Adapter.setc
+Connection.getQProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Connection.getc
+Connection.setQProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Connection.sete
+Transaction.getRProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Transaction.gete
+Transaction.setRProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.Transaction.setq
+CommandCollection.getXProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.CommandCollection.getq
+CommandCollection.setXProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.CommandCollection.setm
+ClearBeforeFill.getVProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.ClearBeforeFill.getm
+ClearBeforeFill.setVProyectoFinal.SOFTVETDataSetTableAdapters.H_RecetacionTableAdapter.ClearBeforeFill.set
