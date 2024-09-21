@@ -1,0 +1,20 @@
+Ç
+ProyectoFinal.FrmRecetarioSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject;
+FrmRecetario())ProyectoFinal.FrmRecetario.FrmRecetario()Å
+1ActivarCampos(bool, bool, bool, bool, bool, bool)LProyectoFinal.FrmRecetario.ActivarCampos(bool, bool, bool, bool, bool, bool)É
+2ActivarBotones(bool, bool, bool, bool, bool, bool)MProyectoFinal.FrmRecetario.ActivarBotones(bool, bool, bool, bool, bool, bool)=
+LimpiarCampos()*ProyectoFinal.FrmRecetario.LimpiarCampos()q
+)btnBuscar_Click(object, System.EventArgs)DProyectoFinal.FrmRecetario.btnBuscar_Click(object, System.EventArgs)K
+CargarTablaPacientes()1ProyectoFinal.FrmRecetario.CargarTablaPacientes()G
+VerificarPacientes()/ProyectoFinal.FrmRecetario.VerificarPacientes()I
+RegistrarRecetacion()0ProyectoFinal.FrmRecetario.RegistrarRecetacion()s
+*btnIniciar_Click(object, System.EventArgs)EProyectoFinal.FrmRecetario.btnIniciar_Click(object, System.EventArgs)w
+,btnRegistrar_Click(object, System.EventArgs)GProyectoFinal.FrmRecetario.btnRegistrar_Click(object, System.EventArgs)u
++btnCancelar_Click(object, System.EventArgs)FProyectoFinal.FrmRecetario.btnCancelar_Click(object, System.EventArgs)A
+CargarRecetario(),ProyectoFinal.FrmRecetario.CargarRecetario()π
+MdgvPaciente_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)hProyectoFinal.FrmRecetario.dgvPaciente_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)è
+8comboBox1_SelectedIndexChanged(object, System.EventArgs)SProyectoFinal.FrmRecetario.comboBox1_SelectedIndexChanged(object, System.EventArgs)K
+OrdenarRecetario(bool)1ProyectoFinal.FrmRecetario.OrdenarRecetario(bool)u
++FrmRecetario_Load(object, System.EventArgs)FProyectoFinal.FrmRecetario.FrmRecetario_Load(object, System.EventArgs)9
+Dispose(bool)(ProyectoFinal.FrmRecetario.Dispose(bool)I
+InitializeComponent()0ProyectoFinal.FrmRecetario.InitializeComponent()

@@ -15,10 +15,9 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Configurar .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: ${{ env.DOTNET_VERSION }}
+      - name: Instalar Visual Studio Build Tools
+        run: |
+          choco install visualstudio2019buildtools --version=16.9.4 --installargs "--add Microsoft.VisualStudio.Workload.ManagedBuildTools --includeRecommended"
       - name: Restaurar los paquetes
         run: |
           cd ProyectoFinal
@@ -29,5 +28,5 @@ jobs:
         run: | 
           cd ProyectoFinal
           dotnet-sonarscanner begin /k:"${{ env.SONAR_PROJECT }}" /o:"${{ env.SONAR_ORG }}" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          msbuild .\ProyectoFinal.csproj /p:Configuration=Debug
+          msbuild ProyectoFinal.csproj /p:Configuration=Debug
           dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"

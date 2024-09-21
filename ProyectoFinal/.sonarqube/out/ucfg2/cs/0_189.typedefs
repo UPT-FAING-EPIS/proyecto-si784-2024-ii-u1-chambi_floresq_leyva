@@ -1,0 +1,9 @@
+í
+3ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEventSystem.EventArgsobjectï
+[PacienteRowChangeEvent(ProyectoFinal.SOFTVETDataSet.PacienteRow, System.Data.DataRowAction)ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.PacienteRowChangeEvent(ProyectoFinal.SOFTVETDataSet.PacienteRow, System.Data.DataRowAction)F
+Row.get;ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.Row.getF
+Row.set;ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.Row.setL
+
+Action.get>ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.Action.getL
+
+Action.set>ProyectoFinal.SOFTVETDataSet.PacienteRowChangeEvent.Action.set

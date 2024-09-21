@@ -1,0 +1,26 @@
+ž
+/ProyectoFinal.SOFTVETDataSet_HC_DesparasitacionSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectz
+#SOFTVETDataSet_HC_Desparasitacion()SProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SOFTVETDataSet_HC_Desparasitacion()¶
+€SOFTVETDataSet_HC_Desparasitacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)°ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SOFTVETDataSet_HC_Desparasitacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)h
+InitializeDerivedDataSet()JProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.InitializeDerivedDataSet()B
+Clone()7ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.Clone()b
+ShouldSerializeTables()GProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.ShouldSerializeTables()h
+ShouldSerializeRelations()JProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.ShouldSerializeRelations()†
+)ReadXmlSerializable(System.Xml.XmlReader)YProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.ReadXmlSerializable(System.Xml.XmlReader)b
+GetSchemaSerializable()GProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.GetSchemaSerializable()H
+
+InitVars():ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.InitVars()P
+InitVars(bool)>ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.InitVars(bool)J
+InitClass();ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.InitClass()~
+%ShouldSerializeSPR_Hdesparacitacion()UProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.ShouldSerializeSPR_Hdesparacitacion()À
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)vProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)d
+SPR_Hdesparacitacion.getHProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_Hdesparacitacion.getd
+SPR_Hdesparacitacion.setHProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SPR_Hdesparacitacion.setj
+SchemaSerializationMode.getKProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SchemaSerializationMode.getj
+SchemaSerializationMode.setKProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.SchemaSerializationMode.setH
+
+Tables.get:ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.Tables.getH
+
+Tables.set:ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.Tables.setN
+Relations.get=ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.Relations.getN
+Relations.set=ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion.Relations.set

@@ -1,0 +1,18 @@
+È
+MProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManagerSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectª
+«UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)ùProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)¿
+vUpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente, System.Collections.Generic.List<System.Data.DataRow>)ÄProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.UpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente, System.Collections.Generic.List<System.Data.DataRow>)½
+uUpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente, System.Collections.Generic.List<System.Data.DataRow>)ÃProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.UpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente, System.Collections.Generic.List<System.Data.DataRow>)‘
+_GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)­ProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)Á
+7UpdateAll(ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente)…ProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.UpdateAll(ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente)ë
+LSortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)šProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)¿
+6MatchTableAdapterConnection(System.Data.IDbConnection)„ProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)|
+TableAdapterManager()cProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.TableAdapterManager()p
+UpdateOrder.get]ProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.UpdateOrder.getp
+UpdateOrder.set]ProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.UpdateOrder.setŒ
+BackupDataSetBeforeUpdate.getkProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.getŒ
+BackupDataSetBeforeUpdate.setkProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.setn
+Connection.get\ProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.Connection.getn
+Connection.set\ProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.Connection.setŒ
+TableAdapterInstanceCount.getkProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.TableAdapterInstanceCount.getŒ
+TableAdapterInstanceCount.setkProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteTableAdapters.TableAdapterManager.TableAdapterInstanceCount.set

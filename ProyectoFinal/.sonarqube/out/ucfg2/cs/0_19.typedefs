@@ -1,0 +1,13 @@
+Ù	
+ProyectoFinal.FormLoginSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjecth
+&label9_Click(object, System.EventArgs)>ProyectoFinal.FormLogin.label9_Click(object, System.EventArgs)l
+(FormLogin_Load(object, System.EventArgs)@ProyectoFinal.FormLogin.FormLogin_Load(object, System.EventArgs)<
+AbrirWeb(string)(ProyectoFinal.FormLogin.AbrirWeb(string)r
++pictureBox6_Click(object, System.EventArgs)CProyectoFinal.FormLogin.pictureBox6_Click(object, System.EventArgs)r
++pictureBox4_Click(object, System.EventArgs)CProyectoFinal.FormLogin.pictureBox4_Click(object, System.EventArgs)r
++pictureBox5_Click(object, System.EventArgs)CProyectoFinal.FormLogin.pictureBox5_Click(object, System.EventArgs)2
+FormLogin()#ProyectoFinal.FormLogin.FormLogin()X
+ValidarUsuario(string, string)6ProyectoFinal.FormLogin.ValidarUsuario(string, string)r
++btnIngresar_Click(object, System.EventArgs)CProyectoFinal.FormLogin.btnIngresar_Click(object, System.EventArgs)6
+Dispose(bool)%ProyectoFinal.FormLogin.Dispose(bool)F
+InitializeComponent()-ProyectoFinal.FormLogin.InitializeComponent()

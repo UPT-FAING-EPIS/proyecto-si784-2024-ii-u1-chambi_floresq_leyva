@@ -1,0 +1,29 @@
+Ï
+ ProyectoFinal.Modelos.V_Empleadoobject=
+V_Empleado()-ProyectoFinal.Modelos.V_Empleado.V_Empleado()E
+Cod_Empleado.get1ProyectoFinal.Modelos.V_Empleado.Cod_Empleado.getE
+Cod_Empleado.set1ProyectoFinal.Modelos.V_Empleado.Cod_Empleado.set9
+
+Nombre.get+ProyectoFinal.Modelos.V_Empleado.Nombre.get9
+
+Nombre.set+ProyectoFinal.Modelos.V_Empleado.Nombre.set=
+Apellido.get-ProyectoFinal.Modelos.V_Empleado.Apellido.get=
+Apellido.set-ProyectoFinal.Modelos.V_Empleado.Apellido.set3
+DNI.get(ProyectoFinal.Modelos.V_Empleado.DNI.get3
+DNI.set(ProyectoFinal.Modelos.V_Empleado.DNI.setK
+FechaNacimiento.get4ProyectoFinal.Modelos.V_Empleado.FechaNacimiento.getK
+FechaNacimiento.set4ProyectoFinal.Modelos.V_Empleado.FechaNacimiento.set5
+Sexo.get)ProyectoFinal.Modelos.V_Empleado.Sexo.get5
+Sexo.set)ProyectoFinal.Modelos.V_Empleado.Sexo.set=
+Telefono.get-ProyectoFinal.Modelos.V_Empleado.Telefono.get=
+Telefono.set-ProyectoFinal.Modelos.V_Empleado.Telefono.setG
+Fecha_Ingreso.get2ProyectoFinal.Modelos.V_Empleado.Fecha_Ingreso.getG
+Fecha_Ingreso.set2ProyectoFinal.Modelos.V_Empleado.Fecha_Ingreso.set7
+	Cargo.get*ProyectoFinal.Modelos.V_Empleado.Cargo.get7
+	Cargo.set*ProyectoFinal.Modelos.V_Empleado.Cargo.set;
+Horario.get,ProyectoFinal.Modelos.V_Empleado.Horario.get;
+Horario.set,ProyectoFinal.Modelos.V_Empleado.Horario.set9
+
+Sueldo.get+ProyectoFinal.Modelos.V_Empleado.Sueldo.get9
+
+Sueldo.set+ProyectoFinal.Modelos.V_Empleado.Sueldo.set

@@ -1,0 +1,16 @@
+’
+(ProyectoFinal.ActualizarRegistroEmpleadoSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectA
+
+Limpieza()3ProyectoFinal.ActualizarRegistroEmpleado.Limpieza()
+*btnLimpiar_Click(object, System.EventArgs)SProyectoFinal.ActualizarRegistroEmpleado.btnLimpiar_Click(object, System.EventArgs)…
+,btnGuardar_Click_1(object, System.EventArgs)UProyectoFinal.ActualizarRegistroEmpleado.btnGuardar_Click_1(object, System.EventArgs)
+)button1_Click_1(object, System.EventArgs)RProyectoFinal.ActualizarRegistroEmpleado.button1_Click_1(object, System.EventArgs)e
+ActualizarRegistroEmpleado()EProyectoFinal.ActualizarRegistroEmpleado.ActualizarRegistroEmpleado()y
+&label2_Click(object, System.EventArgs)OProyectoFinal.ActualizarRegistroEmpleado.label2_Click(object, System.EventArgs)M
+Buscarempleado()9ProyectoFinal.ActualizarRegistroEmpleado.Buscarempleado()Ÿ
+9ActualizarRegistroEmpleado_Load(object, System.EventArgs)bProyectoFinal.ActualizarRegistroEmpleado.ActualizarRegistroEmpleado_Load(object, System.EventArgs)Y
+RecopilarInformacion()?ProyectoFinal.ActualizarRegistroEmpleado.RecopilarInformacion()9
+Sexo()/ProyectoFinal.ActualizarRegistroEmpleado.Sexo()?
+	Horario()2ProyectoFinal.ActualizarRegistroEmpleado.Horario()G
+Dispose(bool)6ProyectoFinal.ActualizarRegistroEmpleado.Dispose(bool)W
+InitializeComponent()>ProyectoFinal.ActualizarRegistroEmpleado.InitializeComponent()

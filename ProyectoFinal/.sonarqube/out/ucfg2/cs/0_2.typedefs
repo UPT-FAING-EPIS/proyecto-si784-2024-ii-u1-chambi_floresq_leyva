@@ -1,0 +1,17 @@
+›
++ProyectoFinal.FormReporte_Historial_ClinicoSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectn
+FormReporte_Historial_Clinico()KProyectoFinal.FormReporte_Historial_Clinico.FormReporte_Historial_Clinico()¨
+<FormReporte_Historial_Clinico_Load(object, System.EventArgs)hProyectoFinal.FormReporte_Historial_Clinico.FormReporte_Historial_Clinico_Load(object, System.EventArgs)P
+GenerarReporte()<ProyectoFinal.FormReporte_Historial_Clinico.GenerarReporte()„
+*btnGenerar_Click(object, System.EventArgs)VProyectoFinal.FormReporte_Historial_Clinico.btnGenerar_Click(object, System.EventArgs)‚
+)btnBuscar_Click(object, System.EventArgs)UProyectoFinal.FormReporte_Historial_Clinico.btnBuscar_Click(object, System.EventArgs)Ì
+NdgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)zProyectoFinal.FormReporte_Historial_Clinico.dgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)€
+(btnSubir_Click(object, System.EventArgs)TProyectoFinal.FormReporte_Historial_Clinico.btnSubir_Click(object, System.EventArgs)V
+CrearCuerpoCorreo()?ProyectoFinal.FormReporte_Historial_Clinico.CrearCuerpoCorreo()‚
+)btnEnviar_Click(object, System.EventArgs)UProyectoFinal.FormReporte_Historial_Clinico.btnEnviar_Click(object, System.EventArgs)T
+AdjuntarArchivos()>ProyectoFinal.FormReporte_Historial_Clinico.AdjuntarArchivos()@
+Enviar()4ProyectoFinal.FormReporte_Historial_Clinico.Enviar()Z
+BuscarCliente(string)AProyectoFinal.FormReporte_Historial_Clinico.BuscarCliente(string)\
+CargarPaciente(string)BProyectoFinal.FormReporte_Historial_Clinico.CargarPaciente(string)J
+Dispose(bool)9ProyectoFinal.FormReporte_Historial_Clinico.Dispose(bool)Z
+InitializeComponent()AProyectoFinal.FormReporte_Historial_Clinico.InitializeComponent()

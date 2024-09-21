@@ -1,0 +1,56 @@
+ÓC
+ProyectoFinal.MDIPrincipalSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject;
+MDIPrincipal())ProyectoFinal.MDIPrincipal.MDIPrincipal()i
+%ShowNewForm(object, System.EventArgs)@ProyectoFinal.MDIPrincipal.ShowNewForm(object, System.EventArgs)c
+"OpenFile(object, System.EventArgs)=ProyectoFinal.MDIPrincipal.OpenFile(object, System.EventArgs)ç
+7SaveAsToolStripMenuItem_Click(object, System.EventArgs)RProyectoFinal.MDIPrincipal.SaveAsToolStripMenuItem_Click(object, System.EventArgs)ã
+6ExitToolsStripMenuItem_Click(object, System.EventArgs)QProyectoFinal.MDIPrincipal.ExitToolsStripMenuItem_Click(object, System.EventArgs)è
+8CascadeToolStripMenuItem_Click(object, System.EventArgs)SProyectoFinal.MDIPrincipal.CascadeToolStripMenuItem_Click(object, System.EventArgs)ô
+=TileVerticalToolStripMenuItem_Click(object, System.EventArgs)XProyectoFinal.MDIPrincipal.TileVerticalToolStripMenuItem_Click(object, System.EventArgs)ù
+?TileHorizontalToolStripMenuItem_Click(object, System.EventArgs)ZProyectoFinal.MDIPrincipal.TileHorizontalToolStripMenuItem_Click(object, System.EventArgs)ô
+=ArrangeIconsToolStripMenuItem_Click(object, System.EventArgs)XProyectoFinal.MDIPrincipal.ArrangeIconsToolStripMenuItem_Click(object, System.EventArgs)ë
+9CloseAllToolStripMenuItem_Click(object, System.EventArgs)TProyectoFinal.MDIPrincipal.CloseAllToolStripMenuItem_Click(object, System.EventArgs)u
++MDIPrincipal_Load(object, System.EventArgs)FProyectoFinal.MDIPrincipal.MDIPrincipal_Load(object, System.EventArgs)ã
+6salirToolStripMenuItem_Click(object, System.EventArgs)QProyectoFinal.MDIPrincipal.salirToolStripMenuItem_Click(object, System.EventArgs)â
+5toolStripLabel3_ButtonClick(object, System.EventArgs)PProyectoFinal.MDIPrincipal.toolStripLabel3_ButtonClick(object, System.EventArgs)°
+AregistroDePagosToolStripMenuItem1_Click(object, System.EventArgs)\ProyectoFinal.MDIPrincipal.registroDePagosToolStripMenuItem1_Click(object, System.EventArgs)¡
+QtoolStrip_ItemClicked(object, System.Windows.Forms.ToolStripItemClickedEventArgs)lProyectoFinal.MDIPrincipal.toolStrip_ItemClicked(object, System.Windows.Forms.ToolStripItemClickedEventArgs)´
+FprogramarNuevasCitasToolStripMenuItem1_Click(object, System.EventArgs)aProyectoFinal.MDIPrincipal.programarNuevasCitasToolStripMenuItem1_Click(object, System.EventArgs)£
+BcitasProgramadasToolStripMenuItem1_Click(object, System.EventArgs)]ProyectoFinal.MDIPrincipal.citasProgramadasToolStripMenuItem1_Click(object, System.EventArgs)©
+EprogramarNuevasCitasToolStripMenuItem_Click(object, System.EventArgs)`ProyectoFinal.MDIPrincipal.programarNuevasCitasToolStripMenuItem_Click(object, System.EventArgs)•
+CcambiosEnLaAgendaToolStripMenuItem1_Click(object, System.EventArgs)^ProyectoFinal.MDIPrincipal.cambiosEnLaAgendaToolStripMenuItem1_Click(object, System.EventArgs)°
+AcitasProgramadasToolStripMenuItem_Click(object, System.EventArgs)\ProyectoFinal.MDIPrincipal.citasProgramadasToolStripMenuItem_Click(object, System.EventArgs)£
+BcambiosEnLaAgendaToolStripMenuItem_Click(object, System.EventArgs)]ProyectoFinal.MDIPrincipal.cambiosEnLaAgendaToolStripMenuItem_Click(object, System.EventArgs)©
+EregistroDeEmpleadosToolStripMenuItem1_Click(object, System.EventArgs)`ProyectoFinal.MDIPrincipal.registroDeEmpleadosToolStripMenuItem1_Click(object, System.EventArgs)ß
+DregistroDeEmpleadosToolStripMenuItem_Click(object, System.EventArgs)_ProyectoFinal.MDIPrincipal.registroDeEmpleadosToolStripMenuItem_Click(object, System.EventArgs)ã
+6menusToolStripMenuItem_Click(object, System.EventArgs)QProyectoFinal.MDIPrincipal.menusToolStripMenuItem_Click(object, System.EventArgs)£
+BregistroDeClienteToolStripMenuItem_Click(object, System.EventArgs)]ProyectoFinal.MDIPrincipal.registroDeClienteToolStripMenuItem_Click(object, System.EventArgs)•
+CregistroDeClienteToolStripMenuItem1_Click(object, System.EventArgs)^ProyectoFinal.MDIPrincipal.registroDeClienteToolStripMenuItem1_Click(object, System.EventArgs)•
+CreporteDeIngresosToolStripMenuItem1_Click(object, System.EventArgs)^ProyectoFinal.MDIPrincipal.reporteDeIngresosToolStripMenuItem1_Click(object, System.EventArgs)£
+BreporteDeIngresosToolStripMenuItem_Click(object, System.EventArgs)]ProyectoFinal.MDIPrincipal.reporteDeIngresosToolStripMenuItem_Click(object, System.EventArgs)°
+AreporteDeGastosToolStripMenuItem1_Click(object, System.EventArgs)\ProyectoFinal.MDIPrincipal.reporteDeGastosToolStripMenuItem1_Click(object, System.EventArgs)ü
+@reporteDeGastosToolStripMenuItem_Click(object, System.EventArgs)[ProyectoFinal.MDIPrincipal.reporteDeGastosToolStripMenuItem_Click(object, System.EventArgs)É
+2toolStripMenuItem1_Click(object, System.EventArgs)MProyectoFinal.MDIPrincipal.toolStripMenuItem1_Click(object, System.EventArgs)É
+2toolStripMenuItem2_Click(object, System.EventArgs)MProyectoFinal.MDIPrincipal.toolStripMenuItem2_Click(object, System.EventArgs)µ
+KreporteDeHistorialCl√≠nicoToolStripMenuItem_Click(object, System.EventArgs)fProyectoFinal.MDIPrincipal.reporteDeHistorialCl√≠nicoToolStripMenuItem_Click(object, System.EventArgs)∑
+LreporteDePacientesPorDue√±oToolStripMenuItem_Click(object, System.EventArgs)gProyectoFinal.MDIPrincipal.reporteDePacientesPorDue√±oToolStripMenuItem_Click(object, System.EventArgs)Ω
+OreporteEstad√≠sticoDePacientesToolStripMenuItem_Click(object, System.EventArgs)jProyectoFinal.MDIPrincipal.reporteEstad√≠sticoDePacientesToolStripMenuItem_Click(object, System.EventArgs)≥
+JaccesoAHistoriasClinicasToolStripMenuItem1_Click(object, System.EventArgs)eProyectoFinal.MDIPrincipal.accesoAHistoriasClinicasToolStripMenuItem1_Click(object, System.EventArgs)´
+FregistroDeVacunaci√≥nToolStripMenuItem_Click(object, System.EventArgs)aProyectoFinal.MDIPrincipal.registroDeVacunaci√≥nToolStripMenuItem_Click(object, System.EventArgs)ß
+DregistroDePacienteToolStripMenuItem1_Click(object, System.EventArgs)_ProyectoFinal.MDIPrincipal.registroDePacienteToolStripMenuItem1_Click(object, System.EventArgs)µ
+KregistroDeDesparacitaci√≥nToolStripMenuItem_Click(object, System.EventArgs)fProyectoFinal.MDIPrincipal.registroDeDesparacitaci√≥nToolStripMenuItem_Click(object, System.EventArgs)ï
+;registroDeToolStripMenuItem_Click(object, System.EventArgs)VProyectoFinal.MDIPrincipal.registroDeToolStripMenuItem_Click(object, System.EventArgs)ù
+?abastecimientoToolStripMenuItem_Click(object, System.EventArgs)ZProyectoFinal.MDIPrincipal.abastecimientoToolStripMenuItem_Click(object, System.EventArgs)ü
+@abastecimientoToolStripMenuItem1_Click(object, System.EventArgs)[ProyectoFinal.MDIPrincipal.abastecimientoToolStripMenuItem1_Click(object, System.EventArgs)•
+CregistroDePacienteToolStripMenuItem_Click(object, System.EventArgs)^ProyectoFinal.MDIPrincipal.registroDePacienteToolStripMenuItem_Click(object, System.EventArgs)±
+IaccesoAHistoriasClinicasToolStripMenuItem_Click(object, System.EventArgs)dProyectoFinal.MDIPrincipal.accesoAHistoriasClinicasToolStripMenuItem_Click(object, System.EventArgs)´
+FregistroDeRecetaci√≥nToolStripMenuItem_Click(object, System.EventArgs)aProyectoFinal.MDIPrincipal.registroDeRecetaci√≥nToolStripMenuItem_Click(object, System.EventArgs)ü
+@registroDePagosToolStripMenuItem_Click(object, System.EventArgs)[ProyectoFinal.MDIPrincipal.registroDePagosToolStripMenuItem_Click(object, System.EventArgs)ó
+<facturacionToolStripMenuItem_Click(object, System.EventArgs)WProyectoFinal.MDIPrincipal.facturacionToolStripMenuItem_Click(object, System.EventArgs)π
+MreporteDeHorariosDelPersonalToolStripMenuItem_Click(object, System.EventArgs)hProyectoFinal.MDIPrincipal.reporteDeHorariosDelPersonalToolStripMenuItem_Click(object, System.EventArgs)±
+IreporteHistorialCl√≠nicoToolStripMenuItem_Click(object, System.EventArgs)dProyectoFinal.MDIPrincipal.reporteHistorialCl√≠nicoToolStripMenuItem_Click(object, System.EventArgs)π
+MreporteDePacientesPorDue√±oToolStripMenuItem1_Click(object, System.EventArgs)hProyectoFinal.MDIPrincipal.reporteDePacientesPorDue√±oToolStripMenuItem1_Click(object, System.EventArgs)ª
+NreporteEstad√≠ticoDePacientesToolStripMenuItem_Click(object, System.EventArgs)iProyectoFinal.MDIPrincipal.reporteEstad√≠ticoDePacientesToolStripMenuItem_Click(object, System.EventArgs)ï
+;toolStripSplitButton2_ButtonClick(object, System.EventArgs)VProyectoFinal.MDIPrincipal.toolStripSplitButton2_ButtonClick(object, System.EventArgs)9
+Dispose(bool)(ProyectoFinal.MDIPrincipal.Dispose(bool)I
+InitializeComponent()0ProyectoFinal.MDIPrincipal.InitializeComponent()

@@ -1,0 +1,7 @@
+organization=jaimeflores
+projectKey=jaimeflores_softvet
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.56719
+dashboardUrl=https://sonarcloud.io/dashboard?id=jaimeflores_softvet
+ceTaskId=AZITVyZF62gh4fYJ2fjX
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZITVyZF62gh4fYJ2fjX
