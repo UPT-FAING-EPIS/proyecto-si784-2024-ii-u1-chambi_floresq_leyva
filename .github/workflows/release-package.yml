@@ -27,7 +27,7 @@ jobs:
         run: nuget restore ProyectoFinal.sln
 
       - name: Pack NuGet Package
-        run: dotnet pack ProyectoFinal.csproj -c Release -o ${{ github.workspace }}/nupkg
+        run: dotnet pack ProyectoFinal/ProyectoFinal.csproj -c Release -o ${{ github.workspace }}/nupkg
 
       - name: Publish NuGet Package
         env:
@@ -44,6 +44,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ env.LATEST_TAG }}
-          name: ${{ env.LATEST_TAG }}  # Cambiado de release_name a name
+          name: ${{ env.LATEST_TAG }}
           draft: false
           prerelease: false
