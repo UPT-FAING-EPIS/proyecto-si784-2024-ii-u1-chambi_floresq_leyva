@@ -30,7 +30,7 @@ jobs:
         run: snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?"
 
       - name: Snyk Open Source monitor
-        run: snyk monitor --all-projects
+        run: snyk monitor 
 
       - name: Snyk IaC test and report
         run: snyk iac test --report
