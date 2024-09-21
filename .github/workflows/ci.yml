@@ -1,8 +1,13 @@
-name: .NET Framework Desktop
+name: .NET Framework Desktop Build
 
 on:
-  push:
-    branches: [ "main" ]
+  workflow_run:
+    workflows: 
+      - "Sonar Continuous Integration"
+      - "Snyk Security"
+      - "Semgrep Analysis"
+    types:
+      - completed
 
 jobs:
   build:
@@ -31,12 +36,14 @@ jobs:
           if (Test-Path "${{ github.workspace }}/ProyectoFinal/obj") {
             Remove-Item -Recurse -Force "${{ github.workspace }}/ProyectoFinal/obj"
           }
+
       - name: Construir el Proyecto
         run: msbuild ProyectoFinal.sln /p:Configuration=Release /p:Platform="Any CPU"
 
       - name: Verificar Directorios y Archivos
         run: |
           dir ${{ github.workspace }}/ProyectoFinal/bin/Release/
+          
       - name: Subir Artefactos
         uses: actions/upload-artifact@v3
         with:
