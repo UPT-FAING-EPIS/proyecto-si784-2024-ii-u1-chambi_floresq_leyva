@@ -20,6 +20,10 @@ jobs:
         run: |
           choco install visualstudio2019buildtools --version=16.9.4 --installargs "--add Microsoft.VisualStudio.Workload.ManagedBuildTools --includeRecommended"
 
+      - name: Agregar MSBuild al PATH
+        run: |
+          $env:PATH += ";C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"
+
       - name: Restaurar la Aplicación
         run: nuget restore ProyectoFinal.sln
 
