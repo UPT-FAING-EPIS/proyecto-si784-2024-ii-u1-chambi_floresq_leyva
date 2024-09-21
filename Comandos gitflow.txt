@@ -33,7 +33,7 @@ git push origin *
 --------------------------------------------
 FEATURE JAIME
 --------------------------------------------
-git flow init
+git flow init -f
 (darle todo enter hasta el final)
 
 git flow feature start jaime_readme
