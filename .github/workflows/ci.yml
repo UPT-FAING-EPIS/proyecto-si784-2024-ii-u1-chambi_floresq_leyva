@@ -21,7 +21,7 @@ jobs:
         uses: microsoft/setup-msbuild@v2
 
       - name: Restaurar la Aplicación
-        run: nuget restore ProyectoFinal/ProyectoFinal.sln
+        run: nuget restore ProyectoFinal.sln
 
       - name: Limpiar Directorios de Construcción
         run: |
@@ -32,7 +32,7 @@ jobs:
             Remove-Item -Recurse -Force "${{ github.workspace }}/ProyectoFinal/obj"
           }
       - name: Construir el Proyecto
-        run: msbuild ProyectoFinal/ProyectoFinal.sln /p:Configuration=Release /p:Platform="Any CPU"
+        run: msbuild ProyectoFinal.sln /p:Configuration=Release /p:Platform="Any CPU"
 
       - name: Verificar Directorios y Archivos
         run: |

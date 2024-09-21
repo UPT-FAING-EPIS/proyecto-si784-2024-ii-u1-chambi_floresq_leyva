@@ -21,10 +21,14 @@ jobs:
           choco install visualstudio2019buildtools --version=16.9.4 --installargs "--add Microsoft.VisualStudio.Workload.ManagedBuildTools --includeRecommended"
 
       - name: Restaurar la Aplicación
-        run: nuget restore ProyectoFinal/ProyectoFinal.sln
+        run: nuget restore ProyectoFinal.sln
 
       - name: Instalar Scanner
         run: dotnet tool install -g dotnet-sonarscanner
+
+      - name: Asegurarse de que MSBuild esté disponible
+        run: |
+          where msbuild || echo "MSBuild no está disponible en el PATH"
 
       - name: Ejecutar escaneo
         run: | 
