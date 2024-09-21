@@ -1,0 +1,49 @@
+name: Release and Package Workflow
+
+on:
+  workflow_run:
+    workflows: 
+      - ".NET Framework Desktop Build"
+    types:
+      - completed
+
+jobs:
+  release-and-package:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+
+      - name: Configure MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Restore Dependencies
+        run: nuget restore ProyectoFinal.sln
+
+      - name: Pack NuGet Package
+        run: dotnet pack ProyectoFinal.csproj -c Release -o ${{ github.workspace }}/nupkg
+
+      - name: Publish NuGet Package
+        env:
+          NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+        run: |
+          dotnet nuget push ${{ github.workspace }}/nupkg/*.nupkg -k $NUGET_API_KEY -s https://api.nuget.org/v3/index.json
+
+      - name: Get Latest Tag
+        id: get_tag
+        run: echo "LATEST_TAG=$(git describe --tags --abbrev=0)" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ env.LATEST_TAG }}
+          name: ${{ env.LATEST_TAG }}  # Cambiado de release_name a name
+          draft: false
+          prerelease: false
