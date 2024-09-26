@@ -1,6 +1,9 @@
 name: .NET Framework Desktop Build
 
 on:
+  push:
+    branches:
+      - main  # Ejecutar solo en la rama main
   workflow_run:
     workflows: 
       - "Sonar Continuous Integration"
@@ -43,7 +46,21 @@ jobs:
       - name: Verificar Directorios y Archivos
         run: |
           dir ${{ github.workspace }}/ProyectoFinal/bin/Release/
-          
+
+      - name: Crear Release
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          TAG_NAME=${GITHUB_REF##*/}  # Obtener el nombre del tag
+          RELEASE_NAME="v.${TAG_NAME}"  # Agregar prefijo "v."
+          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}  # Token de GitHub Actions
+          curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
+          -d "{\"tag_name\": \"$TAG_NAME\", \"target_commitish\": \"main\", \"name\": \"$RELEASE_NAME\", \"body\": \"Release de la versión $RELEASE_NAME\", \"draft\": false, \"prerelease\": false}" \
+          https://api.github.com/repos/${{ github.repository }}/releases
+
+      - name: Empaquetar NuGet
+        run: |
+          nuget pack ProyectoFinal.nuspec
+
       - name: Subir Artefactos
         uses: actions/upload-artifact@v3
         with:
