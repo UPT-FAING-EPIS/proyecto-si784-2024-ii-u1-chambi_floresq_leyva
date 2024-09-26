@@ -3,7 +3,7 @@ name: .NET Framework Desktop Build
 on:
   push:
     branches:
-      - main  # Ejecutar solo en la rama main
+      - main  
   workflow_run:
     workflows: 
       - "Sonar Continuous Integration"
