@@ -58,11 +58,15 @@ jobs:
           https://api.github.com/repos/${{ github.repository }}/releases
 
       - name: Generar archivo .nuspec
-        run: nuget spec ProyectoFinal/ProyectoFinal.csproj 
+        run: |
+            cd ProyectoFinal
+            nuget spec ProyectoFinal.csproj
+        
   
       - name: Empaquetar NuGet
         run: |
-            nuget pack ProyectoFinal/ProyectoFinal.nuspec
+            cd ProyectoFinal
+            nuget pack ProyectoFinal.nuspec
 
       - name: Subir Artefactos
         uses: actions/upload-artifact@v3

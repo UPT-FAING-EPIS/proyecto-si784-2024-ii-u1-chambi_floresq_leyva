@@ -62,7 +62,7 @@ __pycache__/
 ###########
 *.nupkg
 *.snupkg
-*.nuspec
+#*.nuspec
 
 # Rider #
 ##########
