@@ -36,6 +36,7 @@ jobs:
           echo "    <tags>etiquetas para tu paquete</tags>" >> ProyectoFinal.nuspec
           echo "  </metadata>" >> ProyectoFinal.nuspec
           echo "</package>" >> ProyectoFinal.nuspec
+        
 
       - name: List .nuspec File
         run: |
