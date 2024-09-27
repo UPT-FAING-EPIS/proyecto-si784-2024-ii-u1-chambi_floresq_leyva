@@ -18,37 +18,17 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Create .nuspec File with Metadata
-        run: |
-          cd ProyectoFinal
-          echo "<?xml version=\"1.0\"?>" > ProyectoFinal.nuspec
-          echo "<package xmlns=\"http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd\">" >> ProyectoFinal.nuspec
-          echo "  <metadata>" >> ProyectoFinal.nuspec
-          echo "    <id>ProyectoFinal</id>" >> ProyectoFinal.nuspec
-          echo "    <version>1.0.0</version>" >> ProyectoFinal.nuspec
-          echo "    <authors>JkDevelopers</authors>" >> ProyectoFinal.nuspec
-          echo "    <requireLicenseAcceptance>false</requireLicenseAcceptance>" >> ProyectoFinal.nuspec
-          echo "    <license type=\"expression\">MIT</license>" >> ProyectoFinal.nuspec
-          echo "    <projectUrl>https://github.com/UPT-FAING-EPIS/proyecto-si784-2024-ii-u1-chambi_floresq_leyva</projectUrl>" >> ProyectoFinal.nuspec
-          echo "    <description>Descripción de tu proyecto</description>" >> ProyectoFinal.nuspec
-          echo "    <releaseNotes>Notas de la versión</releaseNotes>" >> ProyectoFinal.nuspec
-          echo "    <copyright>Copyright © 2023</copyright>" >> ProyectoFinal.nuspec
-          echo "    <tags>etiquetas para tu paquete</tags>" >> ProyectoFinal.nuspec
-          echo "  </metadata>" >> ProyectoFinal.nuspec
-          echo "</package>" >> ProyectoFinal.nuspec
-        
-
-      - name: List .nuspec File
-        run: |
-          cd ProyectoFinal
-          dir *.nuspec
-            
-          
       - name: Pack NuGet Package
         run: |
           cd ProyectoFinal
-          nuget pack ProyectoFinal.nuspec -Version 1.0.0
+          dotnet pack -c Release --no-build --output ./nupkgs /p:Version=1.0.0
+
+      - name: List Packed NuGet Packages
+        run: |
+          cd ProyectoFinal/nupkgs
+          dir *.nupkg
 
       - name: Push NuGet Package to GitHub Packages
         run: |
-          nuget push ProyectoFinal.1.0.0.nupkg -Source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" -ApiKey ${{ secrets.GITHUB_TOKEN }}
+          cd ProyectoFinal/nupkgs
+          nuget push *.nupkg -Source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" -ApiKey ${{ secrets.GITHUB_TOKEN }}
