@@ -1,4 +1,4 @@
-name: NuGet Publish
+name: NuGet Package Publish
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
 jobs:
   nuget-package:
     runs-on: windows-latest
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -22,24 +23,11 @@ jobs:
           cd ProyectoFinal
           nuget spec ProyectoFinal.csproj -force
 
-      - name: Adjust .nuspec Metadata
+      - name: List .nuspec File
         run: |
           cd ProyectoFinal
-          $version = "1.0.0"  # Cambia esto según la versión que desees
-          [xml]$nuspec = Get-Content "ProyectoFinal.nuspec"
-          $nuspec.package.metadata.version = $version
-          $nuspec.package.metadata.id = "ProyectoFinal"
-          $nuspec.package.metadata.title = "Proyecto Final"
-          $nuspec.package.metadata.authors = "JkDevelopers"
-          $nuspec.package.metadata.requireLicenseAcceptance = "false"
-          $nuspec.package.metadata.license = "MIT"
-          $nuspec.package.metadata.projectUrl = "https://github.com/UPT-FAING-EPIS/proyecto-si784-2024-ii-u1-chambi_floresq_leyva"
-          $nuspec.package.metadata.description = "Descripción de tu proyecto"
-          $nuspec.package.metadata.releaseNotes = "Notas de la versión"
-          $nuspec.package.metadata.copyright = "Copyright © 2023"
-          $nuspec.package.metadata.tags = "etiquetas para tu paquete"
-          $nuspec.Save("ProyectoFinal.nuspec")
-
+          dir *.nuspec
+          
       - name: Pack NuGet Package
         run: |
           cd ProyectoFinal
