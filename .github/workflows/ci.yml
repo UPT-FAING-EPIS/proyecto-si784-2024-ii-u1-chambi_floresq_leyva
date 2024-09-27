@@ -75,7 +75,7 @@ jobs:
       - name: Pack NuGet Package
         run: |
           cd ProyectoFinal
-          nuget pack ProyectoFinal.csproj.nuspec
+          nuget pack ProyectoFinal.nuspec
 
       - name: Push NuGet Package to GitHub Packages
         run: |
