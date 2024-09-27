@@ -69,8 +69,8 @@ jobs:
 
       - name: Adjust .nuspec Metadata
         run: |
-          # Aqui podrías hacer ajustes al archivo .nuspec si es necesario
-          echo "Modificando metadata del archivo .nuspec"
+          # Utiliza PowerShell para modificar el archivo .nuspec
+          (Get-Content ProyectoFinal.nuspec) -replace '<version>.*</version>', '<version>1.0.0</version>' | Set-Content ProyectoFinal.nuspec
 
       - name: Pack NuGet Package
         run: |
