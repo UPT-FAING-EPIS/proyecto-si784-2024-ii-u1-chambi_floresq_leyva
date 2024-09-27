@@ -4,4 +4,4 @@
 Integrantes:
 - Elvis Ronald Leyva Sardon
 - Jaime Flores Quispe
-- Jerson Chambi Cori
+- Jerson Roni Chambi Cori
