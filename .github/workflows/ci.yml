@@ -1,4 +1,4 @@
-name: .NET Framework Desktop Build
+name: .NET Framework Desktop Build and NuGet Publish
 
 on:
   workflow_run:
@@ -14,21 +14,21 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Chequear Código
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Instalar Herramientas de Construcción de .NET Framework
+      - name: Setup .NET Framework
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
 
-      - name: Configurar MSBuild
+      - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
 
-      - name: Restaurar la Aplicación
+      - name: Restore NuGet Packages
         run: nuget restore ProyectoFinal.sln
 
-      - name: Limpiar Directorios de Construcción
+      - name: Clean Build Directories
         run: |
           if (Test-Path "${{ github.workspace }}/ProyectoFinal/bin") {
             Remove-Item -Recurse -Force "${{ github.workspace }}/ProyectoFinal/bin"
@@ -37,15 +37,46 @@ jobs:
             Remove-Item -Recurse -Force "${{ github.workspace }}/ProyectoFinal/obj"
           }
 
-      - name: Construir el Proyecto
+      - name: Build Project
         run: msbuild ProyectoFinal.sln /p:Configuration=Release /p:Platform="Any CPU"
 
-      - name: Verificar Directorios y Archivos
+      - name: Verify Build Artifacts
         run: |
           dir ${{ github.workspace }}/ProyectoFinal/bin/Release/
-          
-      - name: Subir Artefactos
+
+      - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: build-artifacts
           path: ${{ github.workspace }}/ProyectoFinal/bin/Release/
+
+  nuget-package:
+    runs-on: windows-latest
+    needs: build
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET Framework
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Generate .nuspec File
+        run: |
+          cd ProyectoFinal
+          nuget spec ProyectoFinal.csproj -force
+
+      - name: Adjust .nuspec Metadata
+        run: |
+          # Aqui podrías hacer ajustes al archivo .nuspec si es necesario
+          echo "Modificando metadata del archivo .nuspec"
+
+      - name: Pack NuGet Package
+        run: |
+          cd ProyectoFinal
+          nuget pack ProyectoFinal.csproj.nuspec
+
+      - name: Push NuGet Package to GitHub Packages
+        run: |
+          nuget push ProyectoFinal.1.0.0.nupkg -Source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" -ApiKey ${{ secrets.GITHUB_TOKEN }}
