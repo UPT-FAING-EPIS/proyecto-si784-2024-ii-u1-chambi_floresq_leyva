@@ -3,5 +3,5 @@
 # proyecto-Softvet
 Integrantes:
 - Elvis Ronald Leyva Sardon
-- Jaime Flores Quispe
+- Jaime Elias Flores Quispe
 - Jerson Roni Chambi Cori
