@@ -16,12 +16,12 @@ jobs:
       - name: Setup .NET Framework
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0.x'
+          dotnet-version: '4.7.2'
 
       - name: Generate .nuspec File
         run: |
           cd ProyectoFinal
-          nuget spec ProyectoFinal.csproj -force
+          nuget spec -force
 
       - name: List .nuspec File
         run: |
@@ -31,7 +31,7 @@ jobs:
       - name: Pack NuGet Package
         run: |
           cd ProyectoFinal
-          nuget pack ProyectoFinal.nuspec
+          nuget pack ProyectoFinal.nuspec -Version 1.0.0
 
       - name: Push NuGet Package to GitHub Packages
         run: |

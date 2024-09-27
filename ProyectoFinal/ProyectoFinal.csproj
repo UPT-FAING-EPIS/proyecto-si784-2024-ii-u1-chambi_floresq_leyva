@@ -46,7 +46,6 @@
   <Description>Descripción de tu proyecto</Description>
   <ReleaseNotes>Notas de la versión</ReleaseNotes>
   <Copyright>Copyright © 2023</Copyright>
-  <Tags>etiquetas para tu paquete</Tags>
 </PropertyGroup>
 
   <ItemGroup>
