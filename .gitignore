@@ -43,7 +43,7 @@ __pycache__/
 # Visual Studio #
 ##################
 .vs/
-#*.csproj
+*.csproj
 *.suo
 *.user
 *.userosscache
@@ -62,7 +62,7 @@ __pycache__/
 ###########
 *.nupkg
 *.snupkg
-#*.nuspec
+*.nuspec
 
 # Rider #
 ##########
