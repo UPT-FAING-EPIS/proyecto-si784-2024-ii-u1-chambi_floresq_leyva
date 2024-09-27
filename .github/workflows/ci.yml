@@ -17,18 +17,20 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
+      - name: Generate .nuspec File
+        run: |
+          cd ProyectoFinal
+          nuget spec ProyectoFinal.csproj -force
 
+      - name: List .nuspec File
+        run: |
+          cd ProyectoFinal
+          ls -la 
       - name: Pack NuGet Package
         run: |
           cd ProyectoFinal
-          dotnet pack -c Release --no-build --output ./nupkgs /p:Version=1.0.0
-
-      - name: List Packed NuGet Packages
-        run: |
-          cd ProyectoFinal/nupkgs
-          dir *.nupkg
+          nuget pack ProyectoFinal.csproj -Version 1.0.0 -id ProyectoFinal -authors "JkDevelopers" -description "Descripción del Proyecto"
 
       - name: Push NuGet Package to GitHub Packages
         run: |
-          cd ProyectoFinal/nupkgs
-          nuget push *.nupkg -Source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" -ApiKey ${{ secrets.GITHUB_TOKEN }}
+          nuget push ProyectoFinal.1.0.0.nupkg -Source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" -ApiKey ${{ secrets.GITHUB_TOKEN }}
