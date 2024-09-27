@@ -18,15 +18,20 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Generate .nuspec File
+      - name: Copy Template .nuspec
         run: |
           cd ProyectoFinal
-          nuget spec ProyectoFinal.csproj -force
+          copy ProyectoFinal.template.nuspec ProyectoFinal.nuspec
+
+      - name: Replace Version in .nuspec
+        run: |
+          cd ProyectoFinal
+          (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '1.0.0' | Set-Content ProyectoFinal.nuspec
 
       - name: Pack NuGet Package from .nuspec
         run: |
           cd ProyectoFinal
-          nuget pack ProyectoFinal.nuspec -Version 1.0.0 -id ProyectoFinal -authors "JkDevelopers" -description "Descripción del Proyecto"
+          nuget pack ProyectoFinal.nuspec
 
       - name: Push NuGet Package to GitHub Packages
         run: |
