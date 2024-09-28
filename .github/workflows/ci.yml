@@ -38,7 +38,7 @@ jobs:
           # Obtener la versión más alta
           $maxVersion = $versions | Sort-Object -Descending | Select-Object -First 1
           if (-not $maxVersion) {
-              $nextVersion = '1.0.0'
+              $nextVersion = '1.0.1' # Inicia en la versión 1.0.1
           } else {
               # Incrementar la parte menor de la versión
               $versionParts = $maxVersion -split '\.'
