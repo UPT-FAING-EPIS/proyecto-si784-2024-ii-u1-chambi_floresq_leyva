@@ -38,7 +38,7 @@ bower_components/
 *.pyc
 *.pyo
 *.pyd
-__pycache__/
+_pycache_/
 
 # Visual Studio #
 ##################
@@ -71,7 +71,7 @@ __pycache__/
 # Logs #
 ########
 *.log
-*.log.*
+.log.
 
 # Operating System files #
 ##########################
@@ -93,4 +93,4 @@ ehthumbs.db
 
 # Allow SqlServerTypes folder and files
 !ProyectoFinal/SqlServerTypes/
-!ProyectoFinal/SqlServerTypes/**/*
+!ProyectoFinal/SqlServerTypes/*/
