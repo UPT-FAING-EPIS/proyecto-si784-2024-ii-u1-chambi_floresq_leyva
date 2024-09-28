@@ -36,4 +36,4 @@ jobs:
       - name: Push NuGet Package to GitHub Packages
         run: |
           cd ProyectoFinal
-          nuget push ProyectoFinal.1.0.0.nupkg --source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" --api-key ${{ secrets.NEW_TOKEN_NUGET }}
+          dotnet nuget push ProyectoFinal.1.0.0.nupkg --source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" --api-key ${{ secrets.NEW_TOKEN_NUGET }}
