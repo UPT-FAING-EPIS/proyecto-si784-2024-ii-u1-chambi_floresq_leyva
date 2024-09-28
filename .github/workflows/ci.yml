@@ -38,6 +38,9 @@ jobs:
         run: |
           # Obtener la parte de la versión actual
           $versionParts = ${{ steps.read_version.outputs.current_version }} -split '\.'
+          if ($versionParts.Length -ne 3) {
+        throw "Invalid version format. Expected 'major.minor.patch'."
+          }
           $versionParts[2] = [int]$versionParts[2] + 1
           $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
           # Guardar la nueva versión en el archivo
