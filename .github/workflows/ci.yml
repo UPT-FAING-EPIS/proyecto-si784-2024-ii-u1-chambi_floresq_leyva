@@ -30,11 +30,11 @@ jobs:
         id: determine_version
         run: |
           # Leer el número de versión desde PackageVersion.txt
-          $versionNumber = Get-Content -Path ProyectoFinal/PackageVersion.txt | Select-Object -Last 1
+          $versionNumber = Get-Content -Path PackageVersion.txt | Select-Object -Last 1
           # Incrementar el número de versión
           $newVersionNumber = [int]$versionNumber + 1
           # Guardar el nuevo número de versión en el archivo
-          Add-Content -Path ProyectoFinal/PackageVersion.txt -Value $newVersionNumber
+          Add-Content -Path PackageVersion.txt -Value $newVersionNumber
           # Definir la versión base
           $baseVersion = "1.0.$newVersionNumber"
           echo "::set-output name=next_version::$baseVersion"
