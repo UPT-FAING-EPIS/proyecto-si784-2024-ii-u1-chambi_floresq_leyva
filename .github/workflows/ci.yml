@@ -1,8 +1,14 @@
-name: .NET Framework Desktop Build and NuGet Publish
+name: Build, Release and NuGet Publish
 
 on:
+  push:
+    branches:
+      - nugget
+    tags:
+      - 'v*'  # Esto detecta cualquier tag que empiece con 'v' (por ejemplo, v1.0.0, v2.1.0)
+
   workflow_run:
-    workflows: 
+    workflows:
       - "Sonar Continuous Integration"
       - "Snyk Security"
       - "Semgrep Analysis"
@@ -51,8 +57,9 @@ jobs:
           path: ${{ github.workspace }}/ProyectoFinal/bin/Release/
 
   nuget-package:
-    runs-on: windows-latest
     needs: build
+    runs-on: windows-latest
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -62,24 +69,58 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Generate .nuspec File
+      - name: Add NuGet Source
+        run: |
+          dotnet nuget add source --username jf2021070309 --password ${{ secrets.NEW_TOKEN_NUGET }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json"
+
+      - name: Copy Template nuspec
         run: |
           cd ProyectoFinal
-          nuget spec ProyectoFinal.csproj -force
+          copy ProyectoFinal.template.nuspec ProyectoFinal.nuspec
 
-      - name: Adjust .nuspec Metadata
+      - name: Determine Next Version
+        id: determine_version
+        run: |
+          # Define la versión base
+          $baseVersion = "1.0.4"
+          # Incrementa la parte menor de la versión
+          $versionParts = $baseVersion -split '\.'
+          $versionParts[2] = [int]$versionParts[2] + 1
+          $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+          echo "::set-output name=next_version::$nextVersion"
+
+      - name: Replace Version in nuspec
         run: |
           cd ProyectoFinal
-          $version = "1.0.0"  # Cambia esto según la versión que desees
-          [xml]$nuspec = Get-Content "ProyectoFinal.nuspec"
-          $nuspec.package.metadata.version = $version
-          $nuspec.Save("ProyectoFinal.nuspec")
+          # Reemplazar la versión en el archivo .nuspec con la nueva versión
+          (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '${{ steps.determine_version.outputs.next_version }}' | Set-Content ProyectoFinal.nuspec
 
-      - name: Pack NuGet Package
+      - name: Pack NuGet Package from nuspec 
         run: |
           cd ProyectoFinal
           nuget pack ProyectoFinal.nuspec
 
       - name: Push NuGet Package to GitHub Packages
         run: |
-          nuget push ProyectoFinal.1.0.0.nupkg -Source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" -ApiKey ${{ secrets.GITHUB_TOKEN }}
+          cd ProyectoFinal
+          nuget push ProyectoFinal.${{ steps.determine_version.outputs.next_version }}.nupkg -Source github -ApiKey ${{ secrets.NEW_TOKEN_NUGET }} -SkipDuplicate
+
+  release:
+    needs: nuget-package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref }}
+          body: |
+            ### Cambios en esta versión:
+            - Mejora 1
+            - Corrección de errores
+            - Actualización de dependencias
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
