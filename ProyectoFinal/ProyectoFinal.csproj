@@ -35,6 +35,19 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+  <PackageId>ProyectoFinal</PackageId>
+  <Version>1.0.0</Version>
+  <Title>Proyecto Final</Title>
+  <Authors>JkDevelopers</Authors>
+  <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+  <License>MIT</License>
+  <ProjectUrl>https://github.com/UPT-FAING-EPIS/proyecto-si784-2024-ii-u1-chambi_floresq_leyva</ProjectUrl>
+  <Description>Descripción de tu proyecto</Description>
+  <ReleaseNotes>Notas de la versión</ReleaseNotes>
+  <Copyright>Copyright © 2023</Copyright>
+</PropertyGroup>
+
   <ItemGroup>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
