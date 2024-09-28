@@ -27,10 +27,31 @@ jobs:
           cd ProyectoFinal
           copy ProyectoFinal.template.nuspec ProyectoFinal.nuspec
 
+      - name: Determine Next Version
+        id: determine_version
+        run: |
+          cd ProyectoFinal
+          # Obtener la lista de versiones publicadas
+          $versions = nuget list -Source github | Select-String -Pattern '^ProyectoFinal ' | ForEach-Object {
+              $_ -replace 'ProyectoFinal ', '' -replace ' ', ''
+          }
+          # Obtener la versión más alta
+          $maxVersion = $versions | Sort-Object -Descending | Select-Object -First 1
+          if (-not $maxVersion) {
+              $nextVersion = '1.0.0'
+          } else {
+              # Incrementar la parte menor de la versión
+              $versionParts = $maxVersion -split '\.'
+              $versionParts[2] = [int]$versionParts[2] + 1
+              $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+          }
+          echo "::set-output name=next_version::$nextVersion"
+
       - name: Replace Version in .nuspec
         run: |
           cd ProyectoFinal
-          (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '1.0.0' | Set-Content ProyectoFinal.nuspec
+          # Reemplazar la versión en el archivo .nuspec con la nueva versión
+          (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '${{ steps.determine_version.outputs.next_version }}' | Set-Content ProyectoFinal.nuspec
 
       - name: Pack NuGet Package from .nuspec
         run: |
@@ -40,4 +61,4 @@ jobs:
       - name: Push NuGet Package to GitHub Packages
         run: |
           cd ProyectoFinal
-          nuget push ProyectoFinal.1.0.0.nupkg -Source github -ApiKey ${{ secrets.NEW_TOKEN_NUGET }} -SkipDuplicate
+          nuget push ProyectoFinal.${{ steps.determine_version.outputs.next_version }}.nupkg -Source github -ApiKey ${{ secrets.NEW_TOKEN_NUGET }} -SkipDuplicate
