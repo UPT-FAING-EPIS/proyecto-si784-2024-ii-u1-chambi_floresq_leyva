@@ -1,5 +1,4 @@
 name: NuGet Package Publish
-
 on:
   push:
     branches:
@@ -27,31 +26,24 @@ jobs:
           cd ProyectoFinal
           copy ProyectoFinal.template.nuspec ProyectoFinal.nuspec
 
-      - name: Read Current Version
-        id: read_version
+      - name: Determine Next Version
+        id: determine_version
         run: |
-          $currentVersion = Get-Content "PackageVersion.txt" | Select-Object -Last 1
-          echo "::set-output name=current_version::$currentVersion"
-
-      - name: Increment Version
-        id: increment_version
-        run: |
-          # Obtener la parte de la versión actual
-          $versionParts = ${{ steps.read_version.outputs.current_version }} -split '\.'
-          if ($versionParts.Length -ne 3) {
-        throw "Invalid version format. Expected 'major.minor.patch'."
-          }
-          $versionParts[2] = [int]$versionParts[2] + 1
-          $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
-          # Guardar la nueva versión en el archivo
-          "$nextVersion" | Out-File -FilePath "PackageVersion.txt" -Encoding utf8 -Force
-          echo "::set-output name=next_version::$nextVersion"
+          # Leer el número de versión desde PackageVersion.txt
+          $versionNumber = Get-Content -Path ProyectoFinal/PackageVersion.txt | Select-Object -Last 1
+          # Incrementar el número de versión
+          $newVersionNumber = [int]$versionNumber + 1
+          # Guardar el nuevo número de versión en el archivo
+          Add-Content -Path ProyectoFinal/PackageVersion.txt -Value $newVersionNumber
+          # Definir la versión base
+          $baseVersion = "1.0.$newVersionNumber"
+          echo "::set-output name=next_version::$baseVersion"
 
       - name: Replace Version in nuspec
         run: |
           cd ProyectoFinal
           # Reemplazar la versión en el archivo .nuspec con la nueva versión
-          (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '${{ steps.increment_version.outputs.next_version }}' | Set-Content ProyectoFinal.nuspec
+          (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '${{ steps.determine_version.outputs.next_version }}' | Set-Content ProyectoFinal.nuspec
 
       - name: Pack NuGet Package from nuspec 
         run: |
@@ -61,4 +53,4 @@ jobs:
       - name: Push NuGet Package to GitHub Packages
         run: |
           cd ProyectoFinal
-          nuget push ProyectoFinal.${{ steps.increment_version.outputs.next_version }}.nupkg -Source github -ApiKey ${{ secrets.NEW_TOKEN_NUGET }} -SkipDuplicate
+          nuget push ProyectoFinal.${{ steps.determine_version.outputs.next_version }}.nupkg -Source github -ApiKey ${{ secrets.NEW_TOKEN_NUGET }} -SkipDuplicate
