@@ -5,4 +5,4 @@ Integrantes:
 - Elvis Ronald Leyva Sardon
 - Jaime Elias Flores Quispe
 - Jerson Roni Chambi Cori
-- creacion del release
+- creacion del release2
