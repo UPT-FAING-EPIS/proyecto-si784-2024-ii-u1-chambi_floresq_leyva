@@ -27,44 +27,23 @@ jobs:
           cd ProyectoFinal
           copy ProyectoFinal.template.nuspec ProyectoFinal.nuspec
 
+      - name: Get Last Version from nuspec
+        id: get_last_version
+        run: |
+          cd ProyectoFinal
+          $versionLine = Select-String -Path ProyectoFinal.nuspec -Pattern '<version>(.*)</version>' | ForEach-Object { $_.Matches[0].Groups[1].Value }
+          echo "::set-output name=last_version::$versionLine"
+
       - name: Determine Next Version
         id: determine_version
         run: |
-          cd ProyectoFinal
-          # Obtener la lista de versiones publicadas
-          $versions = nuget list ProyectoFinal -Source github | ForEach-Object {
-              if ($_ -match '^ProyectoFinal\s+(\S+)') {
-                  $matches[1]
-              }
-          } | Where-Object { $_ -ne $null }
-
-          # Mostrar las versiones obtenidas (para depuración)
-          Write-Host "Versions retrieved: $($versions -join ', ')"
-
-          # Obtener la versión más alta
-          $maxVersion = $versions | Sort-Object { [version]$_ } -Descending | Select-Object -First 1
-
-          # Mostrar la versión máxima encontrada (para depuración)
-          Write-Host "Max version found: $maxVersion"
-
-          if (-not $maxVersion) {
-              # Si no hay versiones previas, empieza en 1.0.0
-              $nextVersion = '1.0.0'
-          } else {
-              # Incrementar la parte menor de la versión
-              $versionParts = $maxVersion -split '\.'
-              if ($versionParts.Length -eq 3) {
-                  # Aumentar el número de parche
-                  $versionParts[2] = [int]$versionParts[2] + 1
-                  $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
-              } else {
-                  Write-Host "Error: Invalid version format detected."
-                  exit 1
-              }
-          }
-
-          # Mostrar la próxima versión determinada (para depuración)
-          Write-Host "Next version determined: $nextVersion"
+          # Obtener la versión base
+          $baseVersion = "${{ steps.get_last_version.outputs.last_version }}"
+          # Incrementa la parte menor de la versión
+          $versionParts = $baseVersion -split '\.'
+          $versionParts[2] = [int]$versionParts[2] + 1
+          $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+          echo "::set-output name=next_version::$nextVersion"
 
       - name: Replace Version in nuspec
         run: |
