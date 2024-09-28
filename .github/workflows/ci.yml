@@ -47,7 +47,7 @@ jobs:
           }
           echo "::set-output name=next_version::$nextVersion"
 
-      - name: Replace Version in .nuspec
+      - name: Replace Version in nuspec
         run: |
           cd ProyectoFinal
           # Reemplazar la versión en el archivo .nuspec con la nueva versión
