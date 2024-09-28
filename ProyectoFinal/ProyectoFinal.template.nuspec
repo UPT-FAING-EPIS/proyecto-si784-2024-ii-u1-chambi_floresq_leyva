@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>ProyectoFinal</id>
+    <version>{VERSION}</version>
+    <authors>JkDevelopers</authors>
+    <description>Descripción del Proyecto</description>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/UPT-FAING-EPIS/proyecto-si784-2024-ii-u1-chambi_floresq_leyva</projectUrl>
+    <tags>etiquetas</tags>
+  </metadata>
+</package>
