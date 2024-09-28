@@ -20,7 +20,7 @@ jobs:
 
       - name: Add NuGet Source
         run: |
-          dotnet nuget add source --username jf2021070309 --password ${{ secrets.NEW_TOKEN_NUGET }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/proyecto-si784-2024-ii-u1-chambi_floresq_leyva/index.json"
+          dotnet nuget add source --username jf2021070309 --password ${{ secrets.NEW_TOKEN_NUGET }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json"
 
       - name: Copy Template .nuspec
         run: |
