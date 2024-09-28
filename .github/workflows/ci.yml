@@ -32,15 +32,18 @@ jobs:
           $response = Invoke-RestMethod -Uri "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" -Headers @{Authorization = "Bearer ${{ secrets.NEW_TOKEN_NUGET }}"}
           $latestVersion = ($response.versions | Sort-Object -Descending | Select-Object -First 1)
           echo "::set-output name=latest_version::$latestVersion"
-
-      - name: Determine Next Version
-        id: determine_version
-        run: |
-          $latestVersion = "${{ steps.get_latest_version.outputs.latest_version }}"
-          $versionParts = $latestVersion -split '\.'
-          $versionParts[2] = [int]$versionParts[2] + 1
-          $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
-          echo "::set-output name=next_version::$nextVersion"
+          - name: Determine Next Version
+            id: determine_version
+            run: |
+              $latestVersion = "${{ steps.get_latest_version.outputs.latest_version }}"
+              if (-not $latestVersion) {
+            $nextVersion = "1.0.0"
+              } else {
+            $versionParts = $latestVersion -split '\.'
+            $versionParts[2] = [int]$versionParts[2] + 1
+            $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+              }
+              echo "::set-output name=next_version::$nextVersion"
 
       - name: Replace Version in nuspec
         run: |
