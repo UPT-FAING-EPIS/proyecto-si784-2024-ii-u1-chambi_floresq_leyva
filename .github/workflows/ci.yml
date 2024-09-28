@@ -25,24 +25,26 @@ jobs:
         run: |
           cd ProyectoFinal
           copy ProyectoFinal.template.nuspec ProyectoFinal.nuspec
-          - name: Determine Next Version
-            id: determine_version
-            run: |
-              # Leer el número de versión desde PackageVersion.txt
-              $versionNumber = Get-Content -Path PackageVersion.txt | Select-Object -Last 1
-              # Incrementar el número de versión
-              $newVersionNumber = [int]$versionNumber + 1
-              # Definir la versión base
-              $baseVersion = "1.0.$newVersionNumber"
-              # Eliminar el contenido anterior y escribir el nuevo número de versión
-              Clear-Content -Path PackageVersion.txt
-              Add-Content -Path PackageVersion.txt -Value $newVersionNumber
-              echo "::set-output name=next_version::$baseVersion"
+
+      - name: Get Latest Package Version
+        id: get_latest_version
+        run: |
+          $response = Invoke-RestMethod -Uri "https://nuget.pkg.github.com/UPT-FAING-EPIS/v3/index.json" -Headers @{Authorization = "Bearer ${{ secrets.GITHUB_TOKEN }}"}
+          $latestVersion = ($response.versions | Sort-Object -Descending | Select-Object -First 1)
+          echo "::set-output name=latest_version::$latestVersion"
+
+      - name: Determine Next Version
+        id: determine_version
+        run: |
+          $latestVersion = "${{ steps.get_latest_version.outputs.latest_version }}"
+          $versionParts = $latestVersion -split '\.'
+          $versionParts[2] = [int]$versionParts[2] + 1
+          $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+          echo "::set-output name=next_version::$nextVersion"
 
       - name: Replace Version in nuspec
         run: |
           cd ProyectoFinal
-          # Reemplazar la versión en el archivo .nuspec con la nueva versión
           (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '${{ steps.determine_version.outputs.next_version }}' | Set-Content ProyectoFinal.nuspec
 
       - name: Pack NuGet Package from nuspec 
