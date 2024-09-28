@@ -21,22 +21,19 @@ jobs:
       - name: Add NuGet Source
         run: |
           dotnet nuget add source --username UPT-FAING-EPIS --password ${{ secrets.NEW_TOKEN_NUGET }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json"
-
       - name: Copy Template .nuspec
         run: |
           cd ProyectoFinal
           copy ProyectoFinal.template.nuspec ProyectoFinal.nuspec
-
       - name: Replace Version in .nuspec
         run: |
           cd ProyectoFinal
           (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '1.0.0' | Set-Content ProyectoFinal.nuspec
-
       - name: Pack NuGet Package from .nuspec
         run: |
           cd ProyectoFinal
           nuget pack ProyectoFinal.nuspec
-
       - name: Push NuGet Package to GitHub Packages
         run: |
+          cd ProyectoFinal  
           nuget push ProyectoFinal.1.0.0.nupkg -Source github -ApiKey ${{ secrets.NEW_TOKEN_NUGET }} -SkipDuplicate
