@@ -32,9 +32,11 @@ jobs:
         run: |
           cd ProyectoFinal
           # Obtener la lista de versiones publicadas
-          $versions = nuget list ProyectoFinal -Source github | Select-String -Pattern '^ProyectoFinal ' | ForEach-Object {
-              $_ -replace 'ProyectoFinal ', '' -replace ' ', ''
-          }
+          $versions = nuget list ProyectoFinal -Source github | ForEach-Object {
+              if ($_ -match '^ProyectoFinal\s+(\S+)') {
+                  $matches[1]
+              }
+          } | Where-Object { $_ -ne $null }
 
           # Mostrar las versiones obtenidas (para depuración)
           Write-Host "Versions retrieved: $($versions -join ', ')"
@@ -63,9 +65,6 @@ jobs:
 
           # Mostrar la próxima versión determinada (para depuración)
           Write-Host "Next version determined: $nextVersion"
-          
-          # Usar archivos de entorno en lugar de set-output
-          echo "NEXT_VERSION=$nextVersion" >> $GITHUB_ENV
 
       - name: Replace Version in nuspec
         run: |
