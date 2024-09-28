@@ -30,7 +30,7 @@ jobs:
       - name: Read Current Version
         id: read_version
         run: |
-          $currentVersion = Get-Content "ProyectoFinal/PackageVersion.txt" | Select-Object -Last 1
+          $currentVersion = Get-Content "PackageVersion.txt" | Select-Object -Last 1
           echo "::set-output name=current_version::$currentVersion"
 
       - name: Increment Version
@@ -41,7 +41,7 @@ jobs:
           $versionParts[2] = [int]$versionParts[2] + 1
           $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
           # Guardar la nueva versión en el archivo
-          "$nextVersion" | Out-File -FilePath "ProyectoFinal/PackageVersion.txt" -Encoding utf8 -Force
+          "$nextVersion" | Out-File -FilePath "PackageVersion.txt" -Encoding utf8 -Force
           echo "::set-output name=next_version::$nextVersion"
 
       - name: Replace Version in nuspec
