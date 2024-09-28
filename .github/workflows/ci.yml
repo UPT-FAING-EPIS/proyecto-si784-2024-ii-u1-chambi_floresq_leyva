@@ -39,4 +39,5 @@ jobs:
 
       - name: Push NuGet Package to GitHub Packages
         run: |
+          cd ProyectoFinal  
           nuget push ProyectoFinal.1.0.0.nupkg -Source github -ApiKey ${{ secrets.NEW_TOKEN_NUGET }}
