@@ -53,7 +53,7 @@ jobs:
           # Reemplazar la versión en el archivo .nuspec con la nueva versión
           (Get-Content ProyectoFinal.nuspec) -replace '{VERSION}', '${{ steps.determine_version.outputs.next_version }}' | Set-Content ProyectoFinal.nuspec
 
-      - name: Pack NuGet Package from .nuspec
+      - name: Pack NuGet Package from nuspec 
         run: |
           cd ProyectoFinal
           nuget pack ProyectoFinal.nuspec
