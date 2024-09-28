@@ -69,13 +69,16 @@ jobs:
 
       - name: Adjust .nuspec Metadata
         run: |
-          # Aqui podrías hacer ajustes al archivo .nuspec si es necesario
-          echo "Modificando metadata del archivo .nuspec"
+          cd ProyectoFinal
+          $version = "1.0.0"  # Cambia esto según la versión que desees
+          [xml]$nuspec = Get-Content "ProyectoFinal.nuspec"
+          $nuspec.package.metadata.version = $version
+          $nuspec.Save("ProyectoFinal.nuspec")
 
       - name: Pack NuGet Package
         run: |
           cd ProyectoFinal
-          nuget pack ProyectoFinal.csproj.nuspec
+          nuget pack ProyectoFinal.nuspec
 
       - name: Push NuGet Package to GitHub Packages
         run: |
