@@ -1,0 +1,30 @@
+name: Semgrep Analysis
+
+on: 
+  push:
+    branches:
+      - main  
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    container:
+      # A Docker image with Semgrep installed. Do not change this.
+      image: semgrep/semgrep
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET Framework
+        # Usa una acción que instale .NET Framework si es necesario.
+        # Aquí, puedes necesitar una imagen que tenga .NET Framework o usar un contenedor adecuado.
+        run: |
+          echo "Configurar .NET Framework aquí si es necesario."
+
+      - name: Semgrep scan
+        run: semgrep scan --config="p/default" --sarif --output=report.sarif --metrics=off
+
+      - name: Upload result to GitHub Code Scanning
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: report.sarif
