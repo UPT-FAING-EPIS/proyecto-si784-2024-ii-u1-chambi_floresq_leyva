@@ -25,12 +25,13 @@ jobs:
         run: |
           cd ProyectoFinal
           copy ProyectoFinal.template.nuspec ProyectoFinal.nuspec
-          - name: Get Latest Package Version
-            id: get_latest_version
-            run: |
-              $response = Invoke-RestMethod -Uri "https://nuget.pkg.github.com/UPT-FAING-EPIS/Packages" -Headers @{Authorization = "Bearer ${{ secrets.NEW_TOKEN_NUGET }}"}
-              $latestVersion = ($response.versions | Sort-Object -Descending | Select-Object -First 1)
-              echo "::set-output name=latest_version::$latestVersion"
+
+      - name: Get Latest Package Version
+        id: get_latest_version
+        run: |
+          $response = Invoke-RestMethod -Uri "https://nuget.pkg.github.com/UPT-FAING-EPIS/Packages" -Headers @{Authorization = "Bearer ${{ secrets.NEW_TOKEN_NUGET }}"}
+          $latestVersion = ($response.versions | Sort-Object -Descending | Select-Object -First 1)
+          echo "::set-output name=latest_version::$latestVersion"
 
       - name: Determine Next Version
         id: determine_version
