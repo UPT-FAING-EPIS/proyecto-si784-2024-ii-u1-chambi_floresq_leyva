@@ -31,16 +31,30 @@ jobs:
         id: determine_version
         run: |
           cd ProyectoFinal
-          # Leer la versión desde el archivo .nuspec
-          $currentVersion = (Get-Content ProyectoFinal.nuspec | Select-String -Pattern '<version>(.*?)</version>').Matches.Groups[1].Value
-          
-          # Mostrar la versión actual (para depuración)
-          Write-Host "Current version from nuspec: $currentVersion"
+          # Obtener la lista de versiones publicadas
+          $versions = nuget list ProyectoFinal -Source github | Select-String -Pattern '^ProyectoFinal ' | ForEach-Object {
+              $_ -replace 'ProyectoFinal ', '' -replace ' ', ''
+          }
 
-          # Incrementar la parte del parche de la versión
-          $versionParts = $currentVersion -split '\.'
-          $versionParts[2] = [int]$versionParts[2] + 1
-          $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+          # Mostrar las versiones obtenidas (para depuración)
+          Write-Host "Versions retrieved: $versions"
+
+          # Obtener la versión más alta
+          $maxVersion = $versions | Sort-Object { [version]$_ } -Descending | Select-Object -First 1
+
+          # Mostrar la versión máxima encontrada (para depuración)
+          Write-Host "Max version found: $maxVersion"
+
+          if (-not $maxVersion) {
+              # Si no hay versiones previas, empieza en 1.0.0
+              $nextVersion = '1.0.0'
+          } else {
+              # Incrementar la parte menor de la versión
+              $versionParts = $maxVersion -split '\.'
+              # Aumentar el número de parche
+              $versionParts[2] = [int]$versionParts[2] + 1
+              $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+          }
 
           # Mostrar la próxima versión determinada (para depuración)
           Write-Host "Next version determined: $nextVersion"
