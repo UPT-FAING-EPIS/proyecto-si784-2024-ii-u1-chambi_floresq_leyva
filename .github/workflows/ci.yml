@@ -64,7 +64,8 @@ jobs:
           # Mostrar la próxima versión determinada (para depuración)
           Write-Host "Next version determined: $nextVersion"
           
-          echo "::set-output name=next_version::$nextVersion"
+          # Usar archivos de entorno en lugar de set-output
+          echo "NEXT_VERSION=$nextVersion" >> $GITHUB_ENV
 
       - name: Replace Version in nuspec
         run: |
