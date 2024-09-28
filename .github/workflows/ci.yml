@@ -30,12 +30,21 @@ jobs:
       - name: Determine Next Version
         id: determine_version
         run: |
-          # Define la versión base
-          $baseVersion = "1.0.1"
-          # Incrementa la parte menor de la versión
-          $versionParts = $baseVersion -split '\.'
-          $versionParts[2] = [int]$versionParts[2] + 1
-          $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+          cd ProyectoFinal
+          # Obtener la lista de versiones publicadas
+          $versions = nuget list ProyectoFinal -Source github | Select-String -Pattern '^ProyectoFinal ' | ForEach-Object {
+              $_ -replace 'ProyectoFinal ', '' -replace ' ', ''
+          }
+          # Obtener la versión más alta
+          $maxVersion = $versions | Sort-Object { [version]$_ } -Descending | Select-Object -First 1
+          if (-not $maxVersion) {
+              $nextVersion = '1.0.1' # Si no hay versiones previas, inicia en 1.0.1
+          } else {
+              # Incrementar la parte menor de la versión
+              $versionParts = $maxVersion -split '\.'
+              $versionParts[2] = [int]$versionParts[2] + 1 # Incrementa el número de parche
+              $nextVersion = "$($versionParts[0]).$($versionParts[1]).$($versionParts[2])"
+          }
           echo "::set-output name=next_version::$nextVersion"
 
       - name: Replace Version in nuspec
