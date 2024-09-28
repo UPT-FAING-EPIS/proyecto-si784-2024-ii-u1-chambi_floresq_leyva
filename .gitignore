@@ -60,9 +60,9 @@ _pycache_/
 
 # NuGet #
 ###########
-#*.nupkg
+*.nupkg
 *.snupkg
-*.nuspec
+#*.nuspec
 
 # Rider #
 ##########
