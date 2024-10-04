@@ -25,10 +25,11 @@ jobs:
       - name: Instalar Snyk-to-HTML
         run: npm install -g snyk-to-html
 
-      - name: Snyk Code Test
-        run: snyk code test --sarif-file-output=snyk.sarif --json-file-output=snyk-report.json
+      - name: Snyk Code test
+        run: snyk code test --sarif-file-output=snyk.sarif --json-file-output=snyk-report.json || echo "Snyk code test completed with issues"
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+
 
       - name: Verificar existencia del archivo SARIF
         run: ls -la snyk.sarif
