@@ -3,7 +3,7 @@ name: Semgrep Analysis
 on: 
   push:
     branches:
-      - test
+      - main
 permissions:
   contents: write
   security-events: write  # Required for uploading SARIF files
