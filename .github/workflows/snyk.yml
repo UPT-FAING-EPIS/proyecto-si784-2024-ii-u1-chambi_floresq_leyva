@@ -31,7 +31,7 @@ jobs:
 
       - name: Change to Project Directory
         run: cd ProyectoFinal
-        
+
       - name: Instalar Snyk-to-HTML
         run: npm install -g snyk-to-html
 
@@ -48,6 +48,10 @@ jobs:
       - name: Verificar existencia del reporte HTML
         run: ls -la snyk-report.html
 
+      - name: Configurar Git para publicar en GitHub Pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"    
 
 
 
