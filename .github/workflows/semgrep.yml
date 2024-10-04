@@ -27,13 +27,12 @@ jobs:
         run: prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep || true
 
       # Publish to GitHub Pages
-      - name: Move reports to public folder
+      - name: Move reports to root folder
         run: |
-          mkdir -p semgrep
-          mv semgrep-report.html semgrep
-          
+          mv semgrep-report.html ./  # Mover el archivo al directorio raíz del repositorio
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.SEMGREP_TOKEN }}
-          publish_dir: semgrep
+          github_token: ${{ secrets.SEMGREP_TOKEN }}  # Asegúrate de que el token esté configurado como un secreto
+          publish_dir: ./  # Publicar desde la raíz del repositorio
