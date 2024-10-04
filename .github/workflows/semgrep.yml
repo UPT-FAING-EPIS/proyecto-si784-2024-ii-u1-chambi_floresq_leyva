@@ -29,11 +29,11 @@ jobs:
       # Publish to GitHub Pages
       - name: Move reports to public folder
         run: |
-          mkdir -p docs/reports
-          mv semgrep-report.html docs/reports/
+          mkdir -p semgrep
+          mv semgrep-report.html semgrep
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.SEMGREP_TOKEN }}
-          publish_dir: docs
+          publish_dir: semgrep
