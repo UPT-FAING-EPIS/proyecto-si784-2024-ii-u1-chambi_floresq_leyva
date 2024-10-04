@@ -1,12 +1,10 @@
 name: Semgrep Analysis
-
 on: 
   push:
     branches:
       - test
 permissions:
   contents: write  
-  security-events: write  # Permiso necesario para subir el archivo SARIF
 jobs:
   security:
     runs-on: ubuntu-latest
@@ -19,19 +17,16 @@ jobs:
         run: docker pull semgrep/semgrep
 
       - name: Run Semgrep
-        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --sarif --output semgrep.sarif --metrics=off
-       
+        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off
+
+      - name: Convert Semgrep JSON to SARIF
+        run: jq -n --argfile data semgrep.json '{"version": "2.1.0", "runs": [$data]}' > semgrep.sarif
+
       - name: Install prospector-html
         run: python -m pip install prospector2html
 
       - name: Convert Semgrep results to HTML
-        run: prospector-html --input semgrep.sarif --output semgrep-report.html --filter semgrep || true
-
-      # Upload SARIF result to GitHub Code Scanning
-      - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: semgrep.sarif
+        run: prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep || true
 
       # Publish to GitHub Pages
       - name: Move report to temporary folder
@@ -44,3 +39,8 @@ jobs:
         with:
           github_token: ${{ secrets.SEMGREP_TOKEN }}  # Asegúrate de que el token esté configurado como un secreto
           publish_dir: temp  # Publicar solo la carpeta 'temp'
+
+      - name: Upload result to GitHub Code Scanning
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: semgrep.sarif
