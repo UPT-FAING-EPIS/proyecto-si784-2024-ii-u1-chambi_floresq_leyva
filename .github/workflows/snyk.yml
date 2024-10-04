@@ -38,6 +38,15 @@ jobs:
         run: |
           cd ProyectoFinal
           snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?"
+      
+      - name: Generar reporte HTML desde SARIF
+        run: snyk-to-html -i snyk-code.sarif -o snyk-report.html
+
+
+
+
+
+
 
       - name: Snyk Open Source monitor
         env:
