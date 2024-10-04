@@ -9,6 +9,9 @@ permissions:
 jobs:
   security:
     runs-on: ubuntu-latest
+    security-events: write  # Required for uploading SARIF files
+    actions: read
+    contents: read
 
     steps:
       - name: Checkout
