@@ -31,6 +31,9 @@ jobs:
 
       - name: Change to Project Directory
         run: cd ProyectoFinal
+        
+      - name: Instalar Snyk-to-HTML
+        run: npm install -g snyk-to-html
 
       - name: Snyk Code test
         env:
