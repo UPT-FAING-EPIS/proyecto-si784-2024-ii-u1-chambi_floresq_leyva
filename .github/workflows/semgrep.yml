@@ -19,17 +19,13 @@ jobs:
         run: docker pull semgrep/semgrep
 
       - name: Run Semgrep
-        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off
+        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --sarif --output semgrep.sarif --metrics=off
        
       - name: Install prospector-html
         run: python -m pip install prospector2html
 
       - name: Convert Semgrep results to HTML
-        run: prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep || true
-
-      # Convert Semgrep JSON to SARIF
-      - name: Convert Semgrep JSON to SARIF
-        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep --json2sarif semgrep.json --sarif-output semgrep.sarif
+        run: prospector-html --input semgrep.sarif --output semgrep-report.html --filter semgrep || true
 
       # Upload SARIF result to GitHub Code Scanning
       - name: Upload result to GitHub Code Scanning
