@@ -30,7 +30,6 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
-
       - name: Verificar existencia del archivo SARIF
         run: ls -la snyk.sarif
 
@@ -40,10 +39,21 @@ jobs:
           mv snyk.sarif ../Reportes/  # Mueve el archivo SARIF a la carpeta Reportes
 
       - name: Generar reporte HTML desde SARIF
-        run: snyk-to-html -i ../Reportes/snyk.sarif -o ../Reportes/snyk-report.html  # Genera el reporte en la carpeta Reportes
+        run: snyk-to-html -i ../Reportes/snyk.sarif -o ../Reportes/snyk-report.html 
 
       - name: Verificar existencia del reporte HTML
         run: ls -la ../Reportes/snyk-report.html
+
+      - name: Snyk Open Source monitor
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        working-directory: ProyectoFinal
+        run: snyk monitor
+
+      - name: Upload result to GitHub Code Scanning
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: ../Reportes/snyk.sarif  
 
       - name: Configurar Git para publicar en GitHub Pages
         run: |
@@ -55,7 +65,7 @@ jobs:
         run: |
           git checkout --orphan gh-pages
           git reset --hard
-          cp ../Reportes/snyk-report.html index.html  # Copia el archivo HTML generado
-          git add index.html
-          git commit -m "Publicando reporte de Snyk"
+          cp ../Reportes/snyk-report.html reporte-snyk.html  # Cambia el nombre al copiar
+          git add reporte-snyk.html
+          git commit -m "Publicando reporte de Snyk como reporte-snyk.html"
           git push --force --set-upstream origin gh-pages
