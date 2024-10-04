@@ -41,10 +41,14 @@ jobs:
         run: |
           mkdir temp  # Crear una carpeta temporal
           mv semgrep-report.html temp/  # Mover el archivo a la carpeta temporal
-          mv semgrep.sarif temp/  # Mover el archivo SARIF a la carpeta temporal
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.SEMGREP_TOKEN }}  # Asegúrate de que el token esté configurado como un secreto
           publish_dir: temp  # Publicar solo la carpeta 'temp'
+
+      - name: Upload result to GitHub Code Scanning
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: semgrep.sarif
