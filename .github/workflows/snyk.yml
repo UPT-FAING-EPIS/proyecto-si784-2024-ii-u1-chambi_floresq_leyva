@@ -59,7 +59,7 @@ jobs:
           git checkout --orphan gh-pages
           git reset --hard
           cp snyk-report.html reportesnyk.html
-          git add index.html
+          git add reportesnyk.html
           git commit -m "Publicando reporte de Snyk"
           git push --force --set-upstream origin gh-pages
 
