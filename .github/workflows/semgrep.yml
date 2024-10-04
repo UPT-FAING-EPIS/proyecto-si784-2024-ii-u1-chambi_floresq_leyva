@@ -26,11 +26,6 @@ jobs:
       - name: Convert Semgrep results to HTML
         run: prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep || true
 
-      # Publish to GitHub Pages
-      - name: Move reports to root folder
-        run: |
-          mv semgrep-report.html ./  # Mover el archivo al directorio raíz del repositorio
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
