@@ -48,7 +48,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.SEMGREP_TOKEN }}  # Asegúrate de que el token esté configurado como un secreto
+          github_token: ${{ secrets.SEMGREP_TOKEN }}
           publish_dir: temp  # Publicar solo la carpeta 'temp'
 
       - name: Upload result to GitHub Code Scanning
