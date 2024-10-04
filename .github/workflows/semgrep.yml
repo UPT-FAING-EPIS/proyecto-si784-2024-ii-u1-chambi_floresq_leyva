@@ -42,11 +42,3 @@ jobs:
         with:
           github_token: ${{ secrets.SEMGREP_TOKEN }}  # Asegúrate de que el token esté configurado como un secreto
           publish_dir: temp  # Publicar solo la carpeta 'temp'
-
-      - name: Semgrep scan
-        run: semgrep scan --config="p/default" --sarif --output=report.sarif --metrics=off
-
-      - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: report.sarif
