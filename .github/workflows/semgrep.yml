@@ -10,8 +10,6 @@ jobs:
   security:
     runs-on: ubuntu-latest
     security-events: write  # Required for uploading SARIF files
-    actions: read
-    contents: read
 
     steps:
       - name: Checkout
@@ -48,7 +46,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.SEMGREP_TOKEN }}
+          github_token: ${{ secrets.SEMGREP_TOKEN }}  # Asegúrate de que el token esté configurado como un secreto
           publish_dir: temp  # Publicar solo la carpeta 'temp'
 
       - name: Upload result to GitHub Code Scanning
