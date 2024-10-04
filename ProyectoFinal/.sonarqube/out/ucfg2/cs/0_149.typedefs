@@ -1,0 +1,26 @@
+å 
+TProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectÖ
+PacienteTableAdapter()kProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.PacienteTableAdapter()s
+InitAdapter()bProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.InitAdapter()y
+InitConnection()eProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.InitConnection()á
+InitCommandCollection()lProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.InitCommandCollection()Ó
+JFill(ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.PacienteDataTable)üProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.PacienteDataTable)k
+	GetData()^ProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.GetData()Ú
+LUpdate(ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.PacienteDataTable)°ProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Update(ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.PacienteDataTable)Œ
+:Update(ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes)èProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Update(ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes)è
+Update(System.Data.DataRow)pProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Update(System.Data.DataRow)ì
+Update(System.Data.DataRow[])rProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Update(System.Data.DataRow[])‹
+ADelete(int, string, string, string, string, System.DateTime, int)ñProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Delete(int, string, string, string, string, System.DateTime, int)“
+<Insert(string, string, string, string, System.DateTime, int)ëProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Insert(string, string, string, string, System.DateTime, int)“
+|Update(string, string, string, string, System.DateTime, int, int, string, string, string, string, System.DateTime, int, int)—ProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Update(string, string, string, string, System.DateTime, int, int, string, string, string, string, System.DateTime, int, int)»
+wUpdate(string, string, string, string, System.DateTime, int, int, string, string, string, string, System.DateTime, int)ÃProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Update(string, string, string, string, System.DateTime, int, int, string, string, string, string, System.DateTime, int)o
+Adapter.get`ProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Adapter.geto
+Adapter.set`ProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Adapter.setu
+Connection.getcProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Connection.getu
+Connection.setcProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Connection.setw
+Transaction.getdProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Transaction.getw
+Transaction.setdProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.Transaction.setÉ
+CommandCollection.getjProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.CommandCollection.getÉ
+CommandCollection.setjProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.CommandCollection.set
+ClearBeforeFill.gethProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.ClearBeforeFill.get
+ClearBeforeFill.sethProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.PacienteTableAdapter.ClearBeforeFill.set

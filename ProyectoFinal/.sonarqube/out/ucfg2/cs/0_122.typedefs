@@ -1,0 +1,13 @@
+Õ
+/ProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNAobjectj
+V_DETALLE_PACIENTE_VACUNA()KProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.V_DETALLE_PACIENTE_VACUNA()@
+ID.get6ProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.ID.get@
+ID.set6ProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.ID.setZ
+Nombre_Paciente.getCProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.Nombre_Paciente.getZ
+Nombre_Paciente.setCProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.Nombre_Paciente.setV
+Nombre_Vacuna.getAProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.Nombre_Vacuna.getV
+Nombre_Vacuna.setAProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.Nombre_Vacuna.setN
+Nro_Dosis.get=ProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.Nro_Dosis.getN
+Nro_Dosis.set=ProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.Nro_Dosis.setP
+Fecha_Hora.get>ProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.Fecha_Hora.getP
+Fecha_Hora.set>ProyectoFinal.Modelos.V_DETALLE_PACIENTE_VACUNA.Fecha_Hora.set

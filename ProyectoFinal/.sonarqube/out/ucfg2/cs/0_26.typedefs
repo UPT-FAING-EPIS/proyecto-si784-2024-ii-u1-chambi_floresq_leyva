@@ -1,0 +1,25 @@
+ï
+%ProyectoFinal.FormRegistrarVacunacionSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject\
+FormRegistrarVacunacion()?ProyectoFinal.FormRegistrarVacunacion.FormRegistrarVacunacion()J
+Cargar_Cliente()6ProyectoFinal.FormRegistrarVacunacion.Cargar_Cliente()J
+Cargar_Mascota()6ProyectoFinal.FormRegistrarVacunacion.Cargar_Mascota()|
+)btnBuscar_Click(object, System.EventArgs)OProyectoFinal.FormRegistrarVacunacion.btnBuscar_Click(object, System.EventArgs)j
+ ActivarBotones(bool, bool, bool)FProyectoFinal.FormRegistrarVacunacion.ActivarBotones(bool, bool, bool)H
+ActivarCampos()5ProyectoFinal.FormRegistrarVacunacion.ActivarCampos()N
+DesactivarCampos()8ProyectoFinal.FormRegistrarVacunacion.DesactivarCampos()<
+	Limpiar()/ProyectoFinal.FormRegistrarVacunacion.Limpiar()P
+AgregarVacunacion()9ProyectoFinal.FormRegistrarVacunacion.AgregarVacunacion()R
+EliminarVacunacion():ProyectoFinal.FormRegistrarVacunacion.EliminarVacunacion():
+Listar().ProyectoFinal.FormRegistrarVacunacion.Listar()Æ
+NdgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)tProyectoFinal.FormRegistrarVacunacion.dgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)Æ
+NdgvVacunados_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)tProyectoFinal.FormRegistrarVacunacion.dgvVacunados_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)~
+*btnAgregar_Click(object, System.EventArgs)PProyectoFinal.FormRegistrarVacunacion.btnAgregar_Click(object, System.EventArgs)€
++btnEliminar_Click(object, System.EventArgs)QProyectoFinal.FormRegistrarVacunacion.btnEliminar_Click(object, System.EventArgs)~
+*btnNuevo_Click_1(object, System.EventArgs)PProyectoFinal.FormRegistrarVacunacion.btnNuevo_Click_1(object, System.EventArgs)€
++btnCancelar_Click(object, System.EventArgs)QProyectoFinal.FormRegistrarVacunacion.btnCancelar_Click(object, System.EventArgs)È
+OdgvTotalStock_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)uProyectoFinal.FormRegistrarVacunacion.dgvTotalStock_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)H
+CargarVacunas()5ProyectoFinal.FormRegistrarVacunacion.CargarVacunas()~
+*btnVacunas_Click(object, System.EventArgs)PProyectoFinal.FormRegistrarVacunacion.btnVacunas_Click(object, System.EventArgs)–
+6FormRegistrarVacunacion_Load(object, System.EventArgs)\ProyectoFinal.FormRegistrarVacunacion.FormRegistrarVacunacion_Load(object, System.EventArgs)D
+Dispose(bool)3ProyectoFinal.FormRegistrarVacunacion.Dispose(bool)T
+InitializeComponent();ProyectoFinal.FormRegistrarVacunacion.InitializeComponent()

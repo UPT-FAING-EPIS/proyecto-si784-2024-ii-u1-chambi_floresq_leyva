@@ -1,0 +1,12 @@
+å
+&ProyectoFinal.SOFTVETDataSet.VacunaRowSystem.Data.DataRowobjectu
+%VacunaRow(System.Data.DataRowBuilder)LProyectoFinal.SOFTVETDataSet.VacunaRow.VacunaRow(System.Data.DataRowBuilder)[
+GetPACIENTE_VACUNARows()?ProyectoFinal.SOFTVETDataSet.VacunaRow.GetPACIENTE_VACUNARows()E
+ID_Vacuna.get4ProyectoFinal.SOFTVETDataSet.VacunaRow.ID_Vacuna.getE
+ID_Vacuna.set4ProyectoFinal.SOFTVETDataSet.VacunaRow.ID_Vacuna.setM
+Nombre_Vacuna.get8ProyectoFinal.SOFTVETDataSet.VacunaRow.Nombre_Vacuna.getM
+Nombre_Vacuna.set8ProyectoFinal.SOFTVETDataSet.VacunaRow.Nombre_Vacuna.set=
+	Stock.get0ProyectoFinal.SOFTVETDataSet.VacunaRow.Stock.get=
+	Stock.set0ProyectoFinal.SOFTVETDataSet.VacunaRow.Stock.setO
+FechaCaducidad.get9ProyectoFinal.SOFTVETDataSet.VacunaRow.FechaCaducidad.getO
+FechaCaducidad.set9ProyectoFinal.SOFTVETDataSet.VacunaRow.FechaCaducidad.set

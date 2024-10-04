@@ -1,0 +1,13 @@
+‹
+"ProyectoFinal.Modelos.V_VacunacionobjectC
+V_Vacunacion()1ProyectoFinal.Modelos.V_Vacunacion.V_Vacunacion()C
+Id_Detalle.get1ProyectoFinal.Modelos.V_Vacunacion.Id_Detalle.getC
+Id_Detalle.set1ProyectoFinal.Modelos.V_Vacunacion.Id_Detalle.setG
+Cod_Paciente.get3ProyectoFinal.Modelos.V_Vacunacion.Cod_Paciente.getG
+Cod_Paciente.set3ProyectoFinal.Modelos.V_Vacunacion.Cod_Paciente.setA
+ID_Vacuna.get0ProyectoFinal.Modelos.V_Vacunacion.ID_Vacuna.getA
+ID_Vacuna.set0ProyectoFinal.Modelos.V_Vacunacion.ID_Vacuna.set?
+NumDosis.get/ProyectoFinal.Modelos.V_Vacunacion.NumDosis.get?
+NumDosis.set/ProyectoFinal.Modelos.V_Vacunacion.NumDosis.set9
+	Fecha.get,ProyectoFinal.Modelos.V_Vacunacion.Fecha.get9
+	Fecha.set,ProyectoFinal.Modelos.V_Vacunacion.Fecha.set

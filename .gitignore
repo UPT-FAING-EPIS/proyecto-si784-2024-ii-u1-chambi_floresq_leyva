@@ -1,0 +1,96 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.obj
+*.so
+*.dylib
+*.lib
+*.a
+*.lo
+*.la
+*.lai
+*.pch
+*.pdb
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sql
+*.sqlite
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dependency directories #
+##########################
+node_modules/
+bower_components/
+*.sublime-workspace
+*.sublime-project
+
+# Python #
+###########
+*.pyc
+*.pyo
+*.pyd
+_pycache_/
+
+# Visual Studio #
+##################
+.vs/
+#*.csproj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results #
+##################
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]eleases/
+[Rr]eleasesPublic/
+[Oo]bj/
+[Bb]in/
+
+# NuGet #
+###########
+*.nupkg
+*.snupkg
+#*.nuspec
+
+# Rider #
+##########
+.idea/
+
+# Logs #
+########
+*.log
+.log.
+
+# Operating System files #
+##########################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Other files #
+###############
+*.tmp
+*.swp
+*.swo
+*.lock
+*.pid
+
+# Ignore directories and files related to specific tools or environments
+.env
+.vscode/
+
+# Allow SqlServerTypes folder and files
+!ProyectoFinal/SqlServerTypes/
+!ProyectoFinal/SqlServerTypes/*/

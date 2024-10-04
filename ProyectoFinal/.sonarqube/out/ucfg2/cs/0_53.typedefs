@@ -1,0 +1,9 @@
+«
+;ProyectoFinal.SOFTVETDataSet_Clientes.ClienteRowChangeEventSystem.EventArgsobject…
+bClienteRowChangeEvent(ProyectoFinal.SOFTVETDataSet_Clientes.ClienteRow, System.Data.DataRowAction)žProyectoFinal.SOFTVETDataSet_Clientes.ClienteRowChangeEvent.ClienteRowChangeEvent(ProyectoFinal.SOFTVETDataSet_Clientes.ClienteRow, System.Data.DataRowAction)N
+Row.getCProyectoFinal.SOFTVETDataSet_Clientes.ClienteRowChangeEvent.Row.getN
+Row.setCProyectoFinal.SOFTVETDataSet_Clientes.ClienteRowChangeEvent.Row.setT
+
+Action.getFProyectoFinal.SOFTVETDataSet_Clientes.ClienteRowChangeEvent.Action.getT
+
+Action.setFProyectoFinal.SOFTVETDataSet_Clientes.ClienteRowChangeEvent.Action.set

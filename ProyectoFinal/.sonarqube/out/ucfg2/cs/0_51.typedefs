@@ -1,0 +1,25 @@
+•
+KProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject|
+PacienteTableAdapter()bProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.PacienteTableAdapter()j
+InitAdapter()YProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.InitAdapter()p
+InitConnection()\ProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.InitConnection()~
+InitCommandCollection()cProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.InitCommandCollection()”
+AFill(ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable)çProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable)b
+	GetData()UProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.GetData()◊
+CUpdate(ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable)èProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Update(ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable)≤
+1Update(ProyectoFinal.SOFTVETDataSet_Est_Paciente)}ProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Update(ProyectoFinal.SOFTVETDataSet_Est_Paciente)Ü
+Update(System.Data.DataRow)gProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Update(System.Data.DataRow)ä
+Update(System.Data.DataRow[])iProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Update(System.Data.DataRow[])Ü
+Delete(int, string, string)gProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Delete(int, string, string)∞
+0Update(string, string, int, string, string, int)|ProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Update(string, string, int, string, string, int)¶
++Update(string, string, int, string, string)wProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Update(string, string, int, string, string)f
+Adapter.getWProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Adapter.getf
+Adapter.setWProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Adapter.setl
+Connection.getZProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Connection.getl
+Connection.setZProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Connection.setn
+Transaction.get[ProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Transaction.getn
+Transaction.set[ProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.Transaction.setz
+CommandCollection.getaProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.CommandCollection.getz
+CommandCollection.setaProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.CommandCollection.setv
+ClearBeforeFill.get_ProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.ClearBeforeFill.getv
+ClearBeforeFill.set_ProyectoFinal.SOFTVETDataSet_Est_PacienteTableAdapters.PacienteTableAdapter.ClearBeforeFill.set

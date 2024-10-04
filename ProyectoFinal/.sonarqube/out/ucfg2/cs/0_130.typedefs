@@ -1,0 +1,17 @@
+‘
+/ProyectoFinal.Modelos.SP_HistorialClinicoResultobjectj
+SP_HistorialClinicoResult()KProyectoFinal.Modelos.SP_HistorialClinicoResult.SP_HistorialClinicoResult()H
+
+Nombre.get:ProyectoFinal.Modelos.SP_HistorialClinicoResult.Nombre.getH
+
+Nombre.set:ProyectoFinal.Modelos.SP_HistorialClinicoResult.Nombre.setJ
+Nombre1.get;ProyectoFinal.Modelos.SP_HistorialClinicoResult.Nombre1.getJ
+Nombre1.set;ProyectoFinal.Modelos.SP_HistorialClinicoResult.Nombre1.setJ
+Especie.get;ProyectoFinal.Modelos.SP_HistorialClinicoResult.Especie.getJ
+Especie.set;ProyectoFinal.Modelos.SP_HistorialClinicoResult.Especie.setD
+Raza.get8ProyectoFinal.Modelos.SP_HistorialClinicoResult.Raza.getD
+Raza.set8ProyectoFinal.Modelos.SP_HistorialClinicoResult.Raza.setD
+Sexo.get8ProyectoFinal.Modelos.SP_HistorialClinicoResult.Sexo.getD
+Sexo.set8ProyectoFinal.Modelos.SP_HistorialClinicoResult.Sexo.setF
+	Fecha.get9ProyectoFinal.Modelos.SP_HistorialClinicoResult.Fecha.getF
+	Fecha.set9ProyectoFinal.Modelos.SP_HistorialClinicoResult.Fecha.set

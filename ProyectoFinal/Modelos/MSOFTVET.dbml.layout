@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.75" name="MSOFTVET">
+  <DataContextMoniker Name="/MSOFTVETDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ce8aff4c-bbc2-43f6-b35c-71060f06c391" absoluteBounds="0.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MSOFTVETDataContext/Vacuna" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9ee2fd6b-49ae-4af4-8c2f-274f7bd2bd3c" absoluteBounds="0.515, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1e986585-aedd-41a4-81b8-3c39c8e3cbaa" absoluteBounds="7.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Desparasitacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a4d199a-c605-4672-bb2a-4acfe565b8de" absoluteBounds="7.5150000000000006, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="49f8d739-fea3-4fb2-bc5f-da24c08d0c21" absoluteBounds="0.5, 2.5, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Empleado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="635f6aba-6df4-4a81-babe-9d310350b602" absoluteBounds="0.515, 2.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e2cf2e3-72a1-488f-9d85-e7f76134448d" absoluteBounds="2.875, 3.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Paciente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c36e4c15-b2ef-4015-b584-3d7efbbe6c7f" absoluteBounds="2.89, 3.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13e62443-b589-40e4-af36-ca92d7531f70" absoluteBounds="5.25, 3, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Paciente_Vacuna" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c826d2e5-7d20-4175-ad47-874c2afbbdcf" absoluteBounds="5.265, 3.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32f14639-7208-456a-8ede-4d2a64868f1a" absoluteBounds="7.625, 2.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Recetaciones" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1ef3c272-4655-433e-9a5f-867630f9392e" absoluteBounds="7.6400000000000006, 2.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="08ebfa74-78da-41e1-a436-8344b02d8c95" absoluteBounds="0.5, 5.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e006294c-4e03-4c64-8713-54fcbca1e00b" absoluteBounds="0.51500000000000012, 6.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7c74d6ef-665b-43db-850f-4f42dc415ce3" absoluteBounds="2.875, 5.5, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Vacunacion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d618d33a-eb0f-41b6-80d6-18798c1ddfba" absoluteBounds="2.89, 5.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e384b83-e577-44d0-bb7a-aa77e266fe9a" absoluteBounds="5.25, 4.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Vacunas" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f5035d6f-6626-4123-a44e-60b62b6f6204" absoluteBounds="5.265, 5.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="95a5a92c-2c53-4fc0-95e9-61f878101d2e" absoluteBounds="2.875, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Citas" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9258395-f494-41d2-89fe-7e87e7ef597c" absoluteBounds="2.89, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e0ae76e9-f1cf-4465-895a-64756a41b189" absoluteBounds="7.625, 4.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_CargarCitas" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab7272d8-9fa1-4f0a-9575-c8af9df75c70" absoluteBounds="7.6400000000000006, 4.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dc754c1d-268b-4ec9-94df-ee3ef44b6c75" absoluteBounds="5.25, 6.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_DETALLE_PACIENTE_VACUNA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6b025d9-9428-43b8-a289-bc4331a30f7c" absoluteBounds="5.265, 7.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f9b42e8-4374-4a57-98bd-772dbaea0e1c" absoluteBounds="5.125, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/MSOFTVETDataContext/V_Cliente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aca39976-9804-46ed-8312-8372fa0cffce" absoluteBounds="5.14, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

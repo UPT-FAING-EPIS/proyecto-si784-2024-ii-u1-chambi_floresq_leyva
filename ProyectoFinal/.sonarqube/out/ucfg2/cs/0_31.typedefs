@@ -1,0 +1,8 @@
+æ
+ProyectoFinal.Clases.ClsCitaobjectG
+ObtenerTodasCitas()0ProyectoFinal.Clases.ClsCita.ObtenerTodasCitas()k
+%ObtenerCitasPorFecha(System.DateTime)BProyectoFinal.Clases.ClsCita.ObtenerCitasPorFecha(System.DateTime)[
+ObtenerCitasPorEstado(string):ProyectoFinal.Clases.ClsCita.ObtenerCitasPorEstado(string)C
+CancelarCita(int).ProyectoFinal.Clases.ClsCita.CancelarCita(int)1
+Cargar()%ProyectoFinal.Clases.ClsCita.Cargar()3
+	ClsCita()&ProyectoFinal.Clases.ClsCita.ClsCita()

@@ -1,0 +1,5 @@
+ä
+`ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SelfReferenceComparerobject'System.Collections.Generic.IComparer<T>Ð
+5SelfReferenceComparer(System.Data.DataRelation, bool)–ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SelfReferenceComparer.SelfReferenceComparer(System.Data.DataRelation, bool)°
+%GetRoot(System.Data.DataRow, out int)†ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SelfReferenceComparer.GetRoot(System.Data.DataRow, out int)È
+1Compare(System.Data.DataRow, System.Data.DataRow)’ProyectoFinal.SOFTVETDataSet_HC_RECETARIOTableAdapters.TableAdapterManager.SelfReferenceComparer.Compare(System.Data.DataRow, System.Data.DataRow)

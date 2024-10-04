@@ -1,0 +1,23 @@
+
+3ProyectoFinal.DataSet.DataSet_Estadistica_PacientesSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectv
+DataSet_Estadistica_Pacientes()SProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.DataSet_Estadistica_Pacientes()±
+|DataSet_Estadistica_Pacientes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)°ProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.DataSet_Estadistica_Pacientes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)l
+InitializeDerivedDataSet()NProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.InitializeDerivedDataSet()F
+Clone();ProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.Clone()f
+ShouldSerializeTables()KProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.ShouldSerializeTables()l
+ShouldSerializeRelations()NProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.ShouldSerializeRelations()Š
+)ReadXmlSerializable(System.Xml.XmlReader)]ProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.ReadXmlSerializable(System.Xml.XmlReader)f
+GetSchemaSerializable()KProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.GetSchemaSerializable()L
+
+InitVars()>ProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.InitVars()T
+InitVars(bool)BProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.InitVars(bool)N
+InitClass()?ProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.InitClass()Ä
+FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)zProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)n
+SchemaSerializationMode.getOProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.SchemaSerializationMode.getn
+SchemaSerializationMode.setOProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.SchemaSerializationMode.setL
+
+Tables.get>ProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.Tables.getL
+
+Tables.set>ProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.Tables.setR
+Relations.getAProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.Relations.getR
+Relations.setAProyectoFinal.DataSet.DataSet_Estadistica_Pacientes.Relations.set

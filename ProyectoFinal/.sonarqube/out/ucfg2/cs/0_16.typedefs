@@ -1,0 +1,25 @@
+È
+*ProyectoFinal.FormRegistrarDesparasitacionSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectk
+FormRegistrarDesparasitacion()IProyectoFinal.FormRegistrarDesparasitacion.FormRegistrarDesparasitacion()Q
+CargarComboTipo()<ProyectoFinal.FormRegistrarDesparasitacion.CargarComboTipo()O
+Cargar_Cliente();ProyectoFinal.FormRegistrarDesparasitacion.Cargar_Cliente()O
+Cargar_Mascota();ProyectoFinal.FormRegistrarDesparasitacion.Cargar_Mascota()]
+AgregarDesparasitante()BProyectoFinal.FormRegistrarDesparasitacion.AgregarDesparasitante()a
+ModificarDesparasitante()DProyectoFinal.FormRegistrarDesparasitacion.ModificarDesparasitante()_
+EliminarDesparasitante()CProyectoFinal.FormRegistrarDesparasitacion.EliminarDesparasitante()¥
+;FormRegistrarDesparasitacion_Load(object, System.EventArgs)fProyectoFinal.FormRegistrarDesparasitacion.FormRegistrarDesparasitacion_Load(object, System.EventArgs)?
+Listar()3ProyectoFinal.FormRegistrarDesparasitacion.Listar()‡
+,ActivarBotones(bool, bool, bool, bool, bool)WProyectoFinal.FormRegistrarDesparasitacion.ActivarBotones(bool, bool, bool, bool, bool)M
+ActivarCampos():ProyectoFinal.FormRegistrarDesparasitacion.ActivarCampos()S
+DesactivarCampos()=ProyectoFinal.FormRegistrarDesparasitacion.DesactivarCampos()A
+	Limpiar()4ProyectoFinal.FormRegistrarDesparasitacion.Limpiar()ƒ
+*btnAgregar_Click(object, System.EventArgs)UProyectoFinal.FormRegistrarDesparasitacion.btnAgregar_Click(object, System.EventArgs)
+)btnBuscar_Click(object, System.EventArgs)TProyectoFinal.FormRegistrarDesparasitacion.btnBuscar_Click(object, System.EventArgs)Ë
+NdgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)yProyectoFinal.FormRegistrarDesparasitacion.dgvPacientes_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)Õ
+SdgvDesparasitados_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)~ProyectoFinal.FormRegistrarDesparasitacion.dgvDesparasitados_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)‡
+,btnModificar_Click(object, System.EventArgs)WProyectoFinal.FormRegistrarDesparasitacion.btnModificar_Click(object, System.EventArgs)
+(btnNuevo_Click(object, System.EventArgs)SProyectoFinal.FormRegistrarDesparasitacion.btnNuevo_Click(object, System.EventArgs)…
++btnCancelar_Click(object, System.EventArgs)VProyectoFinal.FormRegistrarDesparasitacion.btnCancelar_Click(object, System.EventArgs)…
++btnEliminar_Click(object, System.EventArgs)VProyectoFinal.FormRegistrarDesparasitacion.btnEliminar_Click(object, System.EventArgs)I
+Dispose(bool)8ProyectoFinal.FormRegistrarDesparasitacion.Dispose(bool)Y
+InitializeComponent()@ProyectoFinal.FormRegistrarDesparasitacion.InitializeComponent()

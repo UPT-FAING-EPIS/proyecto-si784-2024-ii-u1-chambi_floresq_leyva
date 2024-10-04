@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SOFTVET" Class="MSOFTVETDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=SOFTVET;Integrated Security=True" SettingsObjectName="ProyectoFinal.Properties.Settings" SettingsPropertyName="SOFTVETConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Vacuna" Member="Vacuna">
+    <Type Name="Vacuna">
+      <Column Name="ID_Vacuna" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre_Vacuna" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Stock" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCaducidad" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Desparasitacion" Member="V_Desparasitacion">
+    <Type Name="V_Desparasitacion">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tipo" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="cod_Paciente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Empleado" Member="V_Empleado">
+    <Type Name="V_Empleado">
+      <Column Name="Cod_Empleado" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="DNI" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Sexo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha_Ingreso" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Cargo" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Horario" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Sueldo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Paciente" Member="V_Paciente">
+    <Type Name="V_Paciente">
+      <Column Name="Cod_Paciente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Especie" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="Raza" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Sexo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Cod_Cliente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Paciente_Vacuna" Member="V_Paciente_Vacuna">
+    <Type Name="V_Paciente_Vacuna">
+      <Column Name="Cod_Paciente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_Vacuna" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumDosis" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Recetaciones" Member="V_Recetaciones">
+    <Type Name="V_Recetaciones">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Descripcion_Receta" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha_Receta" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="cod_paciente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Usuario" Member="V_Usuario">
+    <Type Name="V_Usuario">
+      <Column Name="Id_Usuario" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Contraseña" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Cod_Empleado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Vacunacion" Member="V_Vacunacion">
+    <Type Name="V_Vacunacion">
+      <Column Name="Id_Detalle" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Cod_Paciente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_Vacuna" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumDosis" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Vacunas" Member="V_Vacunas">
+    <Type Name="V_Vacunas">
+      <Column Name="ID_Vacuna" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre_Vacuna" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Stock" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCaducidad" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Citas" Member="V_Citas">
+    <Type Name="V_Citas">
+      <Column Name="ID_Cita" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Motivo" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Hora" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cod_Cliente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_CargarCitas" Member="V_CargarCitas">
+    <Type Name="V_CargarCitas">
+      <Column Name="ID_Cita" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Motivo" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Hora" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tamaño" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Paciente" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Cod_Cliente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_DETALLE_PACIENTE_VACUNA" Member="V_DETALLE_PACIENTE_VACUNA">
+    <Type Name="V_DETALLE_PACIENTE_VACUNA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre_Paciente" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre_Vacuna" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Nro_Dosis" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="[Fecha-Hora]" Member="Fecha_Hora" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Cliente" Member="V_Cliente">
+    <Type Name="V_Cliente">
+      <Column Name="Cod_Cliente" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Género" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DNI" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+      <Column Name="Dirección" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Correo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.SP_Actualizar_StockVacuna" Method="SP_Actualizar_StockVacuna">
+    <Parameter Name="Id_Vacuna" Parameter="id_Vacuna" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NroDosisAjuste" Parameter="nroDosisAjuste" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Agregar_Desparasitacion" Method="SP_Agregar_Desparasitacion">
+    <Parameter Name="tipo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="fecha" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="cod_paciente" Type="System.String" DbType="VarChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Agregar_Recetacion" Method="SP_Agregar_Recetacion">
+    <Parameter Name="descripcion" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Fecha" Parameter="fecha" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="cod_paciente" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_AgregarEmpleado" Method="SP_AgregarEmpleado">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="apellido" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="dni" Type="System.String" DbType="Char(8)" />
+    <Parameter Name="fechanac" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="sexo" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="telefono" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="fechaing" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="cargo" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="horario" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="sueldo" Type="System.String" DbType="VarChar(6)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_AgregarPaciente" Method="SP_AgregarPaciente">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="especie" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="raza" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="sexo" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="fecha" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="cod_cliente" Type="System.String" DbType="VarChar(5)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_AgregarPaciente_Vacuna" Method="SP_AgregarPaciente_Vacuna">
+    <Parameter Name="cod_paciente" Type="System.String" DbType="VarChar(5)" />
+    <Parameter Name="idVacuna" Type="System.String" DbType="VarChar(4)" />
+    <Parameter Name="nrodosis" Type="System.String" DbType="VarChar(4)" />
+    <Parameter Name="fecha" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_AgregarVacuna" Method="SP_AgregarVacuna">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="stock" Type="System.String" DbType="VarChar(5)" />
+    <Parameter Name="fecha_caducidad" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_CancelarCita" Method="SP_CancelarCita">
+    <Parameter Name="IdCita" Parameter="idCita" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Eliminar_Desparasitacion" Method="SP_Eliminar_Desparasitacion">
+    <Parameter Name="id_disparasitacion" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EliminarCita" Method="SP_EliminarCita">
+    <Parameter Name="ID_Cita" Parameter="iD_Cita" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EliminarStockVacuna" Method="SP_EliminarStockVacuna">
+    <Parameter Name="Id_Vacuna" Parameter="id_Vacuna" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NroDosisAjuste" Parameter="nroDosisAjuste" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Modificar_Desparasitacion" Method="SP_Modificar_Desparasitacion">
+    <Parameter Name="id_disparasitacion" Type="System.Int32" DbType="Int" />
+    <Parameter Name="tipo" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="fecha" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="cod_paciente" Type="System.String" DbType="VarChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Modificar_Vacunacion" Method="SP_Modificar_Vacunacion">
+    <Parameter Name="id_detalle" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cod_paciente" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="id_vacuna" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="numdosis" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="fecha" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ReducirStockVacuna" Method="SP_ReducirStockVacuna">
+    <Parameter Name="ID_Vacuna" Parameter="iD_Vacuna" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Eliminar_Vacunacion" Method="SP_Eliminar_Vacunacion">
+    <Parameter Name="id_detalle" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EliminarCliente" Method="SP_EliminarCliente">
+    <Parameter Name="Cod_Cliente" Parameter="cod_Cliente" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ModificarPaciente" Method="SP_ModificarPaciente">
+    <Parameter Name="CodPaciente" Parameter="codPaciente" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Especie" Parameter="especie" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Raza" Parameter="raza" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Sexo" Parameter="sexo" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="FechaNacimiento" Parameter="fechaNacimiento" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EliminarPaciente" Method="SP_EliminarPaciente">
+    <Parameter Name="CodPaciente" Parameter="codPaciente" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ModificarEmpleado" Method="SP_ModificarEmpleado">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Apellido" Parameter="apellido" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="DNI" Parameter="dNI" Type="System.String" DbType="VarChar(8)" />
+    <Parameter Name="FechaNacimiento" Parameter="fechaNacimiento" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Genero" Parameter="genero" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="Telefono" Parameter="telefono" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="FechaInicio" Parameter="fechaInicio" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Cargo" Parameter="cargo" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Horario" Parameter="horario" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Sueldo" Parameter="sueldo" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EliminarEmpleado" Method="SP_EliminarEmpleado">
+    <Parameter Name="Cod_Empleado" Parameter="cod_Empleado" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_AgregarUsuario" Method="SP_AgregarUsuario">
+    <Parameter Name="user" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="pass" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="cat" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="id_Empleado" Type="System.String" DbType="VarChar(8)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Autenticar" Method="SP_Autenticar">
+    <Parameter Name="usuario" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="clave" Type="System.String" DbType="VarChar(10)" />
+    <ElementType Name="SP_AutenticarResult">
+      <Column Name="ID_USUARIO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="APELLIDO" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Categoria" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_Hvacunacion" Method="SP_Hvacunacion">
+    <Parameter Name="codpac" Type="System.Int32" DbType="Int" />
+    <ElementType Name="SP_HvacunacionResult">
+      <Column Name="[Nombre Vacuna]" Member="Nombre_Vacuna" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="[Numero Dosis]" Member="Numero_Dosis" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_Hdesparacitacion" Method="SP_Hdesparacitacion">
+    <Parameter Name="codpac" Type="System.Int32" DbType="Int" />
+    <ElementType Name="SP_HdesparacitacionResult">
+      <Column Name="Desparasitante" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha_Aplicada" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_AgregarCita" Method="SP_AgregarCita">
+    <Parameter Name="Motivo" Parameter="motivo" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="Fecha" Parameter="fecha" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Hora" Parameter="hora" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="Cod_Cliente" Parameter="cod_Cliente" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Estado" Parameter="estado" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Tamaño" Parameter="tamaño" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Cod_Paciente" Parameter="cod_Paciente" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EditarCita" Method="SP_EditarCita">
+    <Parameter Name="ID_Cita" Parameter="iD_Cita" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Motivo" Parameter="motivo" Type="System.String" DbType="NVarChar(MAX)" />
+    <Parameter Name="Fecha" Parameter="fecha" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Hora" Parameter="hora" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="Estado" Parameter="estado" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Tamaño" Parameter="tamaño" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Agregar_Vacunacion" Method="SP_Agregar_Vacunacion">
+    <Parameter Name="cod_paciente" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="id_vacuna" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="numdosis" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="fecha" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_HRecetacion" Method="SP_HRecetacion">
+    <Parameter Name="codpac" Type="System.Int32" DbType="Int" />
+    <ElementType Name="SP_HRecetacionResult">
+      <Column Name="Descripción" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha_Recetada" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_PacientexCliente" Method="SP_PacientexCliente">
+    <Parameter Name="dni" Type="System.String" DbType="Char(8)" />
+    <ElementType Name="SP_PacientexClienteResult">
+      <Column Name="Cod_Paciente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Especie" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Raza" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Sexo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_AgregarCliente" Method="SP_AgregarCliente">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="apellido" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="telefono" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="genero" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="dni" Type="System.String" DbType="Char(8)" />
+    <Parameter Name="direccion" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="correo" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_ModificarCliente" Method="SP_ModificarCliente">
+    <Parameter Name="Cod_Cliente" Parameter="cod_Cliente" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Apellido" Parameter="apellido" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Telefono" Parameter="telefono" Type="System.String" DbType="NVarChar(15)" />
+    <Parameter Name="Genero" Parameter="genero" Type="System.String" DbType="NVarChar(15)" />
+    <Parameter Name="DNI" Parameter="dNI" Type="System.String" DbType="NVarChar(8)" />
+    <Parameter Name="Direccion" Parameter="direccion" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="correo" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_BuscarCliente" Method="SP_BuscarCliente">
+    <Parameter Name="DNI" Parameter="dNI" Type="System.String" DbType="VarChar(8)" />
+    <ElementType Name="SP_BuscarClienteResult">
+      <Column Name="Cod_Cliente" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Genero" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DNI" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Correo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_Agregar_Abast_Vacunas" Method="SP_Agregar_Abast_Vacunas">
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="stock" Type="System.Int32" DbType="Int" />
+    <Parameter Name="fecha_cad" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Eliminar_Abast_Vacunas" Method="SP_Eliminar_Abast_Vacunas">
+    <Parameter Name="id_vacuna" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Modificar_Abast_Vacunas" Method="SP_Modificar_Abast_Vacunas">
+    <Parameter Name="id_vacuna" Type="System.Int32" DbType="Int" />
+    <Parameter Name="nombre" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="stock" Type="System.Int32" DbType="Int" />
+    <Parameter Name="fecha_cad" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_TotalStockVacuna" Method="SP_TotalStockVacuna">
+    <ElementType Name="SP_TotalStockVacunaResult">
+      <Column Name="ID_Vacuna" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre_Vacuna" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TotalStock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_HistorialClinico" Method="SP_HistorialClinico">
+    <Parameter Name="id" Type="System.String" DbType="VarChar(3)" />
+    <ElementType Name="SP_HistorialClinicoResult">
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre1" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Especie" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Raza" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Sexo" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Fecha" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SPR_Hvacunacion" Method="SPR_Hvacunacion">
+    <Parameter Name="id" Type="System.String" DbType="VarChar(3)" />
+    <ElementType Name="SPR_HvacunacionResult">
+      <Column Name="Nombre_Vacuna" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Numdosis" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="fecha" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

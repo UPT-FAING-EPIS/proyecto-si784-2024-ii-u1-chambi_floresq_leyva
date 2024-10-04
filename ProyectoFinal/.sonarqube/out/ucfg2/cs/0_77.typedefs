@@ -1,0 +1,18 @@
+ñ
+KProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManagerSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject§
+©UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_HC_Vacunacion, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)ıProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_HC_Vacunacion, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)π
+tUpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_HC_Vacunacion, System.Collections.Generic.List<System.Data.DataRow>)¿ProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.UpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_HC_Vacunacion, System.Collections.Generic.List<System.Data.DataRow>)∑
+sUpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_HC_Vacunacion, System.Collections.Generic.List<System.Data.DataRow>)øProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.UpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_HC_Vacunacion, System.Collections.Generic.List<System.Data.DataRow>)è
+_GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)´ProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)ª
+5UpdateAll(ProyectoFinal.SOFTVETDataSet_HC_Vacunacion)ÅProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.UpdateAll(ProyectoFinal.SOFTVETDataSet_HC_Vacunacion)È
+LSortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)òProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)Ω
+6MatchTableAdapterConnection(System.Data.IDbConnection)ÇProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)z
+TableAdapterManager()aProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.TableAdapterManager()n
+UpdateOrder.get[ProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.UpdateOrder.getn
+UpdateOrder.set[ProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.UpdateOrder.setä
+BackupDataSetBeforeUpdate.getiProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.getä
+BackupDataSetBeforeUpdate.setiProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.setl
+Connection.getZProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.Connection.getl
+Connection.setZProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.Connection.setä
+TableAdapterInstanceCount.getiProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.TableAdapterInstanceCount.getä
+TableAdapterInstanceCount.setiProyectoFinal.SOFTVETDataSet_HC_VacunacionTableAdapters.TableAdapterManager.TableAdapterInstanceCount.set

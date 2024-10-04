@@ -1,0 +1,5 @@
+à
+iProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.TableAdapterManager.SelfReferenceComparerobject'System.Collections.Generic.IComparer<T>Ÿ
+5SelfReferenceComparer(System.Data.DataRelation, bool)üProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.TableAdapterManager.SelfReferenceComparer.SelfReferenceComparer(System.Data.DataRelation, bool)π
+%GetRoot(System.Data.DataRow, out int)èProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.TableAdapterManager.SelfReferenceComparer.GetRoot(System.Data.DataRow, out int)—
+1Compare(System.Data.DataRow, System.Data.DataRow)õProyectoFinal.SOFTVETDataSet_Estadistica_PacientesTableAdapters.TableAdapterManager.SelfReferenceComparer.Compare(System.Data.DataRow, System.Data.DataRow)

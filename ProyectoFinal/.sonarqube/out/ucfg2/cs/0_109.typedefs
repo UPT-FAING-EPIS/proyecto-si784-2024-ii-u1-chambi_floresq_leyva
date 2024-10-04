@@ -1,0 +1,6 @@
+ô
+!ProyectoFinal.Properties.Settings,System.Configuration.ApplicationSettingsBase!System.Configuration.SettingsBaseobject:
+
+Settings(),ProyectoFinal.Properties.Settings.Settings()\
+SOFTVETConnectionString.get=ProyectoFinal.Properties.Settings.SOFTVETConnectionString.get\
+SOFTVETConnectionString.set=ProyectoFinal.Properties.Settings.SOFTVETConnectionString.set
