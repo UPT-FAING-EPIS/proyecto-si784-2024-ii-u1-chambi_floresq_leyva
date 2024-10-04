@@ -6,8 +6,8 @@ on:
       - test
 permissions:
   contents: write
+  security-events: write  # Required for uploading SARIF files
   actions: read
-  contents: read
 jobs:
   security:
     runs-on: ubuntu-latest
