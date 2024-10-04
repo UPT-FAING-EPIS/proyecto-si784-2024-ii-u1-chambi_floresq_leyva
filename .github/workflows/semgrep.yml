@@ -9,6 +9,11 @@ permissions:
 jobs:
   security:
     runs-on: ubuntu-latest
+
+    container:
+      # A Docker image with Semgrep installed. Do not change this.
+      image: semgrep/semgrep:latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -16,6 +21,10 @@ jobs:
       # Semgrep
       - name: Set up Semgrep
         run: docker pull semgrep/semgrep
+
+      - name: Setup .NET Framework
+        run: |
+          echo "Configurar .NET Framework aquí si es necesario."
 
       - name: Run Semgrep
         run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off
