@@ -43,10 +43,14 @@ jobs:
           snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?"
       
       - name: Generar reporte HTML desde SARIF
-        run: snyk-to-html -i snyk-code.sarif -o snyk-report.html
+        run: 
+          cd ProyectoFinal
+          snyk-to-html -i snyk-code.sarif -o snyk-report.html
 
       - name: Verificar existencia del reporte HTML
-        run: ls -la snyk-report.html
+        run: 
+          cd ProyectoFinal
+          ls -la snyk-report.html
 
       - name: Configurar Git para publicar en GitHub Pages
         run: |
@@ -56,6 +60,7 @@ jobs:
           
       - name: Publicar reporte en GitHub Pages
         run: |
+          cd ProyectoFinal
           git checkout --orphan gh-pages
           git reset --hard
           cp snyk-report.html reportesnyk.html
