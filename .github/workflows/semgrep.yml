@@ -22,8 +22,13 @@ jobs:
         run: |
           echo "Configurar .NET Framework aquí si es necesario."
 
-      - name: Run Semgrep
-        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off --sarif --output semgrep.sarif
+      # Run Semgrep for JSON output
+      - name: Run Semgrep JSON Output
+        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off
+
+      # Run Semgrep for SARIF output
+      - name: Run Semgrep SARIF Output
+        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --sarif --output semgrep.sarif
        
       - name: Install prospector-html
         run: python -m pip install prospector2html
