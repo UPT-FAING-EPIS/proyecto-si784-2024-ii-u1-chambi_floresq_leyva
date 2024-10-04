@@ -59,12 +59,13 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"    
 
       - name: Publicar reporte en GitHub Pages
+        working-directory: ProyectoFinal        
         env:
             GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  
         run: |
             git checkout --orphan gh-pages
             git reset --hard
-            cp snyk-report.html reportesnyk.html
+            cp snyk-report.html reportesnyk.html  # Copia el archivo generado
             git add reportesnyk.html
             git commit -m "Publicando reporte de Snyk"
             git push --force --set-upstream https://x-access-token:${GITHUB_TOKEN}@github.com/UPT-FAING-EPIS/proyecto-si784-2024-ii-u1-chambi_floresq_leyva.git gh-pages
