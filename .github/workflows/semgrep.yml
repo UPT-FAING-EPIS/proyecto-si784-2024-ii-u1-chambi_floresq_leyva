@@ -3,28 +3,37 @@ name: Semgrep Analysis
 on: 
   push:
     branches:
-      - main  
-
+      - test
+permissions:
+  contents: write  
 jobs:
   security:
     runs-on: ubuntu-latest
-    container:
-      # A Docker image with Semgrep installed. Do not change this.
-      image: semgrep/semgrep
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup .NET Framework
-        # Usa una acción que instale .NET Framework si es necesario.
-        # Aquí, puedes necesitar una imagen que tenga .NET Framework o usar un contenedor adecuado.
+      # Semgrep
+      - name: Set up Semgrep
+        run: docker pull semgrep/semgrep
+
+      - name: Run Semgrep
+        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off
+       
+      - name: Install prospector-html
+        run: python -m pip install prospector2html
+
+      - name: Convert Semgrep results to HTML
+        run: prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep || true
+
+      # Publish to GitHub Pages
+      - name: Move reports to public folder
         run: |
-          echo "Configurar .NET Framework aquí si es necesario."
-
-      - name: Semgrep scan
-        run: semgrep scan --config="p/default" --sarif --output=report.sarif --metrics=off
-
-      - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@v3
+          mkdir -p docs/reports
+          mv semgrep-report.html docs/reports/
+          
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          sarif_file: report.sarif
+          github_token: ${{ secrets.SEMGREP_TOKEN }}
+          publish_dir: docs
