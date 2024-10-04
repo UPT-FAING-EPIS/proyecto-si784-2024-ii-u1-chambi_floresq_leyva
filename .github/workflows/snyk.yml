@@ -27,29 +27,29 @@ jobs:
       - name: Authenticate with Snyk
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        run: snyk auth $SNYK_TOKEN
+        run: snyk auth $SNYK_TOKEN 2>> workflow-errors.log
 
       - name: Instalar Snyk-to-HTML
-        run: npm install -g snyk-to-html
+        run: npm install -g snyk-to-html 2>> workflow-errors.log
 
       - name: Snyk Code test
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         working-directory: ProyectoFinal
-        run: snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?"
+        run: snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?" 2>> workflow-errors.log
 
       - name: Generar reporte HTML desde SARIF
         working-directory: ProyectoFinal
-        run: snyk-to-html -i snyk-code.sarif -o snyk-report.html
+        run: snyk-to-html -i snyk-code.sarif -o snyk-report.html 2>> workflow-errors.log
 
       - name: Verificar existencia del reporte HTML
         working-directory: ProyectoFinal
-        run: ls -la snyk-report.html
+        run: ls -la snyk-report.html 2>> workflow-errors.log
 
       - name: Configurar Git para publicar en GitHub Pages
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"    
+          git config --global user.email "github-actions[bot]@users.noreply.github.com" 2>> workflow-errors.log
 
       - name: Publicar reporte en GitHub Pages
         working-directory: ProyectoFinal
@@ -59,15 +59,19 @@ jobs:
           cp snyk-report.html reportesnyk.html
           git add reportesnyk.html
           git commit -m "Publicando reporte de Snyk"
-          git push --force --set-upstream origin gh-pages
-      
+          git push --force --set-upstream origin gh-pages 2>> workflow-errors.log
+
       - name: Snyk Open Source monitor
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         working-directory: ProyectoFinal
-        run: snyk monitor 
+        run: snyk monitor 2>> workflow-errors.log
 
       - name: Upload result to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v3
         with:
-          sarif_file: ProyectoFinal/snyk-code.sarif
+          sarif_file: ProyectoFinal/snyk-code.sarif 2>> workflow-errors.log
+
+      - name: Mostrar el log de errores (si existen)
+        if: failure()
+        run: cat workflow-errors.log || echo "No se encontraron errores."
