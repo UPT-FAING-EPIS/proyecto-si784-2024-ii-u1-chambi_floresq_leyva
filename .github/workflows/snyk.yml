@@ -60,12 +60,11 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-      - id: deploy-pages
-        name: Publicar reporte en GitHub Pages
+      - name: Publicar reporte en GitHub Pages
         run: |
-          git checkout --orphan gh-pages
-          git reset --hard
+          git checkout gh-pages  # Cambia a la rama gh-pages
           cp ../Reportes/snyk-report.html reporte-snyk.html  # Cambia el nombre al copiar
           git add reporte-snyk.html
-          git commit -m "Publicando reporte de Snyk como reporte-snyk.html"
+          git commit -m "Publicando reporte de Snyk como reporte-snyk.html" || echo "No hay cambios para commitear"  # Manejo de caso si no hay cambios
           git push --force --set-upstream origin gh-pages
+        
