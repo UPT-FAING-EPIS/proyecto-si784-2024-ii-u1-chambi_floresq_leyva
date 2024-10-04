@@ -26,8 +26,14 @@ jobs:
       - name: Convert Semgrep results to HTML
         run: prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep || true
 
+      # Publish to GitHub Pages
+      - name: Move report to temporary folder
+        run: |
+          mkdir temp  # Crear una carpeta temporal
+          mv semgrep-report.html temp/  # Mover el archivo a la carpeta temporal
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.SEMGREP_TOKEN }}  # Asegúrate de que el token esté configurado como un secreto
-          publish_dir: ./  # Publicar desde la raíz del repositorio
+          publish_dir: temp  # Publicar solo la carpeta 'temp'
