@@ -62,9 +62,9 @@ jobs:
           
       - name: Publicar reporte en GitHub Pages
         run: |
+          git fetch origin gh-pages  # Obtiene la última versión de la rama gh-pages
           git checkout gh-pages  # Cambia a la rama gh-pages
           cp ../Reportes/snyk-report.html reporte-snyk.html  # Cambia el nombre al copiar
           git add reporte-snyk.html
           git commit -m "Publicando reporte de Snyk como reporte-snyk.html" || echo "No hay cambios para commitear"  # Manejo de caso si no hay cambios
-          git push --force --set-upstream origin gh-pages
-        
+          git push origin gh-pages  # Publica sin usar --force
