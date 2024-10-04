@@ -23,7 +23,7 @@ jobs:
           echo "Configurar .NET Framework aquí si es necesario."
 
       - name: Run Semgrep
-        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off
+        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off --sarif --output semgrep.sarif
        
       - name: Install prospector-html
         run: python -m pip install prospector2html
@@ -36,6 +36,7 @@ jobs:
         run: |
           mkdir temp  # Crear una carpeta temporal
           mv semgrep-report.html temp/  # Mover el archivo a la carpeta temporal
+          mv semgrep.sarif temp/  # Mover el archivo SARIF a la carpeta temporal
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
