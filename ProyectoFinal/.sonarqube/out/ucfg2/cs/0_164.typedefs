@@ -1,43 +1,0 @@
-¯ 
-*ProyectoFinal.SOFTVETDataSet.CitaDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectM
-CitaDataTable():ProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaDataTable()w
-$CitaDataTable(System.Data.DataTable)OProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaDataTable(System.Data.DataTable)à
-lCitaDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)óProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)U
-CitaRowChanging.add>ProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaRowChanging.add[
-CitaRowChanging.removeAProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaRowChanging.removeS
-CitaRowChanged.add=ProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaRowChanged.addY
-CitaRowChanged.remove@ProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaRowChanged.removeU
-CitaRowDeleting.add>ProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaRowDeleting.add[
-CitaRowDeleting.removeAProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaRowDeleting.removeS
-CitaRowDeleted.add=ProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaRowDeleted.addY
-CitaRowDeleted.remove@ProyectoFinal.SOFTVETDataSet.CitaDataTable.CitaRowDeleted.removeè
-0AddCitaRow(ProyectoFinal.SOFTVETDataSet.CitaRow)[ProyectoFinal.SOFTVETDataSet.CitaDataTable.AddCitaRow(ProyectoFinal.SOFTVETDataSet.CitaRow)Í
-]AddCitaRow(string, System.DateTime, System.TimeSpan, ProyectoFinal.SOFTVETDataSet.ClienteRow)àProyectoFinal.SOFTVETDataSet.CitaDataTable.AddCitaRow(string, System.DateTime, System.TimeSpan, ProyectoFinal.SOFTVETDataSet.ClienteRow)S
-FindByID_cita(int)=ProyectoFinal.SOFTVETDataSet.CitaDataTable.FindByID_cita(int)=
-Clone()2ProyectoFinal.SOFTVETDataSet.CitaDataTable.Clone()O
-CreateInstance();ProyectoFinal.SOFTVETDataSet.CitaDataTable.CreateInstance()C
-
-InitVars()5ProyectoFinal.SOFTVETDataSet.CitaDataTable.InitVars()E
-InitClass()6ProyectoFinal.SOFTVETDataSet.CitaDataTable.InitClass()G
-NewCitaRow()7ProyectoFinal.SOFTVETDataSet.CitaDataTable.NewCitaRow()â
--NewRowFromBuilder(System.Data.DataRowBuilder)XProyectoFinal.SOFTVETDataSet.CitaDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)G
-GetRowType()7ProyectoFinal.SOFTVETDataSet.CitaDataTable.GetRowType()è
-0OnRowChanged(System.Data.DataRowChangeEventArgs)[ProyectoFinal.SOFTVETDataSet.CitaDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)ë
-1OnRowChanging(System.Data.DataRowChangeEventArgs)\ProyectoFinal.SOFTVETDataSet.CitaDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)è
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)[ProyectoFinal.SOFTVETDataSet.CitaDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)ë
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)\ProyectoFinal.SOFTVETDataSet.CitaDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)ï
-3RemoveCitaRow(ProyectoFinal.SOFTVETDataSet.CitaRow)^ProyectoFinal.SOFTVETDataSet.CitaDataTable.RemoveCitaRow(ProyectoFinal.SOFTVETDataSet.CitaRow)Q
-ID_citaColumn.get<ProyectoFinal.SOFTVETDataSet.CitaDataTable.ID_citaColumn.getQ
-ID_citaColumn.set<ProyectoFinal.SOFTVETDataSet.CitaDataTable.ID_citaColumn.setO
-MotivoColumn.get;ProyectoFinal.SOFTVETDataSet.CitaDataTable.MotivoColumn.getO
-MotivoColumn.set;ProyectoFinal.SOFTVETDataSet.CitaDataTable.MotivoColumn.setM
-FechaColumn.get:ProyectoFinal.SOFTVETDataSet.CitaDataTable.FechaColumn.getM
-FechaColumn.set:ProyectoFinal.SOFTVETDataSet.CitaDataTable.FechaColumn.setK
-HoraColumn.get9ProyectoFinal.SOFTVETDataSet.CitaDataTable.HoraColumn.getK
-HoraColumn.set9ProyectoFinal.SOFTVETDataSet.CitaDataTable.HoraColumn.setY
-Cod_ClienteColumn.get@ProyectoFinal.SOFTVETDataSet.CitaDataTable.Cod_ClienteColumn.getY
-Cod_ClienteColumn.set@ProyectoFinal.SOFTVETDataSet.CitaDataTable.Cod_ClienteColumn.setA
-	Count.get4ProyectoFinal.SOFTVETDataSet.CitaDataTable.Count.getA
-	Count.set4ProyectoFinal.SOFTVETDataSet.CitaDataTable.Count.setI
-this[int].get8ProyectoFinal.SOFTVETDataSet.CitaDataTable.this[int].getI
-this[int].set8ProyectoFinal.SOFTVETDataSet.CitaDataTable.this[int].set

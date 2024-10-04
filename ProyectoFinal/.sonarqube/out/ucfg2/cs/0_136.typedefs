@@ -1,9 +1,0 @@
-Ù
-+ProyectoFinal.Modelos.SPR_HvacunacionResultobject^
-SPR_HvacunacionResult()CProyectoFinal.Modelos.SPR_HvacunacionResult.SPR_HvacunacionResult()R
-Nombre_Vacuna.get=ProyectoFinal.Modelos.SPR_HvacunacionResult.Nombre_Vacuna.getR
-Nombre_Vacuna.set=ProyectoFinal.Modelos.SPR_HvacunacionResult.Nombre_Vacuna.setH
-Numdosis.get8ProyectoFinal.Modelos.SPR_HvacunacionResult.Numdosis.getH
-Numdosis.set8ProyectoFinal.Modelos.SPR_HvacunacionResult.Numdosis.setB
-	fecha.get5ProyectoFinal.Modelos.SPR_HvacunacionResult.fecha.getB
-	fecha.set5ProyectoFinal.Modelos.SPR_HvacunacionResult.fecha.set

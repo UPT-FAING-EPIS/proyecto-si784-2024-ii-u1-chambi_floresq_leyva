@@ -1,39 +1,0 @@
-˙#
-;ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectf
-PacienteDataTable()OProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteDataTable()ê
-(PacienteDataTable(System.Data.DataTable)dProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteDataTable(System.Data.DataTable)°
-pPacienteDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¨ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)n
-PacienteRowChanging.addSProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteRowChanging.addt
-PacienteRowChanging.removeVProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteRowChanging.removel
-PacienteRowChanged.addRProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteRowChanged.addr
-PacienteRowChanged.removeUProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteRowChanged.removen
-PacienteRowDeleting.addSProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteRowDeleting.addt
-PacienteRowDeleting.removeVProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteRowDeleting.removel
-PacienteRowDeleted.addRProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteRowDeleted.addr
-PacienteRowDeleted.removeUProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.PacienteRowDeleted.removeÀ
-EAddPacienteRow(ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteRow)ÅProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.AddPacienteRow(ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteRow)|
-AddPacienteRow(string, string)ZProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.AddPacienteRow(string, string)n
-FindByCod_Paciente(int)SProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.FindByCod_Paciente(int)N
-Clone()CProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.Clone()`
-CreateInstance()LProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.CreateInstance()T
-
-InitVars()FProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.InitVars()V
-InitClass()GProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.InitClass()`
-NewPacienteRow()LProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.NewPacienteRow()ö
--NewRowFromBuilder(System.Data.DataRowBuilder)iProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)X
-GetRowType()HProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.GetRowType()†
-0OnRowChanged(System.Data.DataRowChangeEventArgs)lProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)¢
-1OnRowChanging(System.Data.DataRowChangeEventArgs)mProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)†
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)lProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)¢
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)mProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)—
-HRemovePacienteRow(ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteRow)ÑProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.RemovePacienteRow(ProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteRow)l
-Cod_PacienteColumn.getRProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.Cod_PacienteColumn.getl
-Cod_PacienteColumn.setRProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.Cod_PacienteColumn.set`
-NombreColumn.getLProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.NombreColumn.get`
-NombreColumn.setLProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.NombreColumn.setb
-EspecieColumn.getMProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.EspecieColumn.getb
-EspecieColumn.setMProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.EspecieColumn.setR
-	Count.getEProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.Count.getR
-	Count.setEProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.Count.setZ
-this[int].getIProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.this[int].getZ
-this[int].setIProyectoFinal.SOFTVETDataSet_Est_Paciente.PacienteDataTable.this[int].set

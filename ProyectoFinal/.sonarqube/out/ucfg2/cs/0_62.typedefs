@@ -1,18 +1,0 @@
-ì
-PProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManagerSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject≥
-ÆUpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)ˇProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)»
-yUpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion, System.Collections.Generic.List<System.Data.DataRow>) ProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.UpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion, System.Collections.Generic.List<System.Data.DataRow>)∆
-xUpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion, System.Collections.Generic.List<System.Data.DataRow>)…ProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.UpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion, System.Collections.Generic.List<System.Data.DataRow>)î
-_GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)∞ProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>) 
-:UpdateAll(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion)ãProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.UpdateAll(ProyectoFinal.SOFTVETDataSet_HC_Desparasitacion)Ó
-LSortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)ùProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)¬
-6MatchTableAdapterConnection(System.Data.IDbConnection)áProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)
-TableAdapterManager()fProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.TableAdapterManager()s
-UpdateOrder.get`ProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.UpdateOrder.gets
-UpdateOrder.set`ProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.UpdateOrder.setè
-BackupDataSetBeforeUpdate.getnProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.getè
-BackupDataSetBeforeUpdate.setnProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.setq
-Connection.get_ProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.Connection.getq
-Connection.set_ProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.Connection.setè
-TableAdapterInstanceCount.getnProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.TableAdapterInstanceCount.getè
-TableAdapterInstanceCount.setnProyectoFinal.SOFTVETDataSet_HC_DesparasitacionTableAdapters.TableAdapterManager.TableAdapterInstanceCount.set

@@ -1,23 +1,0 @@
-“
-6ProyectoFinal.DataSet.DataSetHistorial_Clinico_GeneralSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobject
-"DataSetHistorial_Clinico_General()YProyectoFinal.DataSet.DataSetHistorial_Clinico_General.DataSetHistorial_Clinico_General()∫
-DataSetHistorial_Clinico_General(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)∂ProyectoFinal.DataSet.DataSetHistorial_Clinico_General.DataSetHistorial_Clinico_General(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)o
-InitializeDerivedDataSet()QProyectoFinal.DataSet.DataSetHistorial_Clinico_General.InitializeDerivedDataSet()I
-Clone()>ProyectoFinal.DataSet.DataSetHistorial_Clinico_General.Clone()i
-ShouldSerializeTables()NProyectoFinal.DataSet.DataSetHistorial_Clinico_General.ShouldSerializeTables()o
-ShouldSerializeRelations()QProyectoFinal.DataSet.DataSetHistorial_Clinico_General.ShouldSerializeRelations()ç
-)ReadXmlSerializable(System.Xml.XmlReader)`ProyectoFinal.DataSet.DataSetHistorial_Clinico_General.ReadXmlSerializable(System.Xml.XmlReader)i
-GetSchemaSerializable()NProyectoFinal.DataSet.DataSetHistorial_Clinico_General.GetSchemaSerializable()O
-
-InitVars()AProyectoFinal.DataSet.DataSetHistorial_Clinico_General.InitVars()W
-InitVars(bool)EProyectoFinal.DataSet.DataSetHistorial_Clinico_General.InitVars(bool)Q
-InitClass()BProyectoFinal.DataSet.DataSetHistorial_Clinico_General.InitClass()«
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)}ProyectoFinal.DataSet.DataSetHistorial_Clinico_General.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)q
-SchemaSerializationMode.getRProyectoFinal.DataSet.DataSetHistorial_Clinico_General.SchemaSerializationMode.getq
-SchemaSerializationMode.setRProyectoFinal.DataSet.DataSetHistorial_Clinico_General.SchemaSerializationMode.setO
-
-Tables.getAProyectoFinal.DataSet.DataSetHistorial_Clinico_General.Tables.getO
-
-Tables.setAProyectoFinal.DataSet.DataSetHistorial_Clinico_General.Tables.setU
-Relations.getDProyectoFinal.DataSet.DataSetHistorial_Clinico_General.Relations.getU
-Relations.setDProyectoFinal.DataSet.DataSetHistorial_Clinico_General.Relations.set

@@ -1,41 +1,0 @@
-™&
-5ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectn
-PACIENTE_VACUNADataTable()PProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNADataTable()˜
-/PACIENTE_VACUNADataTable(System.Data.DataTable)eProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNADataTable(System.Data.DataTable)©
-wPACIENTE_VACUNADataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)­ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNADataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)v
-PACIENTE_VACUNARowChanging.addTProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNARowChanging.add|
-!PACIENTE_VACUNARowChanging.removeWProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNARowChanging.removet
-PACIENTE_VACUNARowChanged.addSProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNARowChanged.addz
- PACIENTE_VACUNARowChanged.removeVProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNARowChanged.removev
-PACIENTE_VACUNARowDeleting.addTProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNARowDeleting.add|
-!PACIENTE_VACUNARowDeleting.removeWProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNARowDeleting.removet
-PACIENTE_VACUNARowDeleted.addSProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNARowDeleted.addz
- PACIENTE_VACUNARowDeleted.removeVProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.PACIENTE_VACUNARowDeleted.removeÆ
-FAddPACIENTE_VACUNARow(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow)|ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.AddPACIENTE_VACUNARow(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow)ç
-VAddPACIENTE_VACUNARow(ProyectoFinal.SOFTVETDataSet.VacunaRow, string, System.DateTime)ŒProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.AddPACIENTE_VACUNARow(ProyectoFinal.SOFTVETDataSet.VacunaRow, string, System.DateTime)„
-%FindByCod_PacienteID_Vacuna(int, int)[ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.FindByCod_PacienteID_Vacuna(int, int)H
-Clone()=ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.Clone()Z
-CreateInstance()FProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.CreateInstance()N
-
-InitVars()@ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.InitVars()P
-InitClass()AProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.InitClass()h
-NewPACIENTE_VACUNARow()MProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.NewPACIENTE_VACUNARow()”
--NewRowFromBuilder(System.Data.DataRowBuilder)cProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.NewRowFromBuilder(System.Data.DataRowBuilder)R
-GetRowType()BProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.GetRowType()š
-0OnRowChanged(System.Data.DataRowChangeEventArgs)fProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)œ
-1OnRowChanging(System.Data.DataRowChangeEventArgs)gProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)š
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)fProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)œ
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)gProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)Ì
-IRemovePACIENTE_VACUNARow(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow)ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.RemovePACIENTE_VACUNARow(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNARow)f
-Cod_PacienteColumn.getLProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.Cod_PacienteColumn.getf
-Cod_PacienteColumn.setLProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.Cod_PacienteColumn.set`
-ID_VacunaColumn.getIProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.ID_VacunaColumn.get`
-ID_VacunaColumn.setIProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.ID_VacunaColumn.set^
-NumDosisColumn.getHProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.NumDosisColumn.get^
-NumDosisColumn.setHProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.NumDosisColumn.setX
-FechaColumn.getEProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.FechaColumn.getX
-FechaColumn.setEProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.FechaColumn.setL
-	Count.get?ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.Count.getL
-	Count.set?ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.Count.setT
-this[int].getCProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.this[int].getT
-this[int].setCProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable.this[int].set

@@ -1,9 +1,0 @@
-™
-/ProyectoFinal.Modelos.SP_TotalStockVacunaResultobjectj
-SP_TotalStockVacunaResult()KProyectoFinal.Modelos.SP_TotalStockVacunaResult.SP_TotalStockVacunaResult()N
-ID_Vacuna.get=ProyectoFinal.Modelos.SP_TotalStockVacunaResult.ID_Vacuna.getN
-ID_Vacuna.set=ProyectoFinal.Modelos.SP_TotalStockVacunaResult.ID_Vacuna.setV
-Nombre_Vacuna.getAProyectoFinal.Modelos.SP_TotalStockVacunaResult.Nombre_Vacuna.getV
-Nombre_Vacuna.setAProyectoFinal.Modelos.SP_TotalStockVacunaResult.Nombre_Vacuna.setP
-TotalStock.get>ProyectoFinal.Modelos.SP_TotalStockVacunaResult.TotalStock.getP
-TotalStock.set>ProyectoFinal.Modelos.SP_TotalStockVacunaResult.TotalStock.set

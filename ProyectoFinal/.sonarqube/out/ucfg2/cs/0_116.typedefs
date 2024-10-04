@@ -1,36 +1,0 @@
-±%
-BProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobject{
-SPR_HRecetacionDataTable()]ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionDataTable()•
-/SPR_HRecetacionDataTable(System.Data.DataTable)rProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionDataTable(System.Data.DataTable)∂
-wSPR_HRecetacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)∫ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)É
-SPR_HRecetacionRowChanging.addaProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionRowChanging.addâ
-!SPR_HRecetacionRowChanging.removedProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionRowChanging.removeÅ
-SPR_HRecetacionRowChanged.add`ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionRowChanged.addá
- SPR_HRecetacionRowChanged.removecProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionRowChanged.removeÉ
-SPR_HRecetacionRowDeleting.addaProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionRowDeleting.addâ
-!SPR_HRecetacionRowDeleting.removedProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionRowDeleting.removeÅ
-SPR_HRecetacionRowDeleted.add`ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionRowDeleted.addá
- SPR_HRecetacionRowDeleted.removecProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.SPR_HRecetacionRowDeleted.removeÓ
-SAddSPR_HRecetacionRow(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRow)ñProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.AddSPR_HRecetacionRow(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRow)£
-.AddSPR_HRecetacionRow(string, System.DateTime)qProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.AddSPR_HRecetacionRow(string, System.DateTime)U
-Clone()JProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.Clone()g
-CreateInstance()SProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.CreateInstance()[
-
-InitVars()MProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.InitVars()]
-InitClass()NProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.InitClass()u
-NewSPR_HRecetacionRow()ZProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.NewSPR_HRecetacionRow()°
--NewRowFromBuilder(System.Data.DataRowBuilder)pProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)_
-GetRowType()OProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.GetRowType()ß
-0OnRowChanged(System.Data.DataRowChangeEventArgs)sProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)©
-1OnRowChanging(System.Data.DataRowChangeEventArgs)tProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)ß
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)sProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)©
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)tProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)Ù
-VRemoveSPR_HRecetacionRow(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRow)ôProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.RemoveSPR_HRecetacionRow(ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionRow)q
-descripcionColumn.getXProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.descripcionColumn.getq
-descripcionColumn.setXProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.descripcionColumn.sete
-FechaColumn.getRProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.FechaColumn.gete
-FechaColumn.setRProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.FechaColumn.setY
-	Count.getLProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.Count.getY
-	Count.setLProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.Count.seta
-this[int].getPProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.this[int].geta
-this[int].setPProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacionDataTable.this[int].set

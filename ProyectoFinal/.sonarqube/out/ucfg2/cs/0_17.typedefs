@@ -1,13 +1,0 @@
-Ù	
-ProyectoFinal.RegistrarUsuarioSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectG
-RegistrarUsuario()1ProyectoFinal.RegistrarUsuario.RegistrarUsuario()C
-CargarEmpleado()/ProyectoFinal.RegistrarUsuario.CargarEmpleado()C
-AgregarUsuario()/ProyectoFinal.RegistrarUsuario.AgregarUsuario()Å
-/RegistrarUsuario_Load(object, System.EventArgs)NProyectoFinal.RegistrarUsuario.RegistrarUsuario_Load(object, System.EventArgs){
-,btnLimpiar_Click_1(object, System.EventArgs)KProyectoFinal.RegistrarUsuario.btnLimpiar_Click_1(object, System.EventArgs)u
-)btnBuscar_Click(object, System.EventArgs)HProyectoFinal.RegistrarUsuario.btnBuscar_Click(object, System.EventArgs){
-,btnRegistrar_Click(object, System.EventArgs)KProyectoFinal.RegistrarUsuario.btnRegistrar_Click(object, System.EventArgs)y
-+btnCancelar_Click(object, System.EventArgs)JProyectoFinal.RegistrarUsuario.btnCancelar_Click(object, System.EventArgs)5
-	limpiar()(ProyectoFinal.RegistrarUsuario.limpiar()=
-Dispose(bool),ProyectoFinal.RegistrarUsuario.Dispose(bool)M
-InitializeComponent()4ProyectoFinal.RegistrarUsuario.InitializeComponent()

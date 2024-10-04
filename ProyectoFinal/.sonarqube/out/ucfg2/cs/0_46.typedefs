@@ -1,24 +1,0 @@
-¥
-
- ProyectoFinal.Clases.ClsPacienteobjectU
-ModificarEnBaseDeDatos()9ProyectoFinal.Clases.ClsPaciente.ModificarEnBaseDeDatos()S
-EliminarEnBaseDeDatos()8ProyectoFinal.Clases.ClsPaciente.EliminarEnBaseDeDatos()S
-InsertarEnBaseDeDatos()8ProyectoFinal.Clases.ClsPaciente.InsertarEnBaseDeDatos()A
-ValidarDatos()/ProyectoFinal.Clases.ClsPaciente.ValidarDatos()?
-ClsPaciente().ProyectoFinal.Clases.ClsPaciente.ClsPaciente()C
-CodPaciente.get0ProyectoFinal.Clases.ClsPaciente.CodPaciente.getC
-CodPaciente.set0ProyectoFinal.Clases.ClsPaciente.CodPaciente.set9
-
-Nombre.get+ProyectoFinal.Clases.ClsPaciente.Nombre.get9
-
-Nombre.set+ProyectoFinal.Clases.ClsPaciente.Nombre.set;
-Especie.get,ProyectoFinal.Clases.ClsPaciente.Especie.get;
-Especie.set,ProyectoFinal.Clases.ClsPaciente.Especie.set5
-Raza.get)ProyectoFinal.Clases.ClsPaciente.Raza.get5
-Raza.set)ProyectoFinal.Clases.ClsPaciente.Raza.set5
-Sexo.get)ProyectoFinal.Clases.ClsPaciente.Sexo.get5
-Sexo.set)ProyectoFinal.Clases.ClsPaciente.Sexo.setK
-FechaNacimiento.get4ProyectoFinal.Clases.ClsPaciente.FechaNacimiento.getK
-FechaNacimiento.set4ProyectoFinal.Clases.ClsPaciente.FechaNacimiento.setA
-CodCliente.get/ProyectoFinal.Clases.ClsPaciente.CodCliente.getA
-CodCliente.set/ProyectoFinal.Clases.ClsPaciente.CodCliente.set

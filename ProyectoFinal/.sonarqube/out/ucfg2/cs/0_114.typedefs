@@ -1,26 +1,0 @@
-¥
-2ProyectoFinal.SOFTVETDataSet_Estadistica_PacientesSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectƒ
-&SOFTVETDataSet_Estadistica_Pacientes()YProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.SOFTVETDataSet_Estadistica_Pacientes()¿
-ƒSOFTVETDataSet_Estadistica_Pacientes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¶ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.SOFTVETDataSet_Estadistica_Pacientes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)k
-InitializeDerivedDataSet()MProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.InitializeDerivedDataSet()E
-Clone():ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.Clone()e
-ShouldSerializeTables()JProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.ShouldSerializeTables()k
-ShouldSerializeRelations()MProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.ShouldSerializeRelations()‰
-)ReadXmlSerializable(System.Xml.XmlReader)\ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.ReadXmlSerializable(System.Xml.XmlReader)e
-GetSchemaSerializable()JProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.GetSchemaSerializable()K
-
-InitVars()=ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.InitVars()S
-InitVars(bool)AProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.InitVars(bool)M
-InitClass()>ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.InitClass()i
-ShouldSerializePaciente()LProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.ShouldSerializePaciente()Ã
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)yProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)O
-Paciente.get?ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.Paciente.getO
-Paciente.set?ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.Paciente.setm
-SchemaSerializationMode.getNProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.SchemaSerializationMode.getm
-SchemaSerializationMode.setNProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.SchemaSerializationMode.setK
-
-Tables.get=ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.Tables.getK
-
-Tables.set=ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.Tables.setQ
-Relations.get@ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.Relations.getQ
-Relations.set@ProyectoFinal.SOFTVETDataSet_Estadistica_Pacientes.Relations.set

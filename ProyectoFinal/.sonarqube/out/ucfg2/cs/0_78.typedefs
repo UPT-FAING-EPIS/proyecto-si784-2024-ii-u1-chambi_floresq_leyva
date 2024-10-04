@@ -1,18 +1,0 @@
-‰
-OProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectŒ
-SP_HvacunacionTableAdapter()lProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.SP_HvacunacionTableAdapter()n
-InitAdapter()]ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.InitAdapter()t
-InitConnection()`ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.InitConnection()‚
-InitCommandCollection()gProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.InitCommandCollection()ë
-KFill(ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable, int?)›ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable, int?)n
-GetData(int?)]ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.GetData(int?)j
-Adapter.get[ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.Adapter.getj
-Adapter.set[ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.Adapter.setp
-Connection.get^ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.Connection.getp
-Connection.set^ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.Connection.setr
-Transaction.get_ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.Transaction.getr
-Transaction.set_ProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.Transaction.set~
-CommandCollection.geteProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.CommandCollection.get~
-CommandCollection.seteProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.CommandCollection.setz
-ClearBeforeFill.getcProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.ClearBeforeFill.getz
-ClearBeforeFill.setcProyectoFinal.SOFTVETDataSet_VacunacionTableAdapters.SP_HvacunacionTableAdapter.ClearBeforeFill.set

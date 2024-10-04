@@ -1,26 +1,0 @@
-©
-=ProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectl
-UsuarioTableAdapter()SProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.UsuarioTableAdapter()\
-InitAdapter()KProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.InitAdapter()b
-InitConnection()NProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.InitConnection()p
-InitCommandCollection()UProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.InitCommandCollection()¨
-3Fill(ProyectoFinal.SOFTVETDataSet.UsuarioDataTable)qProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet.UsuarioDataTable)T
-	GetData()GProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.GetData()¬
-5Update(ProyectoFinal.SOFTVETDataSet.UsuarioDataTable)sProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Update(ProyectoFinal.SOFTVETDataSet.UsuarioDataTable)Š
-$Update(ProyectoFinal.SOFTVETDataSet)bProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Update(ProyectoFinal.SOFTVETDataSet)x
-Update(System.Data.DataRow)YProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Update(System.Data.DataRow)|
-Update(System.Data.DataRow[])[ProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Update(System.Data.DataRow[])‚
- Delete(int, string, string, int)^ProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Delete(int, string, string, int)x
-Insert(string, string, int)YProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Insert(string, string, int)¶
-:Update(string, string, int, int, string, string, int, int)xProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Update(string, string, int, int, string, string, int, int)¬
-5Update(string, string, int, int, string, string, int)sProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Update(string, string, int, int, string, string, int)X
-Adapter.getIProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Adapter.getX
-Adapter.setIProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Adapter.set^
-Connection.getLProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Connection.get^
-Connection.setLProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Connection.set`
-Transaction.getMProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Transaction.get`
-Transaction.setMProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.Transaction.setl
-CommandCollection.getSProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.CommandCollection.getl
-CommandCollection.setSProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.CommandCollection.seth
-ClearBeforeFill.getQProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.ClearBeforeFill.geth
-ClearBeforeFill.setQProyectoFinal.SOFTVETDataSetTableAdapters.UsuarioTableAdapter.ClearBeforeFill.set

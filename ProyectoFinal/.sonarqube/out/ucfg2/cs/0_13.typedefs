@@ -1,26 +1,0 @@
-Ê
-%ProyectoFinal.SOFTVETDataSet_ClientesSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobject\
-SOFTVETDataSet_Clientes()?ProyectoFinal.SOFTVETDataSet_Clientes.SOFTVETDataSet_Clientes()—
-vSOFTVETDataSet_Clientes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)œProyectoFinal.SOFTVETDataSet_Clientes.SOFTVETDataSet_Clientes(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)^
-InitializeDerivedDataSet()@ProyectoFinal.SOFTVETDataSet_Clientes.InitializeDerivedDataSet()8
-Clone()-ProyectoFinal.SOFTVETDataSet_Clientes.Clone()X
-ShouldSerializeTables()=ProyectoFinal.SOFTVETDataSet_Clientes.ShouldSerializeTables()^
-ShouldSerializeRelations()@ProyectoFinal.SOFTVETDataSet_Clientes.ShouldSerializeRelations()|
-)ReadXmlSerializable(System.Xml.XmlReader)OProyectoFinal.SOFTVETDataSet_Clientes.ReadXmlSerializable(System.Xml.XmlReader)X
-GetSchemaSerializable()=ProyectoFinal.SOFTVETDataSet_Clientes.GetSchemaSerializable()>
-
-InitVars()0ProyectoFinal.SOFTVETDataSet_Clientes.InitVars()F
-InitVars(bool)4ProyectoFinal.SOFTVETDataSet_Clientes.InitVars(bool)@
-InitClass()1ProyectoFinal.SOFTVETDataSet_Clientes.InitClass()Z
-ShouldSerializeCliente()>ProyectoFinal.SOFTVETDataSet_Clientes.ShouldSerializeCliente()¶
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)lProyectoFinal.SOFTVETDataSet_Clientes.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)@
-Cliente.get1ProyectoFinal.SOFTVETDataSet_Clientes.Cliente.get@
-Cliente.set1ProyectoFinal.SOFTVETDataSet_Clientes.Cliente.set`
-SchemaSerializationMode.getAProyectoFinal.SOFTVETDataSet_Clientes.SchemaSerializationMode.get`
-SchemaSerializationMode.setAProyectoFinal.SOFTVETDataSet_Clientes.SchemaSerializationMode.set>
-
-Tables.get0ProyectoFinal.SOFTVETDataSet_Clientes.Tables.get>
-
-Tables.set0ProyectoFinal.SOFTVETDataSet_Clientes.Tables.setD
-Relations.get3ProyectoFinal.SOFTVETDataSet_Clientes.Relations.getD
-Relations.set3ProyectoFinal.SOFTVETDataSet_Clientes.Relations.set

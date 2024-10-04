@@ -1,27 +1,0 @@
-‚
-&ProyectoFinal.Clases.ClsDesparasitanteobject˙
-gCargarCliente(System.Windows.Forms.TextBox, System.Windows.Forms.TextBox, System.Windows.Forms.TextBox)éProyectoFinal.Clases.ClsDesparasitante.CargarCliente(System.Windows.Forms.TextBox, System.Windows.Forms.TextBox, System.Windows.Forms.TextBox)ã
-0CargarMascota(System.Windows.Forms.DataGridView)WProyectoFinal.Clases.ClsDesparasitante.CargarMascota(System.Windows.Forms.DataGridView)Ä
-jInsertar(System.Windows.Forms.ComboBox, System.Windows.Forms.DateTimePicker, System.Windows.Forms.TextBox)ëProyectoFinal.Clases.ClsDesparasitante.Insertar(System.Windows.Forms.ComboBox, System.Windows.Forms.DateTimePicker, System.Windows.Forms.TextBox)è
-2Actualizar(ProyectoFinal.Clases.ClsDesparasitante)YProyectoFinal.Clases.ClsDesparasitante.Actualizar(ProyectoFinal.Clases.ClsDesparasitante)E
-Eliminar(int)4ProyectoFinal.Clases.ClsDesparasitante.Eliminar(int)ô
-7ListarDesparasitados(System.Windows.Forms.DataGridView)^ProyectoFinal.Clases.ClsDesparasitante.ListarDesparasitados(System.Windows.Forms.DataGridView)Q
-ClsDesparasitante():ProyectoFinal.Clases.ClsDesparasitante.ClsDesparasitante()W
-id_disparasitacion.get=ProyectoFinal.Clases.ClsDesparasitante.id_disparasitacion.getW
-id_disparasitacion.set=ProyectoFinal.Clases.ClsDesparasitante.id_disparasitacion.set;
-Tipo.get/ProyectoFinal.Clases.ClsDesparasitante.Tipo.get;
-Tipo.set/ProyectoFinal.Clases.ClsDesparasitante.Tipo.set=
-	fecha.get0ProyectoFinal.Clases.ClsDesparasitante.fecha.get=
-	fecha.set0ProyectoFinal.Clases.ClsDesparasitante.fecha.setK
-Cod_Paciente.get7ProyectoFinal.Clases.ClsDesparasitante.Cod_Paciente.getK
-Cod_Paciente.set7ProyectoFinal.Clases.ClsDesparasitante.Cod_Paciente.set9
-dni.get.ProyectoFinal.Clases.ClsDesparasitante.dni.get9
-dni.set.ProyectoFinal.Clases.ClsDesparasitante.dni.set?
-
-nombre.get1ProyectoFinal.Clases.ClsDesparasitante.nombre.get?
-
-nombre.set1ProyectoFinal.Clases.ClsDesparasitante.nombre.setG
-codCliente.get5ProyectoFinal.Clases.ClsDesparasitante.codCliente.getG
-codCliente.set5ProyectoFinal.Clases.ClsDesparasitante.codCliente.setE
-idCliente.get4ProyectoFinal.Clases.ClsDesparasitante.idCliente.getE
-idCliente.set4ProyectoFinal.Clases.ClsDesparasitante.idCliente.set

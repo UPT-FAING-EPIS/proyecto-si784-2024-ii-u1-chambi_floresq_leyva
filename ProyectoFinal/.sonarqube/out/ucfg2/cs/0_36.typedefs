@@ -1,38 +1,0 @@
-ô&
-?ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectv
-SP_HvacunacionDataTable()YProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionDataTable()†
-.SP_HvacunacionDataTable(System.Data.DataTable)nProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionDataTable(System.Data.DataTable)±
-vSP_HvacunacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)∂ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)~
-SP_HvacunacionRowChanging.add]ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionRowChanging.addÑ
- SP_HvacunacionRowChanging.remove`ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionRowChanging.remove|
-SP_HvacunacionRowChanged.add\ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionRowChanged.addÇ
-SP_HvacunacionRowChanged.remove_ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionRowChanged.remove~
-SP_HvacunacionRowDeleting.add]ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionRowDeleting.addÑ
- SP_HvacunacionRowDeleting.remove`ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionRowDeleting.remove|
-SP_HvacunacionRowDeleted.add\ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionRowDeleted.addÇ
-SP_HvacunacionRowDeleted.remove_ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.SP_HvacunacionRowDeleted.remove„
-OAddSP_HvacunacionRow(ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionRow)èProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.AddSP_HvacunacionRow(ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionRow)Æ
-5AddSP_HvacunacionRow(string, string, System.DateTime)uProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.AddSP_HvacunacionRow(string, string, System.DateTime)R
-Clone()GProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.Clone()d
-CreateInstance()PProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.CreateInstance()X
-
-InitVars()JProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.InitVars()Z
-InitClass()KProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.InitClass()p
-NewSP_HvacunacionRow()VProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.NewSP_HvacunacionRow()û
--NewRowFromBuilder(System.Data.DataRowBuilder)mProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)\
-GetRowType()LProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.GetRowType()§
-0OnRowChanged(System.Data.DataRowChangeEventArgs)pProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)¶
-1OnRowChanging(System.Data.DataRowChangeEventArgs)qProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)§
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)pProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)¶
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)qProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)È
-RRemoveSP_HvacunacionRow(ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionRow)íProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.RemoveSP_HvacunacionRow(ProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionRow)r
-Nombre_VacunaColumn.getWProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.Nombre_VacunaColumn.getr
-Nombre_VacunaColumn.setWProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.Nombre_VacunaColumn.setp
-Numero_DosisColumn.getVProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.Numero_DosisColumn.getp
-Numero_DosisColumn.setVProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.Numero_DosisColumn.setb
-FechaColumn.getOProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.FechaColumn.getb
-FechaColumn.setOProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.FechaColumn.setV
-	Count.getIProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.Count.getV
-	Count.setIProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.Count.set^
-this[int].getMProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.this[int].get^
-this[int].setMProyectoFinal.SOFTVETDataSet_Vacunacion.SP_HvacunacionDataTable.this[int].set

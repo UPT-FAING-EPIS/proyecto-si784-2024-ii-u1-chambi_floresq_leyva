@@ -1,26 +1,0 @@
-ý
-*ProyectoFinal.SOFTVETDataSet_HC_VacunacionSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectk
-SOFTVETDataSet_HC_Vacunacion()IProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SOFTVETDataSet_HC_Vacunacion()¦
-{SOFTVETDataSet_HC_Vacunacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¦ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SOFTVETDataSet_HC_Vacunacion(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)c
-InitializeDerivedDataSet()EProyectoFinal.SOFTVETDataSet_HC_Vacunacion.InitializeDerivedDataSet()=
-Clone()2ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Clone()]
-ShouldSerializeTables()BProyectoFinal.SOFTVETDataSet_HC_Vacunacion.ShouldSerializeTables()c
-ShouldSerializeRelations()EProyectoFinal.SOFTVETDataSet_HC_Vacunacion.ShouldSerializeRelations()
-)ReadXmlSerializable(System.Xml.XmlReader)TProyectoFinal.SOFTVETDataSet_HC_Vacunacion.ReadXmlSerializable(System.Xml.XmlReader)]
-GetSchemaSerializable()BProyectoFinal.SOFTVETDataSet_HC_Vacunacion.GetSchemaSerializable()C
-
-InitVars()5ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.InitVars()K
-InitVars(bool)9ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.InitVars(bool)E
-InitClass()6ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.InitClass()o
- ShouldSerializeSPR_Hvacunacion()KProyectoFinal.SOFTVETDataSet_HC_Vacunacion.ShouldSerializeSPR_Hvacunacion()»
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)qProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)U
-SPR_Hvacunacion.get>ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SPR_Hvacunacion.getU
-SPR_Hvacunacion.set>ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SPR_Hvacunacion.sete
-SchemaSerializationMode.getFProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SchemaSerializationMode.gete
-SchemaSerializationMode.setFProyectoFinal.SOFTVETDataSet_HC_Vacunacion.SchemaSerializationMode.setC
-
-Tables.get5ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Tables.getC
-
-Tables.set5ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Tables.setI
-Relations.get8ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Relations.getI
-Relations.set8ProyectoFinal.SOFTVETDataSet_HC_Vacunacion.Relations.set

@@ -1,30 +1,0 @@
-©
-(ProyectoFinal.SOFTVETDataSet.EmpleadoRowSystem.Data.DataRowobject{
-'EmpleadoRow(System.Data.DataRowBuilder)PProyectoFinal.SOFTVETDataSet.EmpleadoRow.EmpleadoRow(System.Data.DataRowBuilder)M
-GetUsuarioRows()9ProyectoFinal.SOFTVETDataSet.EmpleadoRow.GetUsuarioRows()M
-Cod_Empleado.get9ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Cod_Empleado.getM
-Cod_Empleado.set9ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Cod_Empleado.setA
-
-Nombre.get3ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Nombre.getA
-
-Nombre.set3ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Nombre.setE
-Apellido.get5ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Apellido.getE
-Apellido.set5ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Apellido.set;
-DNI.get0ProyectoFinal.SOFTVETDataSet.EmpleadoRow.DNI.get;
-DNI.set0ProyectoFinal.SOFTVETDataSet.EmpleadoRow.DNI.setS
-FechaNacimiento.get<ProyectoFinal.SOFTVETDataSet.EmpleadoRow.FechaNacimiento.getS
-FechaNacimiento.set<ProyectoFinal.SOFTVETDataSet.EmpleadoRow.FechaNacimiento.set=
-Sexo.get1ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Sexo.get=
-Sexo.set1ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Sexo.setE
-Telefono.get5ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Telefono.getE
-Telefono.set5ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Telefono.setO
-Fecha_Ingreso.get:ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Fecha_Ingreso.getO
-Fecha_Ingreso.set:ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Fecha_Ingreso.set?
-	Cargo.get2ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Cargo.get?
-	Cargo.set2ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Cargo.setC
-Horario.get4ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Horario.getC
-Horario.set4ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Horario.setA
-
-Sueldo.get3ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Sueldo.getA
-
-Sueldo.set3ProyectoFinal.SOFTVETDataSet.EmpleadoRow.Sueldo.set

@@ -1,41 +1,0 @@
-Å$
-2ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjecte
-H_RecetacionDataTable()JProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionDataTable()è
-,H_RecetacionDataTable(System.Data.DataTable)_ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionDataTable(System.Data.DataTable)†
-tH_RecetacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)ßProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)m
-H_RecetacionRowChanging.addNProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionRowChanging.adds
-H_RecetacionRowChanging.removeQProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionRowChanging.removek
-H_RecetacionRowChanged.addMProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionRowChanged.addq
-H_RecetacionRowChanged.removePProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionRowChanged.removem
-H_RecetacionRowDeleting.addNProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionRowDeleting.adds
-H_RecetacionRowDeleting.removeQProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionRowDeleting.removek
-H_RecetacionRowDeleted.addMProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionRowDeleted.addq
-H_RecetacionRowDeleted.removePProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.H_RecetacionRowDeleted.remove∑
-@AddH_RecetacionRow(ProyectoFinal.SOFTVETDataSet.H_RecetacionRow)sProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.AddH_RecetacionRow(ProyectoFinal.SOFTVETDataSet.H_RecetacionRow)‚
-UAddH_RecetacionRow(string, System.DateTime, ProyectoFinal.SOFTVETDataSet.PacienteRow)àProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.AddH_RecetacionRow(string, System.DateTime, ProyectoFinal.SOFTVETDataSet.PacienteRow)Q
-FindByid(int)@ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.FindByid(int)E
-Clone():ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.Clone()W
-CreateInstance()CProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.CreateInstance()K
-
-InitVars()=ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.InitVars()M
-InitClass()>ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.InitClass()_
-NewH_RecetacionRow()GProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.NewH_RecetacionRow()ë
--NewRowFromBuilder(System.Data.DataRowBuilder)`ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)O
-GetRowType()?ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.GetRowType()ó
-0OnRowChanged(System.Data.DataRowChangeEventArgs)cProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)ô
-1OnRowChanging(System.Data.DataRowChangeEventArgs)dProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)ó
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)cProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)ô
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)dProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)Ω
-CRemoveH_RecetacionRow(ProyectoFinal.SOFTVETDataSet.H_RecetacionRow)vProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.RemoveH_RecetacionRow(ProyectoFinal.SOFTVETDataSet.H_RecetacionRow)O
-idColumn.get?ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.idColumn.getO
-idColumn.set?ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.idColumn.seta
-descripcionColumn.getHProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.descripcionColumn.geta
-descripcionColumn.setHProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.descripcionColumn.setU
-FechaColumn.getBProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.FechaColumn.getU
-FechaColumn.setBProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.FechaColumn.setc
-cod_pacienteColumn.getIProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.cod_pacienteColumn.getc
-cod_pacienteColumn.setIProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.cod_pacienteColumn.setI
-	Count.get<ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.Count.getI
-	Count.set<ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.Count.setQ
-this[int].get@ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.this[int].getQ
-this[int].set@ProyectoFinal.SOFTVETDataSet.H_RecetacionDataTable.this[int].set

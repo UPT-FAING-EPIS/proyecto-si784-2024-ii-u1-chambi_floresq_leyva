@@ -1,9 +1,0 @@
-í
-3ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEventSystem.EventArgsobjectï
-[EmpleadoRowChangeEvent(ProyectoFinal.SOFTVETDataSet.EmpleadoRow, System.Data.DataRowAction)ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.EmpleadoRowChangeEvent(ProyectoFinal.SOFTVETDataSet.EmpleadoRow, System.Data.DataRowAction)F
-Row.get;ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.Row.getF
-Row.set;ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.Row.setL
-
-Action.get>ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.Action.getL
-
-Action.set>ProyectoFinal.SOFTVETDataSet.EmpleadoRowChangeEvent.Action.set

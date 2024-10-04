@@ -1,77 +1,0 @@
-øD
-)ProyectoFinal.Modelos.MSOFTVETDataContextSystem.Data.Linq.DataContextobjectD
-OnCreated()5ProyectoFinal.Modelos.MSOFTVETDataContext.OnCreated()‚
-*InsertVacuna(ProyectoFinal.Modelos.Vacuna)TProyectoFinal.Modelos.MSOFTVETDataContext.InsertVacuna(ProyectoFinal.Modelos.Vacuna)‚
-*UpdateVacuna(ProyectoFinal.Modelos.Vacuna)TProyectoFinal.Modelos.MSOFTVETDataContext.UpdateVacuna(ProyectoFinal.Modelos.Vacuna)‚
-*DeleteVacuna(ProyectoFinal.Modelos.Vacuna)TProyectoFinal.Modelos.MSOFTVETDataContext.DeleteVacuna(ProyectoFinal.Modelos.Vacuna)X
-MSOFTVETDataContext()?ProyectoFinal.Modelos.MSOFTVETDataContext.MSOFTVETDataContext()d
-MSOFTVETDataContext(string)EProyectoFinal.Modelos.MSOFTVETDataContext.MSOFTVETDataContext(string)Š
-.MSOFTVETDataContext(System.Data.IDbConnection)XProyectoFinal.Modelos.MSOFTVETDataContext.MSOFTVETDataContext(System.Data.IDbConnection)´
-CMSOFTVETDataContext(string, System.Data.Linq.Mapping.MappingSource)mProyectoFinal.Modelos.MSOFTVETDataContext.MSOFTVETDataContext(string, System.Data.Linq.Mapping.MappingSource)Û
-VMSOFTVETDataContext(System.Data.IDbConnection, System.Data.Linq.Mapping.MappingSource)€ProyectoFinal.Modelos.MSOFTVETDataContext.MSOFTVETDataContext(System.Data.IDbConnection, System.Data.Linq.Mapping.MappingSource)x
-%SP_Actualizar_StockVacuna(int?, int?)OProyectoFinal.Modelos.MSOFTVETDataContext.SP_Actualizar_StockVacuna(int?, int?)¦
-<SP_Agregar_Desparasitacion(string, System.DateTime?, string)fProyectoFinal.Modelos.MSOFTVETDataContext.SP_Agregar_Desparasitacion(string, System.DateTime?, string)˜
-5SP_Agregar_Recetacion(string, System.DateTime?, int?)_ProyectoFinal.Modelos.MSOFTVETDataContext.SP_Agregar_Recetacion(string, System.DateTime?, int?)ó
-bSP_AgregarEmpleado(string, string, string, string, string, string, string, string, string, string)ŒProyectoFinal.Modelos.MSOFTVETDataContext.SP_AgregarEmpleado(string, string, string, string, string, string, string, string, string, string)Æ
-LSP_AgregarPaciente(string, string, string, string, System.DateTime?, string)vProyectoFinal.Modelos.MSOFTVETDataContext.SP_AgregarPaciente(string, string, string, string, System.DateTime?, string)´
-CSP_AgregarPaciente_Vacuna(string, string, string, System.DateTime?)mProyectoFinal.Modelos.MSOFTVETDataContext.SP_AgregarPaciente_Vacuna(string, string, string, System.DateTime?)’
-2SP_AgregarVacuna(string, string, System.DateTime?)\ProyectoFinal.Modelos.MSOFTVETDataContext.SP_AgregarVacuna(string, string, System.DateTime?)X
-SP_CancelarCita(int?)?ProyectoFinal.Modelos.MSOFTVETDataContext.SP_CancelarCita(int?)p
-!SP_Eliminar_Desparasitacion(int?)KProyectoFinal.Modelos.MSOFTVETDataContext.SP_Eliminar_Desparasitacion(int?)X
-SP_EliminarCita(int?)?ProyectoFinal.Modelos.MSOFTVETDataContext.SP_EliminarCita(int?)r
-"SP_EliminarStockVacuna(int?, int?)LProyectoFinal.Modelos.MSOFTVETDataContext.SP_EliminarStockVacuna(int?, int?)¶
-DSP_Modificar_Desparasitacion(int?, string, System.DateTime?, string)nProyectoFinal.Modelos.MSOFTVETDataContext.SP_Modificar_Desparasitacion(int?, string, System.DateTime?, string)¼
-GSP_Modificar_Vacunacion(int?, string, string, string, System.DateTime?)qProyectoFinal.Modelos.MSOFTVETDataContext.SP_Modificar_Vacunacion(int?, string, string, string, System.DateTime?)p
-!SP_ReducirStockVacuna(int?, int?)KProyectoFinal.Modelos.MSOFTVETDataContext.SP_ReducirStockVacuna(int?, int?)f
-SP_Eliminar_Vacunacion(int?)FProyectoFinal.Modelos.MSOFTVETDataContext.SP_Eliminar_Vacunacion(int?)^
-SP_EliminarCliente(int?)BProyectoFinal.Modelos.MSOFTVETDataContext.SP_EliminarCliente(int?)Æ
-LSP_ModificarPaciente(int?, string, string, string, string, System.DateTime?)vProyectoFinal.Modelos.MSOFTVETDataContext.SP_ModificarPaciente(int?, string, string, string, string, System.DateTime?)`
-SP_EliminarPaciente(int?)CProyectoFinal.Modelos.MSOFTVETDataContext.SP_EliminarPaciente(int?)§
-|SP_ModificarEmpleado(int?, string, string, string, System.DateTime?, string, string, System.DateTime?, string, string, int?)¦ProyectoFinal.Modelos.MSOFTVETDataContext.SP_ModificarEmpleado(int?, string, string, string, System.DateTime?, string, string, System.DateTime?, string, string, int?)`
-SP_EliminarEmpleado(int?)CProyectoFinal.Modelos.MSOFTVETDataContext.SP_EliminarEmpleado(int?)
-1SP_AgregarUsuario(string, string, string, string)[ProyectoFinal.Modelos.MSOFTVETDataContext.SP_AgregarUsuario(string, string, string, string)h
-SP_Autenticar(string, string)GProyectoFinal.Modelos.MSOFTVETDataContext.SP_Autenticar(string, string)V
-SP_Hvacunacion(int?)>ProyectoFinal.Modelos.MSOFTVETDataContext.SP_Hvacunacion(int?)`
-SP_Hdesparacitacion(int?)CProyectoFinal.Modelos.MSOFTVETDataContext.SP_Hdesparacitacion(int?)Æ
-LSP_AgregarCita(string, System.DateTime?, string, int?, string, string, int?)vProyectoFinal.Modelos.MSOFTVETDataContext.SP_AgregarCita(string, System.DateTime?, string, int?, string, string, int?)¸
-ESP_EditarCita(int?, string, System.DateTime?, string, string, string)oProyectoFinal.Modelos.MSOFTVETDataContext.SP_EditarCita(int?, string, System.DateTime?, string, string, string)¬
-?SP_Agregar_Vacunacion(string, string, string, System.DateTime?)iProyectoFinal.Modelos.MSOFTVETDataContext.SP_Agregar_Vacunacion(string, string, string, System.DateTime?)V
-SP_HRecetacion(int?)>ProyectoFinal.Modelos.MSOFTVETDataContext.SP_HRecetacion(int?)d
-SP_PacientexCliente(string)EProyectoFinal.Modelos.MSOFTVETDataContext.SP_PacientexCliente(string)À
-ISP_AgregarCliente(string, string, string, string, string, string, string)sProyectoFinal.Modelos.MSOFTVETDataContext.SP_AgregarCliente(string, string, string, string, string, string, string)Ð
-QSP_ModificarCliente(int?, string, string, string, string, string, string, string){ProyectoFinal.Modelos.MSOFTVETDataContext.SP_ModificarCliente(int?, string, string, string, string, string, string, string)^
-SP_BuscarCliente(string)BProyectoFinal.Modelos.MSOFTVETDataContext.SP_BuscarCliente(string)ž
-8SP_Agregar_Abast_Vacunas(string, int?, System.DateTime?)bProyectoFinal.Modelos.MSOFTVETDataContext.SP_Agregar_Abast_Vacunas(string, int?, System.DateTime?)l
-SP_Eliminar_Abast_Vacunas(int?)IProyectoFinal.Modelos.MSOFTVETDataContext.SP_Eliminar_Abast_Vacunas(int?)®
-@SP_Modificar_Abast_Vacunas(int?, string, int?, System.DateTime?)jProyectoFinal.Modelos.MSOFTVETDataContext.SP_Modificar_Abast_Vacunas(int?, string, int?, System.DateTime?)X
-SP_TotalStockVacuna()?ProyectoFinal.Modelos.MSOFTVETDataContext.SP_TotalStockVacuna()d
-SP_HistorialClinico(string)EProyectoFinal.Modelos.MSOFTVETDataContext.SP_HistorialClinico(string)\
-SPR_Hvacunacion(string)AProyectoFinal.Modelos.MSOFTVETDataContext.SPR_Hvacunacion(string)B
-
-Vacuna.get4ProyectoFinal.Modelos.MSOFTVETDataContext.Vacuna.getB
-
-Vacuna.set4ProyectoFinal.Modelos.MSOFTVETDataContext.Vacuna.setX
-V_Desparasitacion.get?ProyectoFinal.Modelos.MSOFTVETDataContext.V_Desparasitacion.getX
-V_Desparasitacion.set?ProyectoFinal.Modelos.MSOFTVETDataContext.V_Desparasitacion.setJ
-V_Empleado.get8ProyectoFinal.Modelos.MSOFTVETDataContext.V_Empleado.getJ
-V_Empleado.set8ProyectoFinal.Modelos.MSOFTVETDataContext.V_Empleado.setJ
-V_Paciente.get8ProyectoFinal.Modelos.MSOFTVETDataContext.V_Paciente.getJ
-V_Paciente.set8ProyectoFinal.Modelos.MSOFTVETDataContext.V_Paciente.setX
-V_Paciente_Vacuna.get?ProyectoFinal.Modelos.MSOFTVETDataContext.V_Paciente_Vacuna.getX
-V_Paciente_Vacuna.set?ProyectoFinal.Modelos.MSOFTVETDataContext.V_Paciente_Vacuna.setR
-V_Recetaciones.get<ProyectoFinal.Modelos.MSOFTVETDataContext.V_Recetaciones.getR
-V_Recetaciones.set<ProyectoFinal.Modelos.MSOFTVETDataContext.V_Recetaciones.setH
-V_Usuario.get7ProyectoFinal.Modelos.MSOFTVETDataContext.V_Usuario.getH
-V_Usuario.set7ProyectoFinal.Modelos.MSOFTVETDataContext.V_Usuario.setN
-V_Vacunacion.get:ProyectoFinal.Modelos.MSOFTVETDataContext.V_Vacunacion.getN
-V_Vacunacion.set:ProyectoFinal.Modelos.MSOFTVETDataContext.V_Vacunacion.setH
-V_Vacunas.get7ProyectoFinal.Modelos.MSOFTVETDataContext.V_Vacunas.getH
-V_Vacunas.set7ProyectoFinal.Modelos.MSOFTVETDataContext.V_Vacunas.setD
-V_Citas.get5ProyectoFinal.Modelos.MSOFTVETDataContext.V_Citas.getD
-V_Citas.set5ProyectoFinal.Modelos.MSOFTVETDataContext.V_Citas.setP
-V_CargarCitas.get;ProyectoFinal.Modelos.MSOFTVETDataContext.V_CargarCitas.getP
-V_CargarCitas.set;ProyectoFinal.Modelos.MSOFTVETDataContext.V_CargarCitas.seth
-V_DETALLE_PACIENTE_VACUNA.getGProyectoFinal.Modelos.MSOFTVETDataContext.V_DETALLE_PACIENTE_VACUNA.geth
-V_DETALLE_PACIENTE_VACUNA.setGProyectoFinal.Modelos.MSOFTVETDataContext.V_DETALLE_PACIENTE_VACUNA.setH
-V_Cliente.get7ProyectoFinal.Modelos.MSOFTVETDataContext.V_Cliente.getH
-V_Cliente.set7ProyectoFinal.Modelos.MSOFTVETDataContext.V_Cliente.set

@@ -1,26 +1,0 @@
-û
-)ProyectoFinal.SOFTVETDataSet_PacientexDNISystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjecth
-SOFTVETDataSet_PacientexDNI()GProyectoFinal.SOFTVETDataSet_PacientexDNI.SOFTVETDataSet_PacientexDNI()£
-zSOFTVETDataSet_PacientexDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¤ProyectoFinal.SOFTVETDataSet_PacientexDNI.SOFTVETDataSet_PacientexDNI(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)b
-InitializeDerivedDataSet()DProyectoFinal.SOFTVETDataSet_PacientexDNI.InitializeDerivedDataSet()<
-Clone()1ProyectoFinal.SOFTVETDataSet_PacientexDNI.Clone()\
-ShouldSerializeTables()AProyectoFinal.SOFTVETDataSet_PacientexDNI.ShouldSerializeTables()b
-ShouldSerializeRelations()DProyectoFinal.SOFTVETDataSet_PacientexDNI.ShouldSerializeRelations()€
-)ReadXmlSerializable(System.Xml.XmlReader)SProyectoFinal.SOFTVETDataSet_PacientexDNI.ReadXmlSerializable(System.Xml.XmlReader)\
-GetSchemaSerializable()AProyectoFinal.SOFTVETDataSet_PacientexDNI.GetSchemaSerializable()B
-
-InitVars()4ProyectoFinal.SOFTVETDataSet_PacientexDNI.InitVars()J
-InitVars(bool)8ProyectoFinal.SOFTVETDataSet_PacientexDNI.InitVars(bool)D
-InitClass()5ProyectoFinal.SOFTVETDataSet_PacientexDNI.InitClass()v
-$ShouldSerializeSP_PacientexCliente()NProyectoFinal.SOFTVETDataSet_PacientexDNI.ShouldSerializeSP_PacientexCliente()º
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)pProyectoFinal.SOFTVETDataSet_PacientexDNI.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)\
-SP_PacientexCliente.getAProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexCliente.get\
-SP_PacientexCliente.setAProyectoFinal.SOFTVETDataSet_PacientexDNI.SP_PacientexCliente.setd
-SchemaSerializationMode.getEProyectoFinal.SOFTVETDataSet_PacientexDNI.SchemaSerializationMode.getd
-SchemaSerializationMode.setEProyectoFinal.SOFTVETDataSet_PacientexDNI.SchemaSerializationMode.setB
-
-Tables.get4ProyectoFinal.SOFTVETDataSet_PacientexDNI.Tables.getB
-
-Tables.set4ProyectoFinal.SOFTVETDataSet_PacientexDNI.Tables.setH
-Relations.get7ProyectoFinal.SOFTVETDataSet_PacientexDNI.Relations.getH
-Relations.set7ProyectoFinal.SOFTVETDataSet_PacientexDNI.Relations.set

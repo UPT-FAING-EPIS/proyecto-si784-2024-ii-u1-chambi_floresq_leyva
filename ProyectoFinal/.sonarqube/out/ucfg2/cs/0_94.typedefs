@@ -1,23 +1,0 @@
-Ê
-%ProyectoFinal.DataSet.DataSet_VacunasSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectL
-DataSet_Vacunas()7ProyectoFinal.DataSet.DataSet_Vacunas.DataSet_Vacunas()‡
-nDataSet_Vacunas(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)”ProyectoFinal.DataSet.DataSet_Vacunas.DataSet_Vacunas(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)^
-InitializeDerivedDataSet()@ProyectoFinal.DataSet.DataSet_Vacunas.InitializeDerivedDataSet()8
-Clone()-ProyectoFinal.DataSet.DataSet_Vacunas.Clone()X
-ShouldSerializeTables()=ProyectoFinal.DataSet.DataSet_Vacunas.ShouldSerializeTables()^
-ShouldSerializeRelations()@ProyectoFinal.DataSet.DataSet_Vacunas.ShouldSerializeRelations()|
-)ReadXmlSerializable(System.Xml.XmlReader)OProyectoFinal.DataSet.DataSet_Vacunas.ReadXmlSerializable(System.Xml.XmlReader)X
-GetSchemaSerializable()=ProyectoFinal.DataSet.DataSet_Vacunas.GetSchemaSerializable()>
-
-InitVars()0ProyectoFinal.DataSet.DataSet_Vacunas.InitVars()F
-InitVars(bool)4ProyectoFinal.DataSet.DataSet_Vacunas.InitVars(bool)@
-InitClass()1ProyectoFinal.DataSet.DataSet_Vacunas.InitClass()¶
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)lProyectoFinal.DataSet.DataSet_Vacunas.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)`
-SchemaSerializationMode.getAProyectoFinal.DataSet.DataSet_Vacunas.SchemaSerializationMode.get`
-SchemaSerializationMode.setAProyectoFinal.DataSet.DataSet_Vacunas.SchemaSerializationMode.set>
-
-Tables.get0ProyectoFinal.DataSet.DataSet_Vacunas.Tables.get>
-
-Tables.set0ProyectoFinal.DataSet.DataSet_Vacunas.Tables.setD
-Relations.get3ProyectoFinal.DataSet.DataSet_Vacunas.Relations.getD
-Relations.set3ProyectoFinal.DataSet.DataSet_Vacunas.Relations.set

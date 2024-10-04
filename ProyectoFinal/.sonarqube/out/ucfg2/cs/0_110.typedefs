@@ -1,11 +1,0 @@
-ù
-ProyectoFinal.Modelos.V_Vacunasobject:
-V_Vacunas()+ProyectoFinal.Modelos.V_Vacunas.V_Vacunas()>
-ID_Vacuna.get-ProyectoFinal.Modelos.V_Vacunas.ID_Vacuna.get>
-ID_Vacuna.set-ProyectoFinal.Modelos.V_Vacunas.ID_Vacuna.setF
-Nombre_Vacuna.get1ProyectoFinal.Modelos.V_Vacunas.Nombre_Vacuna.getF
-Nombre_Vacuna.set1ProyectoFinal.Modelos.V_Vacunas.Nombre_Vacuna.set6
-	Stock.get)ProyectoFinal.Modelos.V_Vacunas.Stock.get6
-	Stock.set)ProyectoFinal.Modelos.V_Vacunas.Stock.setH
-FechaCaducidad.get2ProyectoFinal.Modelos.V_Vacunas.FechaCaducidad.getH
-FechaCaducidad.set2ProyectoFinal.Modelos.V_Vacunas.FechaCaducidad.set

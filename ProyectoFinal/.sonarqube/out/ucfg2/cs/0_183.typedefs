@@ -1,13 +1,0 @@
-�
-'ProyectoFinal.SOFTVETDataSet.UsuarioRowSystem.Data.DataRowobjectx
-&UsuarioRow(System.Data.DataRowBuilder)NProyectoFinal.SOFTVETDataSet.UsuarioRow.UsuarioRow(System.Data.DataRowBuilder)H
-Id_Usuario.get6ProyectoFinal.SOFTVETDataSet.UsuarioRow.Id_Usuario.getH
-Id_Usuario.set6ProyectoFinal.SOFTVETDataSet.UsuarioRow.Id_Usuario.setD
-Username.get4ProyectoFinal.SOFTVETDataSet.UsuarioRow.Username.getD
-Username.set4ProyectoFinal.SOFTVETDataSet.UsuarioRow.Username.setJ
-Contraseña.get7ProyectoFinal.SOFTVETDataSet.UsuarioRow.Contraseña.getJ
-Contraseña.set7ProyectoFinal.SOFTVETDataSet.UsuarioRow.Contraseña.setL
-Cod_Empleado.get8ProyectoFinal.SOFTVETDataSet.UsuarioRow.Cod_Empleado.getL
-Cod_Empleado.set8ProyectoFinal.SOFTVETDataSet.UsuarioRow.Cod_Empleado.setJ
-EmpleadoRow.get7ProyectoFinal.SOFTVETDataSet.UsuarioRow.EmpleadoRow.getJ
-EmpleadoRow.set7ProyectoFinal.SOFTVETDataSet.UsuarioRow.EmpleadoRow.set

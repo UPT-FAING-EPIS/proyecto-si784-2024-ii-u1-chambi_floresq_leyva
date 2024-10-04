@@ -1,26 +1,0 @@
-˜
-/ProyectoFinal.SOFTVETDataSet_PacientexPaciente2System.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectz
-#SOFTVETDataSet_PacientexPaciente2()SProyectoFinal.SOFTVETDataSet_PacientexPaciente2.SOFTVETDataSet_PacientexPaciente2()¶
-€SOFTVETDataSet_PacientexPaciente2(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)°ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.SOFTVETDataSet_PacientexPaciente2(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)h
-InitializeDerivedDataSet()JProyectoFinal.SOFTVETDataSet_PacientexPaciente2.InitializeDerivedDataSet()B
-Clone()7ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.Clone()b
-ShouldSerializeTables()GProyectoFinal.SOFTVETDataSet_PacientexPaciente2.ShouldSerializeTables()h
-ShouldSerializeRelations()JProyectoFinal.SOFTVETDataSet_PacientexPaciente2.ShouldSerializeRelations()†
-)ReadXmlSerializable(System.Xml.XmlReader)YProyectoFinal.SOFTVETDataSet_PacientexPaciente2.ReadXmlSerializable(System.Xml.XmlReader)b
-GetSchemaSerializable()GProyectoFinal.SOFTVETDataSet_PacientexPaciente2.GetSchemaSerializable()H
-
-InitVars():ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.InitVars()P
-InitVars(bool)>ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.InitVars(bool)J
-InitClass();ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.InitClass()|
-$ShouldSerializeSP_PacientexCliente()TProyectoFinal.SOFTVETDataSet_PacientexPaciente2.ShouldSerializeSP_PacientexCliente()À
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)vProyectoFinal.SOFTVETDataSet_PacientexPaciente2.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)b
-SP_PacientexCliente.getGProyectoFinal.SOFTVETDataSet_PacientexPaciente2.SP_PacientexCliente.getb
-SP_PacientexCliente.setGProyectoFinal.SOFTVETDataSet_PacientexPaciente2.SP_PacientexCliente.setj
-SchemaSerializationMode.getKProyectoFinal.SOFTVETDataSet_PacientexPaciente2.SchemaSerializationMode.getj
-SchemaSerializationMode.setKProyectoFinal.SOFTVETDataSet_PacientexPaciente2.SchemaSerializationMode.setH
-
-Tables.get:ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.Tables.getH
-
-Tables.set:ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.Tables.setN
-Relations.get=ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.Relations.getN
-Relations.set=ProyectoFinal.SOFTVETDataSet_PacientexPaciente2.Relations.set

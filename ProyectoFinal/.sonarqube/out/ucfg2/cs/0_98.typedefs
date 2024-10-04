@@ -1,26 +1,0 @@
-«
->ProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjecto
-EmpleadoTableAdapter()UProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.EmpleadoTableAdapter()]
-InitAdapter()LProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.InitAdapter()c
-InitConnection()OProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.InitConnection()q
-InitCommandCollection()VProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.InitCommandCollection()´
-4Fill(ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable)sProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable)U
-	GetData()HProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.GetData()Ø
-6Update(ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable)uProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Update(ProyectoFinal.SOFTVETDataSet.EmpleadoDataTable)ã
-$Update(ProyectoFinal.SOFTVETDataSet)cProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Update(ProyectoFinal.SOFTVETDataSet)y
-Update(System.Data.DataRow)ZProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Update(System.Data.DataRow)}
-Update(System.Data.DataRow[])\ProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Update(System.Data.DataRow[])ò
-jDelete(int, string, string, string, System.DateTime, string, string, System.DateTime, string, string, int)©ProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Delete(int, string, string, string, System.DateTime, string, string, System.DateTime, string, string, int)é
-eInsert(string, string, string, System.DateTime, string, string, System.DateTime, string, string, int)§ProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Insert(string, string, string, System.DateTime, string, string, System.DateTime, string, string, int)·
-ŒUpdate(string, string, string, System.DateTime, string, string, System.DateTime, string, string, int, int, string, string, string, System.DateTime, string, string, System.DateTime, string, string, int, int)çProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Update(string, string, string, System.DateTime, string, string, System.DateTime, string, string, int, int, string, string, string, System.DateTime, string, string, System.DateTime, string, string, int, int)◊
-…Update(string, string, string, System.DateTime, string, string, System.DateTime, string, string, int, int, string, string, string, System.DateTime, string, string, System.DateTime, string, string, int)àProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Update(string, string, string, System.DateTime, string, string, System.DateTime, string, string, int, int, string, string, string, System.DateTime, string, string, System.DateTime, string, string, int)Y
-Adapter.getJProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Adapter.getY
-Adapter.setJProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Adapter.set_
-Connection.getMProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Connection.get_
-Connection.setMProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Connection.seta
-Transaction.getNProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Transaction.geta
-Transaction.setNProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.Transaction.setm
-CommandCollection.getTProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.CommandCollection.getm
-CommandCollection.setTProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.CommandCollection.seti
-ClearBeforeFill.getRProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.ClearBeforeFill.geti
-ClearBeforeFill.setRProyectoFinal.SOFTVETDataSetTableAdapters.EmpleadoTableAdapter.ClearBeforeFill.set

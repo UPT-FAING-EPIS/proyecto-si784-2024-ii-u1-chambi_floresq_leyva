@@ -1,41 +1,0 @@
-¹ 
-,ProyectoFinal.SOFTVETDataSet.VacunaDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectS
-VacunaDataTable()>ProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaDataTable()}
-&VacunaDataTable(System.Data.DataTable)SProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaDataTable(System.Data.DataTable)Ž
-nVacunaDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)›ProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)[
-VacunaRowChanging.addBProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaRowChanging.adda
-VacunaRowChanging.removeEProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaRowChanging.removeY
-VacunaRowChanged.addAProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaRowChanged.add_
-VacunaRowChanged.removeDProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaRowChanged.remove[
-VacunaRowDeleting.addBProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaRowDeleting.adda
-VacunaRowDeleting.removeEProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaRowDeleting.removeY
-VacunaRowDeleted.addAProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaRowDeleted.add_
-VacunaRowDeleted.removeDProyectoFinal.SOFTVETDataSet.VacunaDataTable.VacunaRowDeleted.remove™
-4AddVacunaRow(ProyectoFinal.SOFTVETDataSet.VacunaRow)aProyectoFinal.SOFTVETDataSet.VacunaDataTable.AddVacunaRow(ProyectoFinal.SOFTVETDataSet.VacunaRow)…
-*AddVacunaRow(string, int, System.DateTime)WProyectoFinal.SOFTVETDataSet.VacunaDataTable.AddVacunaRow(string, int, System.DateTime)Y
-FindByID_Vacuna(int)AProyectoFinal.SOFTVETDataSet.VacunaDataTable.FindByID_Vacuna(int)?
-Clone()4ProyectoFinal.SOFTVETDataSet.VacunaDataTable.Clone()Q
-CreateInstance()=ProyectoFinal.SOFTVETDataSet.VacunaDataTable.CreateInstance()E
-
-InitVars()7ProyectoFinal.SOFTVETDataSet.VacunaDataTable.InitVars()G
-InitClass()8ProyectoFinal.SOFTVETDataSet.VacunaDataTable.InitClass()M
-NewVacunaRow();ProyectoFinal.SOFTVETDataSet.VacunaDataTable.NewVacunaRow()‹
--NewRowFromBuilder(System.Data.DataRowBuilder)ZProyectoFinal.SOFTVETDataSet.VacunaDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)I
-GetRowType()9ProyectoFinal.SOFTVETDataSet.VacunaDataTable.GetRowType()‘
-0OnRowChanged(System.Data.DataRowChangeEventArgs)]ProyectoFinal.SOFTVETDataSet.VacunaDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)“
-1OnRowChanging(System.Data.DataRowChangeEventArgs)^ProyectoFinal.SOFTVETDataSet.VacunaDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)‘
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)]ProyectoFinal.SOFTVETDataSet.VacunaDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)“
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)^ProyectoFinal.SOFTVETDataSet.VacunaDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)Ÿ
-7RemoveVacunaRow(ProyectoFinal.SOFTVETDataSet.VacunaRow)dProyectoFinal.SOFTVETDataSet.VacunaDataTable.RemoveVacunaRow(ProyectoFinal.SOFTVETDataSet.VacunaRow)W
-ID_VacunaColumn.get@ProyectoFinal.SOFTVETDataSet.VacunaDataTable.ID_VacunaColumn.getW
-ID_VacunaColumn.set@ProyectoFinal.SOFTVETDataSet.VacunaDataTable.ID_VacunaColumn.set_
-Nombre_VacunaColumn.getDProyectoFinal.SOFTVETDataSet.VacunaDataTable.Nombre_VacunaColumn.get_
-Nombre_VacunaColumn.setDProyectoFinal.SOFTVETDataSet.VacunaDataTable.Nombre_VacunaColumn.setO
-StockColumn.get<ProyectoFinal.SOFTVETDataSet.VacunaDataTable.StockColumn.getO
-StockColumn.set<ProyectoFinal.SOFTVETDataSet.VacunaDataTable.StockColumn.seta
-FechaCaducidadColumn.getEProyectoFinal.SOFTVETDataSet.VacunaDataTable.FechaCaducidadColumn.geta
-FechaCaducidadColumn.setEProyectoFinal.SOFTVETDataSet.VacunaDataTable.FechaCaducidadColumn.setC
-	Count.get6ProyectoFinal.SOFTVETDataSet.VacunaDataTable.Count.getC
-	Count.set6ProyectoFinal.SOFTVETDataSet.VacunaDataTable.Count.setK
-this[int].get:ProyectoFinal.SOFTVETDataSet.VacunaDataTable.this[int].getK
-this[int].set:ProyectoFinal.SOFTVETDataSet.VacunaDataTable.this[int].set

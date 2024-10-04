@@ -1,26 +1,0 @@
-ê
-=ProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectl
-ClienteTableAdapter()SProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.ClienteTableAdapter()\
-InitAdapter()KProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.InitAdapter()b
-InitConnection()NProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.InitConnection()p
-InitCommandCollection()UProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.InitCommandCollection()®
-3Fill(ProyectoFinal.SOFTVETDataSet.ClienteDataTable)qProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet.ClienteDataTable)T
-	GetData()GProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.GetData()¨
-5Update(ProyectoFinal.SOFTVETDataSet.ClienteDataTable)sProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Update(ProyectoFinal.SOFTVETDataSet.ClienteDataTable)ä
-$Update(ProyectoFinal.SOFTVETDataSet)bProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Update(ProyectoFinal.SOFTVETDataSet)x
-Update(System.Data.DataRow)YProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Update(System.Data.DataRow)|
-Update(System.Data.DataRow[])[ProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Update(System.Data.DataRow[])®
-3Delete(int, string, string, string, string, string)qProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Delete(int, string, string, string, string, string)û
-.Insert(string, string, string, string, string)lProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Insert(string, string, string, string, string)É
-`Update(string, string, string, string, string, int, string, string, string, string, string, int)ûProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Update(string, string, string, string, string, int, string, string, string, string, string, int)˘
-[Update(string, string, string, string, string, int, string, string, string, string, string)ôProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Update(string, string, string, string, string, int, string, string, string, string, string)X
-Adapter.getIProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Adapter.getX
-Adapter.setIProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Adapter.set^
-Connection.getLProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Connection.get^
-Connection.setLProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Connection.set`
-Transaction.getMProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Transaction.get`
-Transaction.setMProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.Transaction.setl
-CommandCollection.getSProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.CommandCollection.getl
-CommandCollection.setSProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.CommandCollection.seth
-ClearBeforeFill.getQProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.ClearBeforeFill.geth
-ClearBeforeFill.setQProyectoFinal.SOFTVETDataSetTableAdapters.ClienteTableAdapter.ClearBeforeFill.set

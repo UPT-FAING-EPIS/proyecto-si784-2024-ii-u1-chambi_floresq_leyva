@@ -1,42 +1,0 @@
-è
-ProyectoFinal.Clases.ClsVacunaobjectu
-)Listar(System.Windows.Forms.DataGridView)HProyectoFinal.Clases.ClsVacuna.Listar(System.Windows.Forms.DataGridView)‰
-3ListarTotalStock(System.Windows.Forms.DataGridView)RProyectoFinal.Clases.ClsVacuna.ListarTotalStock(System.Windows.Forms.DataGridView)ø
-jInsertar(System.Windows.Forms.ComboBox, System.Windows.Forms.TextBox, System.Windows.Forms.DateTimePicker)‰ProyectoFinal.Clases.ClsVacuna.Insertar(System.Windows.Forms.ComboBox, System.Windows.Forms.TextBox, System.Windows.Forms.DateTimePicker)w
-*Actualizar(ProyectoFinal.Clases.ClsVacuna)IProyectoFinal.Clases.ClsVacuna.Actualizar(ProyectoFinal.Clases.ClsVacuna)=
-Eliminar(int),ProyectoFinal.Clases.ClsVacuna.Eliminar(int)ò
-gCargarCliente(System.Windows.Forms.TextBox, System.Windows.Forms.TextBox, System.Windows.Forms.TextBox)†ProyectoFinal.Clases.ClsVacuna.CargarCliente(System.Windows.Forms.TextBox, System.Windows.Forms.TextBox, System.Windows.Forms.TextBox)ƒ
-0CargarMascota(System.Windows.Forms.DataGridView)OProyectoFinal.Clases.ClsVacuna.CargarMascota(System.Windows.Forms.DataGridView)E
-ReducirStock(int)0ProyectoFinal.Clases.ClsVacuna.ReducirStock(int)É
-’Insertar_Vacunacion(System.Windows.Forms.TextBox, System.Windows.Forms.TextBox, System.Windows.Forms.TextBox, System.Windows.Forms.DateTimePicker)±ProyectoFinal.Clases.ClsVacuna.Insertar_Vacunacion(System.Windows.Forms.TextBox, System.Windows.Forms.TextBox, System.Windows.Forms.TextBox, System.Windows.Forms.DateTimePicker)S
-Eliminar_Vacunacion(int)7ProyectoFinal.Clases.ClsVacuna.Eliminar_Vacunacion(int)‡
-2ListarVacunados(System.Windows.Forms.DataGridView)QProyectoFinal.Clases.ClsVacuna.ListarVacunados(System.Windows.Forms.DataGridView)9
-ClsVacuna()*ProyectoFinal.Clases.ClsVacuna.ClsVacuna()?
-id_Detalle.get-ProyectoFinal.Clases.ClsVacuna.id_Detalle.get?
-id_Detalle.set-ProyectoFinal.Clases.ClsVacuna.id_Detalle.setC
-Cod_Paciente.get/ProyectoFinal.Clases.ClsVacuna.Cod_Paciente.getC
-Cod_Paciente.set/ProyectoFinal.Clases.ClsVacuna.Cod_Paciente.set=
-Id_Vacuna.get,ProyectoFinal.Clases.ClsVacuna.Id_Vacuna.get=
-Id_Vacuna.set,ProyectoFinal.Clases.ClsVacuna.Id_Vacuna.set=
-num_dosis.get,ProyectoFinal.Clases.ClsVacuna.num_dosis.get=
-num_dosis.set,ProyectoFinal.Clases.ClsVacuna.num_dosis.set5
-	fecha.get(ProyectoFinal.Clases.ClsVacuna.fecha.get5
-	fecha.set(ProyectoFinal.Clases.ClsVacuna.fecha.set1
-dni.get&ProyectoFinal.Clases.ClsVacuna.dni.get1
-dni.set&ProyectoFinal.Clases.ClsVacuna.dni.set7
-
-nombre.get)ProyectoFinal.Clases.ClsVacuna.nombre.get7
-
-nombre.set)ProyectoFinal.Clases.ClsVacuna.nombre.set?
-codCliente.get-ProyectoFinal.Clases.ClsVacuna.codCliente.get?
-codCliente.set-ProyectoFinal.Clases.ClsVacuna.codCliente.set=
-idCliente.get,ProyectoFinal.Clases.ClsVacuna.idCliente.get=
-idCliente.set,ProyectoFinal.Clases.ClsVacuna.idCliente.set/
-ID.get%ProyectoFinal.Clases.ClsVacuna.ID.get/
-ID.set%ProyectoFinal.Clases.ClsVacuna.ID.setC
-NombreVacuna.get/ProyectoFinal.Clases.ClsVacuna.NombreVacuna.getC
-NombreVacuna.set/ProyectoFinal.Clases.ClsVacuna.NombreVacuna.setI
-StockDisponible.get2ProyectoFinal.Clases.ClsVacuna.StockDisponible.getI
-StockDisponible.set2ProyectoFinal.Clases.ClsVacuna.StockDisponible.setG
-FechaCaducidad.get1ProyectoFinal.Clases.ClsVacuna.FechaCaducidad.getG
-FechaCaducidad.set1ProyectoFinal.Clases.ClsVacuna.FechaCaducidad.set

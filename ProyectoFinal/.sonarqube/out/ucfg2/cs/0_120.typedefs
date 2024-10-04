@@ -1,26 +1,0 @@
-É
-,ProyectoFinal.SOFTVETDataSet_HC_Cli_PacienteSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjectq
- SOFTVETDataSet_HC_Cli_Paciente()MProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SOFTVETDataSet_HC_Cli_Paciente()¬
-}SOFTVETDataSet_HC_Cli_Paciente(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)ªProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SOFTVETDataSet_HC_Cli_Paciente(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)e
-InitializeDerivedDataSet()GProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.InitializeDerivedDataSet()?
-Clone()4ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.Clone()_
-ShouldSerializeTables()DProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.ShouldSerializeTables()e
-ShouldSerializeRelations()GProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.ShouldSerializeRelations()ƒ
-)ReadXmlSerializable(System.Xml.XmlReader)VProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.ReadXmlSerializable(System.Xml.XmlReader)_
-GetSchemaSerializable()DProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.GetSchemaSerializable()E
-
-InitVars()7ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.InitVars()M
-InitVars(bool);ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.InitVars(bool)G
-InitClass()8ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.InitClass()y
-$ShouldSerializeSP_HistorialClinico()QProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.ShouldSerializeSP_HistorialClinico()½
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)sProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)_
-SP_HistorialClinico.getDProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinico.get_
-SP_HistorialClinico.setDProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SP_HistorialClinico.setg
-SchemaSerializationMode.getHProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SchemaSerializationMode.getg
-SchemaSerializationMode.setHProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.SchemaSerializationMode.setE
-
-Tables.get7ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.Tables.getE
-
-Tables.set7ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.Tables.setK
-Relations.get:ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.Relations.getK
-Relations.set:ProyectoFinal.SOFTVETDataSet_HC_Cli_Paciente.Relations.set

@@ -1,26 +1,0 @@
-ã
-EProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectÑ
-PACIENTE_VACUNATableAdapter()cProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.PACIENTE_VACUNATableAdapter()d
-InitAdapter()SProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.InitAdapter()j
-InitConnection()VProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.InitConnection()x
-InitCommandCollection()]ProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.InitCommandCollection()¡
-;Fill(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable)ÅProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Fill(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable)\
-	GetData()OProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.GetData()≈
-=Update(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable)ÉProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Update(ProyectoFinal.SOFTVETDataSet.PACIENTE_VACUNADataTable)í
-$Update(ProyectoFinal.SOFTVETDataSet)jProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Update(ProyectoFinal.SOFTVETDataSet)Ä
-Update(System.Data.DataRow)aProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Update(System.Data.DataRow)Ñ
-Update(System.Data.DataRow[])cProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Update(System.Data.DataRow[])ú
-)Delete(int, int, string, System.DateTime)oProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Delete(int, int, string, System.DateTime)í
-$Insert(int, string, System.DateTime)jProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Insert(int, string, System.DateTime)„
-LUpdate(int, string, System.DateTime, int, int, string, System.DateTime, int)íProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Update(int, string, System.DateTime, int, int, string, System.DateTime, int)œ
-BUpdate(string, System.DateTime, int, int, string, System.DateTime)àProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Update(string, System.DateTime, int, int, string, System.DateTime)`
-Adapter.getQProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Adapter.get`
-Adapter.setQProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Adapter.setf
-Connection.getTProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Connection.getf
-Connection.setTProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Connection.seth
-Transaction.getUProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Transaction.geth
-Transaction.setUProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.Transaction.sett
-CommandCollection.get[ProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.CommandCollection.gett
-CommandCollection.set[ProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.CommandCollection.setp
-ClearBeforeFill.getYProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.ClearBeforeFill.getp
-ClearBeforeFill.setYProyectoFinal.SOFTVETDataSetTableAdapters.PACIENTE_VACUNATableAdapter.ClearBeforeFill.set

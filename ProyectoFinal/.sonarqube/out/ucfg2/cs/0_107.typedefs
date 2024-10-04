@@ -1,26 +1,0 @@
-ã
-)ProyectoFinal.SOFTVETDataSet_HC_RECETARIOSystem.Data.DataSet-System.ComponentModel.MarshalByValueComponentobjecth
-SOFTVETDataSet_HC_RECETARIO()GProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SOFTVETDataSet_HC_RECETARIO()£
-zSOFTVETDataSet_HC_RECETARIO(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)¤ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SOFTVETDataSet_HC_RECETARIO(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)b
-InitializeDerivedDataSet()DProyectoFinal.SOFTVETDataSet_HC_RECETARIO.InitializeDerivedDataSet()<
-Clone()1ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.Clone()\
-ShouldSerializeTables()AProyectoFinal.SOFTVETDataSet_HC_RECETARIO.ShouldSerializeTables()b
-ShouldSerializeRelations()DProyectoFinal.SOFTVETDataSet_HC_RECETARIO.ShouldSerializeRelations()€
-)ReadXmlSerializable(System.Xml.XmlReader)SProyectoFinal.SOFTVETDataSet_HC_RECETARIO.ReadXmlSerializable(System.Xml.XmlReader)\
-GetSchemaSerializable()AProyectoFinal.SOFTVETDataSet_HC_RECETARIO.GetSchemaSerializable()B
-
-InitVars()4ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.InitVars()J
-InitVars(bool)8ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.InitVars(bool)D
-InitClass()5ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.InitClass()n
- ShouldSerializeSPR_HRecetacion()JProyectoFinal.SOFTVETDataSet_HC_RECETARIO.ShouldSerializeSPR_HRecetacion()º
-FSchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)pProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SchemaChanged(object, System.ComponentModel.CollectionChangeEventArgs)T
-SPR_HRecetacion.get=ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacion.getT
-SPR_HRecetacion.set=ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SPR_HRecetacion.setd
-SchemaSerializationMode.getEProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SchemaSerializationMode.getd
-SchemaSerializationMode.setEProyectoFinal.SOFTVETDataSet_HC_RECETARIO.SchemaSerializationMode.setB
-
-Tables.get4ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.Tables.getB
-
-Tables.set4ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.Tables.setH
-Relations.get7ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.Relations.getH
-Relations.set7ProyectoFinal.SOFTVETDataSet_HC_RECETARIO.Relations.set

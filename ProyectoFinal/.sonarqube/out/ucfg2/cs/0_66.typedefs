@@ -1,20 +1,0 @@
-ç
-FProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManagerSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectï
-§UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_Clientes, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)ÎProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet_Clientes, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)™
-oUpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_Clientes, System.Collections.Generic.List<System.Data.DataRow>)∂ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.UpdateInsertedRows(ProyectoFinal.SOFTVETDataSet_Clientes, System.Collections.Generic.List<System.Data.DataRow>)®
-nUpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_Clientes, System.Collections.Generic.List<System.Data.DataRow>)µProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.UpdateDeletedRows(ProyectoFinal.SOFTVETDataSet_Clientes, System.Collections.Generic.List<System.Data.DataRow>)ä
-_GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)¶ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)´
-0UpdateAll(ProyectoFinal.SOFTVETDataSet_Clientes)wProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.UpdateAll(ProyectoFinal.SOFTVETDataSet_Clientes)‰
-LSortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)ìProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)∑
-6MatchTableAdapterConnection(System.Data.IDbConnection)}ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)u
-TableAdapterManager()\ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.TableAdapterManager()i
-UpdateOrder.getVProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.UpdateOrder.geti
-UpdateOrder.setVProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.UpdateOrder.sety
-ClienteTableAdapter.get^ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.ClienteTableAdapter.gety
-ClienteTableAdapter.set^ProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.ClienteTableAdapter.setÖ
-BackupDataSetBeforeUpdate.getdProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.getÖ
-BackupDataSetBeforeUpdate.setdProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.setg
-Connection.getUProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.Connection.getg
-Connection.setUProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.Connection.setÖ
-TableAdapterInstanceCount.getdProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.TableAdapterInstanceCount.getÖ
-TableAdapterInstanceCount.setdProyectoFinal.SOFTVETDataSet_ClientesTableAdapters.TableAdapterManager.TableAdapterInstanceCount.set

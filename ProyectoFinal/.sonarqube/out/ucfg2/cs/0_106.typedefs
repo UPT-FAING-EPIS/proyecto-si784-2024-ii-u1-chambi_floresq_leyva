@@ -1,11 +1,0 @@
-�
-ProyectoFinal.Modelos.V_Usuarioobject:
-V_Usuario()+ProyectoFinal.Modelos.V_Usuario.V_Usuario()@
-Id_Usuario.get.ProyectoFinal.Modelos.V_Usuario.Id_Usuario.get@
-Id_Usuario.set.ProyectoFinal.Modelos.V_Usuario.Id_Usuario.set<
-Username.get,ProyectoFinal.Modelos.V_Usuario.Username.get<
-Username.set,ProyectoFinal.Modelos.V_Usuario.Username.setB
-Contraseña.get/ProyectoFinal.Modelos.V_Usuario.Contraseña.getB
-Contraseña.set/ProyectoFinal.Modelos.V_Usuario.Contraseña.setD
-Cod_Empleado.get0ProyectoFinal.Modelos.V_Usuario.Cod_Empleado.getD
-Cod_Empleado.set0ProyectoFinal.Modelos.V_Usuario.Cod_Empleado.set

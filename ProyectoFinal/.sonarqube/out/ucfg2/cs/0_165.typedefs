@@ -1,45 +1,0 @@
-¿#
--ProyectoFinal.SOFTVETDataSet.ClienteDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectV
-ClienteDataTable()@ProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteDataTable()€
-'ClienteDataTable(System.Data.DataTable)UProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteDataTable(System.Data.DataTable)‘
-oClienteDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)ProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)^
-ClienteRowChanging.addDProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteRowChanging.addd
-ClienteRowChanging.removeGProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteRowChanging.remove\
-ClienteRowChanged.addCProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteRowChanged.addb
-ClienteRowChanged.removeFProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteRowChanged.remove^
-ClienteRowDeleting.addDProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteRowDeleting.addd
-ClienteRowDeleting.removeGProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteRowDeleting.remove\
-ClienteRowDeleted.addCProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteRowDeleted.addb
-ClienteRowDeleted.removeFProyectoFinal.SOFTVETDataSet.ClienteDataTable.ClienteRowDeleted.removež
-6AddClienteRow(ProyectoFinal.SOFTVETDataSet.ClienteRow)dProyectoFinal.SOFTVETDataSet.ClienteDataTable.AddClienteRow(ProyectoFinal.SOFTVETDataSet.ClienteRow)œ
-5AddClienteRow(string, string, string, string, string)cProyectoFinal.SOFTVETDataSet.ClienteDataTable.AddClienteRow(string, string, string, string, string)^
-FindByCod_Cliente(int)DProyectoFinal.SOFTVETDataSet.ClienteDataTable.FindByCod_Cliente(int)@
-Clone()5ProyectoFinal.SOFTVETDataSet.ClienteDataTable.Clone()R
-CreateInstance()>ProyectoFinal.SOFTVETDataSet.ClienteDataTable.CreateInstance()F
-
-InitVars()8ProyectoFinal.SOFTVETDataSet.ClienteDataTable.InitVars()H
-InitClass()9ProyectoFinal.SOFTVETDataSet.ClienteDataTable.InitClass()P
-NewClienteRow()=ProyectoFinal.SOFTVETDataSet.ClienteDataTable.NewClienteRow()Œ
--NewRowFromBuilder(System.Data.DataRowBuilder)[ProyectoFinal.SOFTVETDataSet.ClienteDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)J
-GetRowType():ProyectoFinal.SOFTVETDataSet.ClienteDataTable.GetRowType()’
-0OnRowChanged(System.Data.DataRowChangeEventArgs)^ProyectoFinal.SOFTVETDataSet.ClienteDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)”
-1OnRowChanging(System.Data.DataRowChangeEventArgs)_ProyectoFinal.SOFTVETDataSet.ClienteDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)’
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)^ProyectoFinal.SOFTVETDataSet.ClienteDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)”
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)_ProyectoFinal.SOFTVETDataSet.ClienteDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)¤
-9RemoveClienteRow(ProyectoFinal.SOFTVETDataSet.ClienteRow)gProyectoFinal.SOFTVETDataSet.ClienteDataTable.RemoveClienteRow(ProyectoFinal.SOFTVETDataSet.ClienteRow)\
-Cod_ClienteColumn.getCProyectoFinal.SOFTVETDataSet.ClienteDataTable.Cod_ClienteColumn.get\
-Cod_ClienteColumn.setCProyectoFinal.SOFTVETDataSet.ClienteDataTable.Cod_ClienteColumn.setR
-NombreColumn.get>ProyectoFinal.SOFTVETDataSet.ClienteDataTable.NombreColumn.getR
-NombreColumn.set>ProyectoFinal.SOFTVETDataSet.ClienteDataTable.NombreColumn.setV
-ApellidoColumn.get@ProyectoFinal.SOFTVETDataSet.ClienteDataTable.ApellidoColumn.getV
-ApellidoColumn.set@ProyectoFinal.SOFTVETDataSet.ClienteDataTable.ApellidoColumn.setV
-TelefonoColumn.get@ProyectoFinal.SOFTVETDataSet.ClienteDataTable.TelefonoColumn.getV
-TelefonoColumn.set@ProyectoFinal.SOFTVETDataSet.ClienteDataTable.TelefonoColumn.setR
-GeneroColumn.get>ProyectoFinal.SOFTVETDataSet.ClienteDataTable.GeneroColumn.getR
-GeneroColumn.set>ProyectoFinal.SOFTVETDataSet.ClienteDataTable.GeneroColumn.setL
-DNIColumn.get;ProyectoFinal.SOFTVETDataSet.ClienteDataTable.DNIColumn.getL
-DNIColumn.set;ProyectoFinal.SOFTVETDataSet.ClienteDataTable.DNIColumn.setD
-	Count.get7ProyectoFinal.SOFTVETDataSet.ClienteDataTable.Count.getD
-	Count.set7ProyectoFinal.SOFTVETDataSet.ClienteDataTable.Count.setL
-this[int].get;ProyectoFinal.SOFTVETDataSet.ClienteDataTable.this[int].getL
-this[int].set;ProyectoFinal.SOFTVETDataSet.ClienteDataTable.this[int].set

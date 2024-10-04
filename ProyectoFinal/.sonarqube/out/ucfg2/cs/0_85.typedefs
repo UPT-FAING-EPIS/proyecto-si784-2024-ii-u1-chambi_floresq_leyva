@@ -1,5 +1,0 @@
-ü
-fProyectoFinal.SOFTVETDataSet_PacientexPaciente2TableAdapters.TableAdapterManager.SelfReferenceComparerobject'System.Collections.Generic.IComparer<T>Ö
-5SelfReferenceComparer(System.Data.DataRelation, bool)œProyectoFinal.SOFTVETDataSet_PacientexPaciente2TableAdapters.TableAdapterManager.SelfReferenceComparer.SelfReferenceComparer(System.Data.DataRelation, bool)¶
-%GetRoot(System.Data.DataRow, out int)ŒProyectoFinal.SOFTVETDataSet_PacientexPaciente2TableAdapters.TableAdapterManager.SelfReferenceComparer.GetRoot(System.Data.DataRow, out int)Î
-1Compare(System.Data.DataRow, System.Data.DataRow)˜ProyectoFinal.SOFTVETDataSet_PacientexPaciente2TableAdapters.TableAdapterManager.SelfReferenceComparer.Compare(System.Data.DataRow, System.Data.DataRow)

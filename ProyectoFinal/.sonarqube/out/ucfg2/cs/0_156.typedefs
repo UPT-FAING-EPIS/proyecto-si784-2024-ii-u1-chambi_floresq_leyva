@@ -1,36 +1,0 @@
-é'
-=ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManagerSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobject˙
-õUpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)ŸProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProyectoFinal.SOFTVETDataSet, System.Collections.Generic.List<System.Data.DataRow>, System.Collections.Generic.List<System.Data.DataRow>)è
-fUpdateInsertedRows(ProyectoFinal.SOFTVETDataSet, System.Collections.Generic.List<System.Data.DataRow>)§ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ProyectoFinal.SOFTVETDataSet, System.Collections.Generic.List<System.Data.DataRow>)ç
-eUpdateDeletedRows(ProyectoFinal.SOFTVETDataSet, System.Collections.Generic.List<System.Data.DataRow>)£ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ProyectoFinal.SOFTVETDataSet, System.Collections.Generic.List<System.Data.DataRow>)Å
-_GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)ùProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[], System.Collections.Generic.List<System.Data.DataRow>)ê
-'UpdateAll(ProyectoFinal.SOFTVETDataSet)eProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.UpdateAll(ProyectoFinal.SOFTVETDataSet)€
-LSortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)äProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[], System.Data.DataRelation, bool)Æ
-6MatchTableAdapterConnection(System.Data.IDbConnection)tProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)l
-TableAdapterManager()SProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.TableAdapterManager()`
-UpdateOrder.getMProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.UpdateOrder.get`
-UpdateOrder.setMProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.UpdateOrder.setj
-CitaTableAdapter.getRProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.CitaTableAdapter.getj
-CitaTableAdapter.setRProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.CitaTableAdapter.setp
-ClienteTableAdapter.getUProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.ClienteTableAdapter.getp
-ClienteTableAdapter.setUProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.ClienteTableAdapter.setr
-EmpleadoTableAdapter.getVProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.EmpleadoTableAdapter.getr
-EmpleadoTableAdapter.setVProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.EmpleadoTableAdapter.setÑ
-!H_DesparacitacionTableAdapter.get_ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.H_DesparacitacionTableAdapter.getÑ
-!H_DesparacitacionTableAdapter.set_ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.H_DesparacitacionTableAdapter.setz
-H_RecetacionTableAdapter.getZProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.H_RecetacionTableAdapter.getz
-H_RecetacionTableAdapter.setZProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.H_RecetacionTableAdapter.setr
-PacienteTableAdapter.getVProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.PacienteTableAdapter.getr
-PacienteTableAdapter.setVProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.PacienteTableAdapter.setÄ
-PACIENTE_VACUNATableAdapter.get]ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.PACIENTE_VACUNATableAdapter.getÄ
-PACIENTE_VACUNATableAdapter.set]ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.PACIENTE_VACUNATableAdapter.setp
-UsuarioTableAdapter.getUProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.UsuarioTableAdapter.getp
-UsuarioTableAdapter.setUProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.UsuarioTableAdapter.setn
-VacunaTableAdapter.getTProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.VacunaTableAdapter.getn
-VacunaTableAdapter.setTProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.VacunaTableAdapter.set|
-BackupDataSetBeforeUpdate.get[ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.get|
-BackupDataSetBeforeUpdate.set[ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate.set^
-Connection.getLProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.Connection.get^
-Connection.setLProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.Connection.set|
-TableAdapterInstanceCount.get[ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.TableAdapterInstanceCount.get|
-TableAdapterInstanceCount.set[ProyectoFinal.SOFTVETDataSetTableAdapters.TableAdapterManager.TableAdapterInstanceCount.set

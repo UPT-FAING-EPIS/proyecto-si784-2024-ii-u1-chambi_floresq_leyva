@@ -1,20 +1,0 @@
-»
-ProyectoFinal.FormEditarAgendaSystem.Windows.Forms.Form%System.Windows.Forms.ContainerControl&System.Windows.Forms.ScrollableControlSystem.Windows.Forms.ControlSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjectÅ
-/FormEditarAgenda_Load(object, System.EventArgs)NProyectoFinal.FormEditarAgenda.FormEditarAgenda_Load(object, System.EventArgs)É
-0rbtnDNI_CheckedChanged(object, System.EventArgs)OProyectoFinal.FormEditarAgenda.rbtnDNI_CheckedChanged(object, System.EventArgs)Å
-/rbtnId_CheckedChanged(object, System.EventArgs)NProyectoFinal.FormEditarAgenda.rbtnId_CheckedChanged(object, System.EventArgs)u
-)btnEditar_Click(object, System.EventArgs)HProyectoFinal.FormEditarAgenda.btnEditar_Click(object, System.EventArgs)u
-)btnBuscar_Click(object, System.EventArgs)HProyectoFinal.FormEditarAgenda.btnBuscar_Click(object, System.EventArgs)G
-FormEditarAgenda()1ProyectoFinal.FormEditarAgenda.FormEditarAgenda()5
-	Limpiar()(ProyectoFinal.FormEditarAgenda.Limpiar();
-Desactivar()+ProyectoFinal.FormEditarAgenda.Desactivar()5
-	Activar()(ProyectoFinal.FormEditarAgenda.Activar()M
-BuscarClientePorDNI()4ProyectoFinal.FormEditarAgenda.BuscarClientePorDNI()q
-'button1_Click(object, System.EventArgs)FProyectoFinal.FormEditarAgenda.button1_Click(object, System.EventArgs)∑
-JdgvTabla_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)iProyectoFinal.FormEditarAgenda.dgvTabla_CellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)y
-+btnCancelar_Click(object, System.EventArgs)JProyectoFinal.FormEditarAgenda.btnCancelar_Click(object, System.EventArgs)K
-BuscarClientePorID()3ProyectoFinal.FormEditarAgenda.BuscarClientePorID()Q
-MostrarHistorialCitas()6ProyectoFinal.FormEditarAgenda.MostrarHistorialCitas()E
-MostrarClientes()0ProyectoFinal.FormEditarAgenda.MostrarClientes()=
-Dispose(bool),ProyectoFinal.FormEditarAgenda.Dispose(bool)M
-InitializeComponent()4ProyectoFinal.FormEditarAgenda.InitializeComponent()

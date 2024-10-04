@@ -1,19 +1,0 @@
-‰
-ProyectoFinal.Modelos.V_Citasobject4
-	V_Citas()'ProyectoFinal.Modelos.V_Citas.V_Citas()8
-ID_Cita.get)ProyectoFinal.Modelos.V_Citas.ID_Cita.get8
-ID_Cita.set)ProyectoFinal.Modelos.V_Citas.ID_Cita.set6
-
-Motivo.get(ProyectoFinal.Modelos.V_Citas.Motivo.get6
-
-Motivo.set(ProyectoFinal.Modelos.V_Citas.Motivo.set4
-	Fecha.get'ProyectoFinal.Modelos.V_Citas.Fecha.get4
-	Fecha.set'ProyectoFinal.Modelos.V_Citas.Fecha.set2
-Hora.get&ProyectoFinal.Modelos.V_Citas.Hora.get2
-Hora.set&ProyectoFinal.Modelos.V_Citas.Hora.set6
-
-Estado.get(ProyectoFinal.Modelos.V_Citas.Estado.get6
-
-Estado.set(ProyectoFinal.Modelos.V_Citas.Estado.set@
-Cod_Cliente.get-ProyectoFinal.Modelos.V_Citas.Cod_Cliente.get@
-Cod_Cliente.set-ProyectoFinal.Modelos.V_Citas.Cod_Cliente.set

@@ -1,26 +1,0 @@
-ù
-<ProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapterSystem.ComponentModel.ComponentSystem.MarshalByRefObjectobjecti
-VacunaTableAdapter()QProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.VacunaTableAdapter()[
-InitAdapter()JProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.InitAdapter()a
-InitConnection()MProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.InitConnection()o
-InitCommandCollection()TProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.InitCommandCollection()¥
-2Fill(ProyectoFinal.SOFTVETDataSet.VacunaDataTable)oProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Fill(ProyectoFinal.SOFTVETDataSet.VacunaDataTable)S
-	GetData()FProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.GetData()©
-4Update(ProyectoFinal.SOFTVETDataSet.VacunaDataTable)qProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Update(ProyectoFinal.SOFTVETDataSet.VacunaDataTable)‰
-$Update(ProyectoFinal.SOFTVETDataSet)aProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Update(ProyectoFinal.SOFTVETDataSet)w
-Update(System.Data.DataRow)XProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Update(System.Data.DataRow){
-Update(System.Data.DataRow[])ZProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Update(System.Data.DataRow[])“
-)Delete(int, string, int, System.DateTime)fProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Delete(int, string, int, System.DateTime)‰
-$Insert(string, int, System.DateTime)aProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Insert(string, int, System.DateTime)Ú
-LUpdate(string, int, System.DateTime, int, string, int, System.DateTime, int)‰ProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Update(string, int, System.DateTime, int, string, int, System.DateTime, int)Ð
-GUpdate(string, int, System.DateTime, int, string, int, System.DateTime)„ProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Update(string, int, System.DateTime, int, string, int, System.DateTime)W
-Adapter.getHProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Adapter.getW
-Adapter.setHProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Adapter.set]
-Connection.getKProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Connection.get]
-Connection.setKProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Connection.set_
-Transaction.getLProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Transaction.get_
-Transaction.setLProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.Transaction.setk
-CommandCollection.getRProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.CommandCollection.getk
-CommandCollection.setRProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.CommandCollection.setg
-ClearBeforeFill.getPProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.ClearBeforeFill.getg
-ClearBeforeFill.setPProyectoFinal.SOFTVETDataSetTableAdapters.VacunaTableAdapter.ClearBeforeFill.set

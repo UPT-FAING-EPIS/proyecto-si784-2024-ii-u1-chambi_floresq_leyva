@@ -1,29 +1,0 @@
-ù
-ProyectoFinal.Modelos.Vacunaobject-System.ComponentModel.INotifyPropertyChanging,System.ComponentModel.INotifyPropertyChanged5
-
-OnLoaded()'ProyectoFinal.Modelos.Vacuna.OnLoaded()s
-)OnValidate(System.Data.Linq.ChangeAction)FProyectoFinal.Modelos.Vacuna.OnValidate(System.Data.Linq.ChangeAction)7
-OnCreated()(ProyectoFinal.Modelos.Vacuna.OnCreated()Q
-OnID_VacunaChanging(int)5ProyectoFinal.Modelos.Vacuna.OnID_VacunaChanging(int)I
-OnID_VacunaChanged()1ProyectoFinal.Modelos.Vacuna.OnID_VacunaChanged()_
-OnNombre_VacunaChanging(string)<ProyectoFinal.Modelos.Vacuna.OnNombre_VacunaChanging(string)Q
-OnNombre_VacunaChanged()5ProyectoFinal.Modelos.Vacuna.OnNombre_VacunaChanged()I
-OnStockChanging(int)1ProyectoFinal.Modelos.Vacuna.OnStockChanging(int)A
-OnStockChanged()-ProyectoFinal.Modelos.Vacuna.OnStockChanged()s
-)OnFechaCaducidadChanging(System.DateTime)FProyectoFinal.Modelos.Vacuna.OnFechaCaducidadChanging(System.DateTime)S
-OnFechaCaducidadChanged()6ProyectoFinal.Modelos.Vacuna.OnFechaCaducidadChanged()1
-Vacuna()%ProyectoFinal.Modelos.Vacuna.Vacuna()I
-PropertyChanging.add1ProyectoFinal.Modelos.Vacuna.PropertyChanging.addO
-PropertyChanging.remove4ProyectoFinal.Modelos.Vacuna.PropertyChanging.removeG
-PropertyChanged.add0ProyectoFinal.Modelos.Vacuna.PropertyChanged.addM
-PropertyChanged.remove3ProyectoFinal.Modelos.Vacuna.PropertyChanged.removeM
-SendPropertyChanging()3ProyectoFinal.Modelos.Vacuna.SendPropertyChanging()W
-SendPropertyChanged(string)8ProyectoFinal.Modelos.Vacuna.SendPropertyChanged(string);
-ID_Vacuna.get*ProyectoFinal.Modelos.Vacuna.ID_Vacuna.get;
-ID_Vacuna.set*ProyectoFinal.Modelos.Vacuna.ID_Vacuna.setC
-Nombre_Vacuna.get.ProyectoFinal.Modelos.Vacuna.Nombre_Vacuna.getC
-Nombre_Vacuna.set.ProyectoFinal.Modelos.Vacuna.Nombre_Vacuna.set3
-	Stock.get&ProyectoFinal.Modelos.Vacuna.Stock.get3
-	Stock.set&ProyectoFinal.Modelos.Vacuna.Stock.setE
-FechaCaducidad.get/ProyectoFinal.Modelos.Vacuna.FechaCaducidad.getE
-FechaCaducidad.set/ProyectoFinal.Modelos.Vacuna.FechaCaducidad.set

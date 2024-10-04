@@ -1,41 +1,0 @@
-Ω!
--ProyectoFinal.SOFTVETDataSet.UsuarioDataTableSystem.Data.TypedTableBase<T>System.Data.DataTable-System.ComponentModel.MarshalByValueComponentobjectV
-UsuarioDataTable()@ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioDataTable()Ä
-'UsuarioDataTable(System.Data.DataTable)UProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioDataTable(System.Data.DataTable)ë
-oUsuarioDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)ùProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioDataTable(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)^
-UsuarioRowChanging.addDProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioRowChanging.addd
-UsuarioRowChanging.removeGProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioRowChanging.remove\
-UsuarioRowChanged.addCProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioRowChanged.addb
-UsuarioRowChanged.removeFProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioRowChanged.remove^
-UsuarioRowDeleting.addDProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioRowDeleting.addd
-UsuarioRowDeleting.removeGProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioRowDeleting.remove\
-UsuarioRowDeleted.addCProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioRowDeleted.addb
-UsuarioRowDeleted.removeFProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsuarioRowDeleted.removeû
-6AddUsuarioRow(ProyectoFinal.SOFTVETDataSet.UsuarioRow)dProyectoFinal.SOFTVETDataSet.UsuarioDataTable.AddUsuarioRow(ProyectoFinal.SOFTVETDataSet.UsuarioRow)¿
-GAddUsuarioRow(string, string, ProyectoFinal.SOFTVETDataSet.EmpleadoRow)uProyectoFinal.SOFTVETDataSet.UsuarioDataTable.AddUsuarioRow(string, string, ProyectoFinal.SOFTVETDataSet.EmpleadoRow)\
-FindById_Usuario(int)CProyectoFinal.SOFTVETDataSet.UsuarioDataTable.FindById_Usuario(int)@
-Clone()5ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Clone()R
-CreateInstance()>ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.CreateInstance()F
-
-InitVars()8ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.InitVars()H
-InitClass()9ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.InitClass()P
-NewUsuarioRow()=ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.NewUsuarioRow()å
--NewRowFromBuilder(System.Data.DataRowBuilder)[ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)J
-GetRowType():ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.GetRowType()í
-0OnRowChanged(System.Data.DataRowChangeEventArgs)^ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)î
-1OnRowChanging(System.Data.DataRowChangeEventArgs)_ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)í
-0OnRowDeleted(System.Data.DataRowChangeEventArgs)^ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)î
-1OnRowDeleting(System.Data.DataRowChangeEventArgs)_ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)§
-9RemoveUsuarioRow(ProyectoFinal.SOFTVETDataSet.UsuarioRow)gProyectoFinal.SOFTVETDataSet.UsuarioDataTable.RemoveUsuarioRow(ProyectoFinal.SOFTVETDataSet.UsuarioRow)Z
-Id_UsuarioColumn.getBProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Id_UsuarioColumn.getZ
-Id_UsuarioColumn.setBProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Id_UsuarioColumn.setV
-UsernameColumn.get@ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsernameColumn.getV
-UsernameColumn.set@ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.UsernameColumn.set\
-Contrase√±aColumn.getCProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Contrase√±aColumn.get\
-Contrase√±aColumn.setCProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Contrase√±aColumn.set^
-Cod_EmpleadoColumn.getDProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Cod_EmpleadoColumn.get^
-Cod_EmpleadoColumn.setDProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Cod_EmpleadoColumn.setD
-	Count.get7ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Count.getD
-	Count.set7ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.Count.setL
-this[int].get;ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.this[int].getL
-this[int].set;ProyectoFinal.SOFTVETDataSet.UsuarioDataTable.this[int].set

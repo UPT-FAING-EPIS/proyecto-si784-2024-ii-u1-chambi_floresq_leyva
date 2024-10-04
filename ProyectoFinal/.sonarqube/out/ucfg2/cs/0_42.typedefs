@@ -1,12 +1,0 @@
-�
-ProyectoFinal.Clases.ClsUsuarioobjectD
-AgregarUsuario()0ProyectoFinal.Clases.ClsUsuario.AgregarUsuario()<
-ClsUsuario(),ProyectoFinal.Clases.ClsUsuario.ClsUsuario():
-usuario.get+ProyectoFinal.Clases.ClsUsuario.usuario.get:
-usuario.set+ProyectoFinal.Clases.ClsUsuario.usuario.setB
-contraseña.get/ProyectoFinal.Clases.ClsUsuario.contraseña.getB
-contraseña.set/ProyectoFinal.Clases.ClsUsuario.contraseña.set>
-categoria.get-ProyectoFinal.Clases.ClsUsuario.categoria.get>
-categoria.set-ProyectoFinal.Clases.ClsUsuario.categoria.set6
-	idemp.get)ProyectoFinal.Clases.ClsUsuario.idemp.get6
-	idemp.set)ProyectoFinal.Clases.ClsUsuario.idemp.set
