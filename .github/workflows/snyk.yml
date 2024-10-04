@@ -1,82 +1,60 @@
-name: Snyk Security
+name: Snyk Analysis
+env:
+  DOTNET_VERSION: '8.x'  # la versión de .NET
 
-on:
+on: 
   push:
     branches: ["main"]
 
-permissions:
-  contents: read
-  security-events: write
-  actions: read
-
 jobs:
-  snyk:
+  security:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
+      - name: Configurar Snyk CLI
+        uses: snyk/actions/setup@master
 
-      - name: Verificar existencia de ProyectoFinal
-        run: ls -la ProyectoFinal || echo "Carpeta ProyectoFinal no existe"
-
-      - name: Set up .NET
-        uses: actions/setup-dotnet@v3
+      - name: Configurando la versión de .NET
+        uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.x'
-
-      - name: Set up Snyk CLI
-        uses: snyk/actions/setup@806182742461562b67788a64410098c9d9b96adb
-
-      - name: Authenticate with Snyk
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        run: snyk auth $SNYK_TOKEN
+          dotnet-version: ${{ env.DOTNET_VERSION }}  
 
       - name: Instalar Snyk-to-HTML
         run: npm install -g snyk-to-html
 
-      - name: Snyk Code test
+      - name: Snyk Code Test
+        run: snyk code test --sarif-file-output=snyk.sarif --json-file-output=snyk-report.json
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        working-directory: ProyectoFinal
-        run: snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?"
+
+      - name: Verificar existencia del archivo SARIF
+        run: ls -la snyk.sarif
+
+      - name: Mover archivo SARIF a Reportes
+        run: |
+          mkdir -p ../Reportes  # Crea el directorio si no existe
+          mv snyk.sarif ../Reportes/  # Mueve el archivo SARIF a la carpeta Reportes
 
       - name: Generar reporte HTML desde SARIF
-        working-directory: ProyectoFinal
-        run: snyk-to-html -i snyk-code.sarif -o snyk-report.html
+        run: snyk-to-html -i ../Reportes/snyk.sarif -o ../Reportes/snyk-report.html  # Genera el reporte en la carpeta Reportes
 
       - name: Verificar existencia del reporte HTML
-        working-directory: ProyectoFinal
-        run: ls -la snyk-report.html
+        run: ls -la ../Reportes/snyk-report.html
 
       - name: Configurar Git para publicar en GitHub Pages
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"    
-
-      - name: Publicar reporte en GitHub Pages
-        working-directory: ProyectoFinal        
-        env:
-            GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+      - id: deploy-pages
+        name: Publicar reporte en GitHub Pages
         run: |
-            git checkout --orphan gh-pages
-            git reset --hard
-            cp snyk-report.html reportesnyk.html  # Copia el archivo generado
-            git add reportesnyk.html
-            git commit -m "Publicando reporte de Snyk"
-            git push --force --set-upstream https://x-access-token:${GITHUB_TOKEN}@github.com/UPT-FAING-EPIS/proyecto-si784-2024-ii-u1-chambi_floresq_leyva.git gh-pages
-      
-      - name: Snyk Open Source monitor
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        working-directory: ProyectoFinal
-        run: snyk monitor
-
-      - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: ProyectoFinal/snyk-code.sarif
-
-      - name: Verificar existencia del archivo de log
-        run: ls -la workflow-errors.log || echo "Archivo de log no generado"
+          git checkout --orphan gh-pages
+          git reset --hard
+          cp ../Reportes/snyk-report.html index.html  # Copia el archivo HTML generado
+          git add index.html
+          git commit -m "Publicando reporte de Snyk"
+          git push --force --set-upstream origin gh-pages
