@@ -29,52 +29,43 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         run: snyk auth $SNYK_TOKEN
 
-      - name: Change to Project Directory
-        run: cd ProyectoFinal
-
       - name: Instalar Snyk-to-HTML
         run: npm install -g snyk-to-html
 
       - name: Snyk Code test
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        run: |
-          cd ProyectoFinal
-          snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?"
-      
+        working-directory: ProyectoFinal
+        run: snyk code test --sarif --all-projects > snyk-code.sarif || echo "Snyk code test failed with exit code $?"
+
       - name: Generar reporte HTML desde SARIF
-        run: 
-          cd ProyectoFinal
-          snyk-to-html -i snyk-code.sarif -o snyk-report.html
+        working-directory: ProyectoFinal
+        run: snyk-to-html -i snyk-code.sarif -o snyk-report.html
 
       - name: Verificar existencia del reporte HTML
-        run: 
-          cd ProyectoFinal
-          ls -la snyk-report.html
+        working-directory: ProyectoFinal
+        run: ls -la snyk-report.html
 
       - name: Configurar Git para publicar en GitHub Pages
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"    
-        
-          
+
       - name: Publicar reporte en GitHub Pages
+        working-directory: ProyectoFinal
         run: |
-          cd ProyectoFinal
           git checkout --orphan gh-pages
           git reset --hard
           cp snyk-report.html reportesnyk.html
           git add reportesnyk.html
           git commit -m "Publicando reporte de Snyk"
           git push --force --set-upstream origin gh-pages
-
-
+      
       - name: Snyk Open Source monitor
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        run: |
-          cd ProyectoFinal
-          snyk monitor 
+        working-directory: ProyectoFinal
+        run: snyk monitor 
 
       - name: Upload result to GitHub Code Scanning
         uses: github/codeql-action/upload-sarif@v3
