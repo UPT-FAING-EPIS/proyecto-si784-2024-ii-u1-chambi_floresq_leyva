@@ -42,7 +42,8 @@ jobs:
       - name: Generar reporte HTML desde SARIF
         run: snyk-to-html -i snyk-code.sarif -o snyk-report.html
 
-
+      - name: Verificar existencia del reporte HTML
+        run: ls -la snyk-report.html
 
 
 
