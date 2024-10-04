@@ -16,9 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Iniciar log de errores
-        run: |
-          exec 2> workflow-errors.log
 
       - name: Verificar existencia de ProyectoFinal
         run: ls -la ProyectoFinal || echo "Carpeta ProyectoFinal no existe"
