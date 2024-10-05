@@ -3,7 +3,7 @@ name: Build, Release and NuGet Publish
 on:
   push:
     branches:
-      - nugget
+      - main
     tags:
       - 'v*'  # Esto detecta cualquier tag que empiece con 'v' (por ejemplo, v1.0.0, v2.1.0)
 
