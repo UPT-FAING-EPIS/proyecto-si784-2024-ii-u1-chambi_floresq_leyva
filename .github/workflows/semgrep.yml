@@ -3,54 +3,57 @@ name: Semgrep Analysis
 on: 
   push:
     branches:
-      - main
-permissions:
-  contents: write
-  security-events: write  # Required for uploading SARIF files
-  actions: read
+      - test
+
 jobs:
   security:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Semgrep
+      # Set up Semgrep
       - name: Set up Semgrep
         run: docker pull semgrep/semgrep
 
-      - name: Setup .NET Framework
-        run: |
-          echo "Configurar .NET Framework aquí si es necesario."
+      # Run Semgrep Scan and produce SARIF report
+      - name: Run Semgrep
+        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --sarif --output=report.sarif --metrics=off
 
-      # Run Semgrep for JSON output
-      - name: Run Semgrep JSON Output
+      # Upload SARIF result to GitHub Code Scanning
+      - name: Upload SARIF file to GitHub Code Scanning
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: report.sarif
+
+      # Run Semgrep Scan and produce JSON report
+      - name: Run Semgrep for JSON Output
         run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --json --output semgrep.json --metrics=off
 
-      # Run Semgrep for SARIF output
-      - name: Run Semgrep SARIF Output
-        run: docker run --rm -v $(pwd):/src semgrep/semgrep semgrep scan --config="p/default" --sarif --output semgrep.sarif
-       
+      # Install prospector-html
       - name: Install prospector-html
         run: python -m pip install prospector2html
 
+      # Convert Semgrep JSON results to HTML
       - name: Convert Semgrep results to HTML
         run: prospector-html --input semgrep.json --output semgrep-report.html --filter semgrep || true
 
-      # Publish to GitHub Pages
-      - name: Move report to temporary folder
+      # Create folder for reports
+      - name: Move report to Reportes folder
         run: |
-          mkdir temp  # Crear una carpeta temporal
-          mv semgrep-report.html temp/  # Mover el archivo a la carpeta temporal
+          mkdir -p Reportes  # Create directory if it doesn't exist
+          mv semgrep-report.html Reportes/  # Move the HTML report to the Reportes folder
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.SEMGREP_TOKEN }}  # Asegúrate de que el token esté configurado como un secreto
-          publish_dir: temp  # Publicar solo la carpeta 'temp'
-
-      - name: Upload result to GitHub Code Scanning
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: semgrep.sarif
+      # Publish report to GitHub Pages
+      - name: Configure Git for GitHub Pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+      - name: Publish report to GitHub Pages
+        run: |
+          git fetch origin gh-pages  # Fetch the latest version of the gh-pages branch
+          git checkout gh-pages  # Switch to the gh-pages branch
+          cp Reportes/semgrep-report.html reporte-semgrep.html  # Rename while copying
+          git add reporte-semgrep.html
+          git commit -m "Publishing Semgrep report as reporte-semgrep.html" || echo "No changes to commit"  # Handle case if there are no changes
