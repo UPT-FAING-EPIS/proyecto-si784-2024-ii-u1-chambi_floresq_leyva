@@ -36,7 +36,7 @@ FEATURE JAIME
 git flow init -f
 (darle todo enter hasta el final)
 
-git flow feature start jaime_readme
+git flow feature start docs
 code .
 (Aqui haces tus cambios en el readme)
 
@@ -46,15 +46,15 @@ git config --global user.email "jaimeelias.tacna.2016@gmail.com"
 
 git commit -m "Nombre del commit"
 
-git push -u origin feature/jaime_readme
+git push -u origin feature/docs
 
-git flow feature finish jaime_readme
+git flow feature finish docs
 
 git push origin develop
 
-git flow release start 0.0.2
+git flow release start v3.0.6
 
-git flow release finish 0.0.2 -m "0.0.2"
+git flow release finish v3.0.6 -m "v3.0.6"
 (Si te aparece unas letras solo pon el comando ":q" y enter)
 
 git push origin main
